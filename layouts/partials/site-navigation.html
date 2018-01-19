@@ -1,0 +1,14 @@
+
+<nav class="" role="navigation">
+      {{ if .Site.Menus.main }}
+        <ul class="pl0 mr3">
+          {{ range .Site.Menus.main }}
+          <li class="list w-20 fl tc">
+            <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ .Name }} page">
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+</nav>

@@ -1,9 +1,9 @@
 ---
 date: 2017-04-11T11:13:32-04:00
-description: "Corto nuevo de Noe Valladares"
+description: "Monsieur the Cardinal"
 featured_image: ""
 tags: []
-title: "La Billeteria"
+title: "Chapter III: Monsieur the Cardinal"
 ---
 
 Poor Gringoire! the din of all the great double petards of the Saint-Jean,

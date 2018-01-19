@@ -1,6 +1,6 @@
 ---
-title: "ACISAM"
-featured_image: '/img/presentacionlibro0093.jpg'
-description: "La pagina de web oficial"
+title: "Ananke: a Hugo Theme"
+featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+description: "The last theme you'll ever need. Maybe."
 ---
-Bienvenidos a la pagina de web de ACISAM oficial. Aqui pueden hallar todo sobre nuestros proyectos!
+Welcome to my blog with some of my work in progress. I've been working on this book idea. You can read some of the chapters below.
