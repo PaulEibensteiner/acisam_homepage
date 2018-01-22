@@ -1,7 +1,7 @@
 ---
 date: 2017-04-14T11:25:05-04:00
-description: "Esmeralda"
-featured_image: "/images/esmeralda.jpg"
+description: "La Reunion en la playa no se que no se cuando no se donde"
+featured_image: "/img/hug.JPG"
 tags: []
 title: "Chapter VI: Esmeralda"
 ---

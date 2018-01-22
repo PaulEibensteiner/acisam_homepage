@@ -18,6 +18,7 @@
     {{ end }}
 
     <link href='{{ "dist/main.css" | absURL }}' rel='stylesheet' type="text/css" />
+		<link href='{{ "css/custom.css" | absURL }}' rel='stylesheet' type="text/css" />
     {{ block "favicon" . }}
       {{ partial "site-favicon.html" . }}
     {{ end }}
@@ -46,7 +47,9 @@
     <main class="w-100 w-60-ns center" role="main">
       {{ block "main" . }}{{ end }}
     </main>
+		<footer class="w-100 bottom-0 center w-60-ns" role="contentinfo">
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+		</footer>
     {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
   </body>
 </html>

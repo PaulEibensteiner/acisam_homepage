@@ -1,0 +1,10 @@
+aussen herum entweder “section”, “header” oder “article” mit rand auf der seite
+
+Innen titelelement mit box in position absolute left 0
+
+
+was ist cf?
+
+headlines stylen
+
+karusell auf nicht nur genau 4 artikel trimmen

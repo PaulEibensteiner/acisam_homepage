@@ -4,8 +4,7 @@
 
 {{ $site_logo := .Param "site_logo" | default "images/gohugo-default-sample-hero-image.jpg" }}
 {{ $site_logo := (trim $site_logo "/") | absURL }}
-		<div class="bg-blue absolute left-0  h4 w-20 pr3" style="background-clip:content-box;">
-      {{ partial "social-follow.html" . }}</div>
+		<div class="bg-blue absolute left-0  h4 w-20 pr3" style="background-clip:content-box;"></div>
     <a href="{{ .Site.BaseURL }}" class="fl f3 fw2 hover-white no-underline white-90 dib pr3 bg-white">
 			<img src="{{ $site_logo }}" alt="logo" class="h4" />
 		</a>
