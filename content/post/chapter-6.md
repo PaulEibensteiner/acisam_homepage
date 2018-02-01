@@ -1,9 +1,10 @@
 ---
-date: 2017-04-14T11:25:05-04:00
-description: "La Reunion en la playa no se que no se cuando no se donde"
+date: 2017-04-14 11:25:05 -0400
+description: La Reunion en la playa no se que no se cuando no se donde
 featured_image: "/img/hug.JPG"
 tags: []
-title: "Chapter VI: Esmeralda"
+title: 'Chapter VI: Esmeralda'
+
 ---
 We are delighted to be able to inform the reader, that during the whole of
 this scene, Gringoire and his piece had stood firm. His actors, spurred on
