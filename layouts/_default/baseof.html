@@ -39,15 +39,15 @@
     {{ end }}
   </head>
 
-  <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+  <body class="ma0 w-80 center {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}" style="">
 
-  <header class="w-100 w-60-ns center h4 white mt5">
+  <header class="bg-blue white mt5 header">
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
 		</header>
-    <main class="w-100 w-60-ns center" role="main">
+    <main class="" role="main">
       {{ block "main" . }}{{ end }}
     </main>
-		<footer class="w-100 bottom-0 center w-60-ns" role="contentinfo">
+		<footer class="bg-blue white header" role="contentinfo">
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
 		</footer>
     {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}

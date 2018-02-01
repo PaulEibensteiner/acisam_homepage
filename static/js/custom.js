@@ -48,10 +48,10 @@ function showDivs(n) {
 
 // automatische slides?
 
-/*carousel();
+carousel();
 
 function carousel() {
 	plusDivs(1);
-  setTimeout(carousel, 5000); // Change image every 2 seconds
+  setTimeout(carousel, 3000); // Change image every 2 seconds
 	
-}*/
+}

@@ -1,3 +1,26 @@
+.fontadjust {
+	font-size: 1.4vw;
+}
+
+
+/* bei breite von 80% den header auf 100% aufpumpen (-12.5 weil 80+x=100% ->x=20%, um von 80% auf 20% zu kommen muss man 1/4 nehmen = 25% dann durch 2 ist 12.5 
+bei 90 bspw: 90*x=10 x/2=endprozent */
+
+.header {
+	padding-right: 12.5%; 
+	padding-left: 12.5%; 
+	margin-left: -12.5%; 
+	margin-right: -12.5%;
+}
+
+.w-sixth {
+	width:calc(100% / 6);
+}
+
+.w-five-sixth {
+	width:calc(83.3%);
+}
+
 .knopf {
 	position: absolute;
 	top: 50%;
