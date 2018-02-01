@@ -1,8 +1,6 @@
-title = "Asociaciòn de Capacitaciòn e Investigaciòn para la salud mental (ACISAM)"
 baseURL = "https://example.com"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
-publishDir = "../../GitHub/aicsam_homepage"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"

@@ -5,7 +5,7 @@
 {{ $site_logo := .Param "site_logo" | default "images/gohugo-default-sample-hero-image.jpg" }}
 {{ $site_logo := (trim $site_logo "/") | absURL }}
 <!--		<div class="bg-blue absolute left-0 h-100 w-100 pr3" style="background-clip:content-box; z-index: -1"></div>-->
-<div class="cf h-100 relative">
+<div class="cf">
     <a href="{{ .Site.BaseURL }}" class="fl f3 fw2 ph3 w-sixth bg-white">
 			<img src="{{ $site_logo }}" alt="logo" class="w-100 db" />
 		</a>

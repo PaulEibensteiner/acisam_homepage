@@ -1,8 +1,7 @@
-
-      <h2 class="blue bg-white ma0 fontadjust" style="margin-right: -12.5%; height: 0.95em;">{{ .Site.Title }}</h2>
 <nav class="fl w-five-sixth h-100" role="navigation">
+      <h2 class="blue bg-white ma0" style="margin-right: -15%; height: 0.95em;">{{ .Site.Title }}</h2>
       {{ if .Site.Menus.main }}
-        <ul class="cf pa0">
+        <ul class="cf ph0 mh0">
           {{ range .Site.Menus.main }}
           <li class="list w-20 fl tc">
             <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ .Name }} page">
