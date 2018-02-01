@@ -1,11 +1,11 @@
 ---
-date: 2017-04-10T11:00:59-04:00
-description: "Pierre Gringoire"
+date: 2017-04-10 11:00:59 -0400
+description: Pierre Gringoire
 featured_image: "/img/front page river.jpg"
 tags: []
-title: "Chapter II: Pierre Gringoire"
----
+title: 'Chapter II: Pierre Gringoire'
 
+---
 Nevertheless, as be harangued them, the satisfaction and admiration
 unanimously excited by his costume were dissipated by his words; and when
 he reached that untoward conclusion: “As soon as his illustrious eminence,
