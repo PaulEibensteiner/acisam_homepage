@@ -8,6 +8,7 @@ languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 title = "Asociaciòn de Capacitaciòn e Investigaciòn para la salud mental (ACISAM)"
 [params]
+<<<<<<< HEAD
 	background_color_class = "bg-black"
 	body_classes = "helvetica bg-white"
 	description = "The last theme you'll ever need. Maybe."
@@ -26,3 +27,23 @@ title = "Asociaciòn de Capacitaciòn e Investigaciòn para la salud mental (ACI
 	filename = "sitemap.xml"
 	priority = 0.5
 	mainsection = "novedades"
+=======
+background_color_class = "bg-black"
+body_classes = "helvetica bg-white"
+description = "The last theme you'll ever need. Maybe."
+facebook = "https://www.facebook.com/acisam/"
+favicon = ""
+featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+github = ""
+instagram = ""
+linkedin = ""
+recent_posts_number = 2
+site_logo = "/images/Acisam.jpg"
+twitter = ""
+youtube = ""
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+mainSections = "novedades"
+priority = 0.5
+>>>>>>> 73769f338ef0e451f4b53de1499b87ed88d64911
