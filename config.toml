@@ -25,5 +25,5 @@ youtube = ""
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
-priority = 0.5
 mainSections = "novedades"
+priority = 0.5
