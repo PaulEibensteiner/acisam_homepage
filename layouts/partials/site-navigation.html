@@ -1,14 +1,30 @@
 <nav class="fl w-five-sixth h-100" role="navigation">
       <h2 class="blue bg-white ma0" style="margin-right: -15%; height: 0.95em;">{{ .Site.Title }}</h2>
-      {{ if .Site.Menus.main }}
-        <ul class="cf ph0 mh0">
-          {{ range .Site.Menus.main }}
-          <li class="list w-20 fl tc">
-            <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ .Name }} page">
-              {{ .Name }}
-            </a>
-          </li>
-          {{ end }}
-        </ul>
-      {{ end }}
+	<ul class="cf pa0 mv3 mh0 relative">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+        <li class="list w-20 fl tc {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+          <a href="#" class="hover-white no-underline white-90">
+            {{ .Pre }}
+            {{ .Name }}
+          </a>
+          <ul class="bg-white list ph0 tc mv2 mh0 sub-menu absolute left-0 pa0 pv2 ma0 w-100" style="padding-right: 15%; box-sizing: content-box;">
+            {{ range .Children }}
+              <li class="w-20 fl {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                <a href="{{ .URL }}" class="blue no-underline">{{ .Name }}</a>
+						</li>
+            {{ end }}
+          </ul>
+			</li>
+      {{else}}
+        <li class="list w-20 fl tc">
+          <a href="{{.URL}}" class="hover-white no-underline white-90">
+            {{ .Pre }}
+            <span>{{ .Name }}</span>
+          </a>
+			</li>
+      {{end}}
+    {{end}}
+  </ul>
 </nav>
