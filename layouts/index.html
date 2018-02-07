@@ -3,7 +3,7 @@
     {{ .Content }}
   </article>
   {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
-  {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+  {{ $mainSections := .Site.Params.mainsection | default (slice "novedades") }}
   {{/* Create a variable with that section to use in multiple places. */}}
   {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
   {{/* Check to see if the section is defined for ranging through it */}}
@@ -12,19 +12,19 @@
     {{/* Derive the section name  */}}
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
       
-    <section class="cf recents pv5">
+    <section class="cf recents pv5 mh2">
 
 {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
        {{ with .Site.GetPage "section" $section_name }}
-          <h1 class="flex-none">
-            <a href="{{ .URL }}">Recientes {{ .Title }}</a>
+          <h1 class="flex-none mh2">
+            <a href="{{ .URL }}">{{ .Title }}</a>
           </h1>
         {{ end }}
 
 
       {{ $n_posts := $.Param "recent_posts_number" | default 4 }}
 <!--Artikel Anfang, hier waren zwei divs-->
-			<div class="carousel fl ph3 w-100 w-two-thirds-ns relative" style="height: 30rem">
+			<div class="ph2 pv2 carousel fl w-100 w-two-thirds-ns relative" style="height: 30rem">
         {{/* Range through the first $n_posts items of the section */}}
         {{ range (first $n_posts $section) }}
             {{ partial "summary-with-image.html" . }}
@@ -49,7 +49,7 @@
         {{ range (first 4 (after $n_posts $section))  }}
 				<!--den part vl in partial abtrennen?-->
 				{{ $featured_image := .Params.featured_image }}
-				<article class="ph3 pb3 w-50 fl relative" style="height: 15rem">
+				<article class="ph2 pv2 w-50 fl relative" style="height: 15rem">
 					{{ if .Params.featured_image }}
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
         {{ $featured_image := (trim $featured_image "/") | absURL }}

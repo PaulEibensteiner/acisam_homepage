@@ -4,12 +4,10 @@
 
 {{ $site_logo := .Param "site_logo" | default "images/gohugo-default-sample-hero-image.jpg" }}
 {{ $site_logo := (trim $site_logo "/") | absURL }}
-		<div class="bg-blue absolute left-0  h4 w-20 pr3" style="background-clip:content-box;"></div>
-    <a href="{{ .Site.BaseURL }}" class="fl f3 fw2 hover-white no-underline white-90 dib pr3 bg-white">
-			<img src="{{ $site_logo }}" alt="logo" class="h4" />
+<!--		<div class="bg-blue absolute left-0 h-100 w-100 pr3" style="background-clip:content-box; z-index: -1"></div>-->
+<div class="cf">
+    <a href="{{ .Site.BaseURL }}" class="fl f3 fw2 ph3 w-sixth bg-white">
+			<img src="{{ $site_logo }}" alt="logo" class="w-100 db" />
 		</a>
-
-    <div class="bg-blue h4 w-80 absolute bt bw5" style="z-index: -1;">
-    </div>
-      <h2 class="blue ma0">{{ .Site.Title }}</h2>
-      {{ partial "site-navigation.html" .}}
+      {{ partial "site-navigation.html" . }}
+</div>

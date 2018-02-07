@@ -8,3 +8,5 @@ was ist cf?
 headlines stylen
 
 karusell auf nicht nur genau 4 artikel trimmen
+
+checken was currentpage.ismenucurrent macht

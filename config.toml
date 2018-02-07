@@ -1,32 +1,32 @@
-title = "Asociaciòn de Capacitaciòn e Investigaciòn para la salud mental"
-baseURL = "https://example.com"
-languageCode = "en-us"
-theme = "gohugo-theme-ananke"
-
-MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
-Paginate = 4 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+MetaDataFormat = "yaml"
+Paginate = 4
+baseURL = "https://example.com"
 enableRobotsTXT = true
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
-
+googleAnalytics = ""
+languageCode = "en-us"
+title = "Asociaciòn de Capacitaciòn e Investigaciòn para la salud mental (ACISAM)"
+theme = "gohugo-theme-ananke"
 [params]
-  body_classes = "helvetica bg-white"
-  favicon = ""
-  description = "The last theme you'll ever need. Maybe."
-  facebook = ""
-  twitter = "https://twitter.com/GoHugoIO"
-  instagram = ""
-  youtube = ""
-  github = ""
-  linkedin = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  site_logo = "/images/Acisam.jpg"
-  recent_posts_number = 4
+body_classes = "helvetica bg-white"
+description = "The last theme you'll ever need. Maybe."
+facebook = "https://www.facebook.com/acisam/"
+favicon = ""
+featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+github = ""
+instagram = ""
+linkedin = ""
+recent_posts_number = 2
+site_logo = "/images/Acisam.jpg"
+twitter = ""
+youtube = ""
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+mainSections = "novedades"
+priority = 0.5
+
+[[menu.main]]
+    weight = 1
+    url = "/paginas/acerca-de/"
+		name = "Acerca de"
