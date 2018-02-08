@@ -5,38 +5,9 @@ baseURL = "https://example.com"
 enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
-theme = "gohugo-theme-ananke"
 title = "Asociaciòn de Capacitaciòn e Investigaciòn para la salud mental (ACISAM)"
-<<<<<<< HEAD
+theme = "gohugo-theme-ananke"
 [params]
-<<<<<<< HEAD
-	background_color_class = "bg-black"
-	body_classes = "helvetica bg-white"
-	description = "The last theme you'll ever need. Maybe."
-	facebook = "https://www.facebook.com/acisam/"
-	favicon = ""
-	featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-	github = ""
-	instagram = ""
-	linkedin = ""
-	recent_posts_number = 2
-	site_logo = "/images/Acisam.jpg"
-	twitter = ""
-	youtube = ""
-	[sitemap]
-	changefreq = "monthly"
-	filename = "sitemap.xml"
-	priority = 0.5
-	mainsection = "novedades"
-=======
-background_color_class = "bg-black"
-=======
-[[menu.main]]
-name = "Acerca de"
-url = "/paginas/acerca-de/"
-weight = 1
-[params]
->>>>>>> 8b424ffe2435c0f1aec377e1ca616a7c4366c5fd
 body_classes = "helvetica bg-white"
 description = "The last theme you'll ever need. Maybe."
 facebook = "https://www.facebook.com/acisam/"
@@ -54,7 +25,8 @@ changefreq = "monthly"
 filename = "sitemap.xml"
 mainSections = "novedades"
 priority = 0.5
-<<<<<<< HEAD
->>>>>>> 73769f338ef0e451f4b53de1499b87ed88d64911
-=======
->>>>>>> 8b424ffe2435c0f1aec377e1ca616a7c4366c5fd
+
+[[menu.main]]
+    weight = 1
+    url = "/paginas/acerca-de/"
+		name = "Acerca de"
