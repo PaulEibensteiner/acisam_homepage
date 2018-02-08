@@ -6,4 +6,3 @@ type: post
 featured_image: ''
 
 ---
-    

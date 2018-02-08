@@ -5,4 +5,5 @@ type: page
 menu:
   main:
     weight: 1
+
 ---
