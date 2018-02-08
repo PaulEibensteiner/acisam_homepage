@@ -10,7 +10,7 @@ title = "Asociaciòn de Capacitaciòn e Investigaciòn para la salud mental (ACI
 [[menu.main]]
 name = "Acerca de"
 url = "/paginas/acerca-de/"
-weight = 1
+weight = 2
 [params]
 body_classes = "helvetica bg-white"
 description = "The last theme you'll ever need. Maybe."

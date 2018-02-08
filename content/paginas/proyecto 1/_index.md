@@ -4,7 +4,7 @@ description: The last theme you'll ever need. Maybe.
 type: page
 menu:
   main:
-    weight: 2
+    weight: 3
 
 ---
 tampoco
