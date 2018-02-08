@@ -1,3 +1,23 @@
+// mein Menu
+/*(function() {
+  // Bind Click event to the drop down navigation button
+  document.querySelector('.nav-button').addEventListener('click', function() {
+		
+      var dropdowns = document.getElementsByClassName("menü");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('open') && openDropdown != this.parentNode)  {
+        openDropdown.classList.remove('open');
+      }
+		}
+			
+    this.parentNode.classList.toggle('open')
+  }, false);
+})();*/
+
+
+
 /*
 
 var myIndex = 0;

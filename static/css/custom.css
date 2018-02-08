@@ -1,6 +1,18 @@
+<<<<<<< HEAD
 
 
 
+=======
+.menü > ul {
+	height: 0;
+	transition: height 0.5s;
+}
+
+.menü:hover ul {
+	height: 2em;
+	transition: height 0.5s;
+}
+>>>>>>> 8b424ffe2435c0f1aec377e1ca616a7c4366c5fd
 
 
 

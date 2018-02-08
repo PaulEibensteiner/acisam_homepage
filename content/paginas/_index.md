@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: 'novedades'
-=======
-title: novedades
->>>>>>> 8b424ffe2435c0f1aec377e1ca616a7c4366c5fd
+title: 'Ananke: a Hugo Theme'
 featured_image: "/images/gohugo-default-sample-hero-image.jpg"
 description: The last theme you'll ever need. Maybe.
 type: page

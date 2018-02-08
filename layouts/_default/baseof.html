@@ -42,7 +42,11 @@
   <body class="ma0 w-80 center {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}" style="">
 
   <header class="bg-blue white mt5 header">
+<<<<<<< HEAD
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+=======
+    {{ block "header" . }}{{ partial "site-header.html" . }}{{ end }}
+>>>>>>> 8b424ffe2435c0f1aec377e1ca616a7c4366c5fd
 		</header>
     <main class="" role="main">
       {{ block "main" . }}{{ end }}

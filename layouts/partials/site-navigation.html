@@ -4,6 +4,7 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
+<<<<<<< HEAD
         <li class="list w-20 fl tc {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
           <a href="#" class="hover-white no-underline white-90">
             {{ .Pre }}
@@ -12,6 +13,16 @@
           <ul class="bg-white list ph0 tc mv2 mh0 sub-menu absolute left-0 pa0 pv2 ma0 w-100" style="padding-right: 15%; box-sizing: content-box;">
             {{ range .Children }}
               <li class="w-20 fl {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+=======
+        <li class="list w-20 fl tc menü">
+          <a href="{{ .URL }}" class="hover-white no-underline white-90 nav-button">
+            {{ .Pre }}
+            {{ .Name }}
+          </a>
+          <ul class="bg-white list tc sub-menu absolute left-0 pa0 ma0 w-100" style="padding-right: 15%; box-sizing: content-box;">
+            {{ range .Children }}
+              <li class="w-20 fl {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+>>>>>>> 8b424ffe2435c0f1aec377e1ca616a7c4366c5fd
                 <a href="{{ .URL }}" class="blue no-underline">{{ .Name }}</a>
 						</li>
             {{ end }}

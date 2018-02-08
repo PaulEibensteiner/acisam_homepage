@@ -7,6 +7,7 @@ googleAnalytics = ""
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 title = "Asociaciòn de Capacitaciòn e Investigaciòn para la salud mental (ACISAM)"
+<<<<<<< HEAD
 [params]
 <<<<<<< HEAD
 	background_color_class = "bg-black"
@@ -29,6 +30,13 @@ title = "Asociaciòn de Capacitaciòn e Investigaciòn para la salud mental (ACI
 	mainsection = "novedades"
 =======
 background_color_class = "bg-black"
+=======
+[[menu.main]]
+name = "Acerca de"
+url = "/paginas/acerca-de/"
+weight = 1
+[params]
+>>>>>>> 8b424ffe2435c0f1aec377e1ca616a7c4366c5fd
 body_classes = "helvetica bg-white"
 description = "The last theme you'll ever need. Maybe."
 facebook = "https://www.facebook.com/acisam/"
@@ -46,4 +54,7 @@ changefreq = "monthly"
 filename = "sitemap.xml"
 mainSections = "novedades"
 priority = 0.5
+<<<<<<< HEAD
 >>>>>>> 73769f338ef0e451f4b53de1499b87ed88d64911
+=======
+>>>>>>> 8b424ffe2435c0f1aec377e1ca616a7c4366c5fd
