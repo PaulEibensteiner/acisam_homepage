@@ -1,5 +1,5 @@
 ---
-title: 'Homepage'
-description: La primera pagina.
+title: 'Novedades'
+description: NO IMPORTA.
 type: page
 ---
