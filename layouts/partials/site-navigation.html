@@ -4,14 +4,14 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
-        <li class="list w-20 fl tc menü">
+        <li class="list w-20 fl tc menü {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
           <a href="{{ .URL }}" class="hover-white no-underline white-90 nav-button">
             {{ .Pre }}
             {{ .Name }}
           </a>
           <ul class="bg-white list tc sub-menu absolute left-0 pa0 ma0 w-100" style="padding-right: 15%; box-sizing: content-box;">
             {{ range .Children }}
-              <li class="w-20 fl {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+              <li class="w-20 fl {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
                 <a href="{{ .URL }}" class="blue no-underline">{{ .Name }}</a>
 						</li>
             {{ end }}
