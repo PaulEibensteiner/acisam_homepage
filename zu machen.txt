@@ -1,4 +1,4 @@
-aussen herum entweder “section”, “header” oder “article” mit rand auf der seite
+﻿aussen herum entweder “section”, “header” oder “article” mit rand auf der seite
 
 Innen titelelement mit box in position absolute left 0
 
@@ -10,3 +10,6 @@ headlines stylen
 karusell auf nicht nur genau 4 artikel trimmen
 
 checken was currentpage.ismenucurrent macht
+
+
+menu if children auch für untermenü machen damit keine leeren uls entstehen

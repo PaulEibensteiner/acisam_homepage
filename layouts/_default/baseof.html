@@ -19,6 +19,7 @@
 
     <link href='{{ "dist/main.css" | absURL }}' rel='stylesheet' type="text/css" />
 		<link href='{{ "css/custom.css" | absURL }}' rel='stylesheet' type="text/css" />
+          <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,700,700i" rel="stylesheet"> 
     {{ block "favicon" . }}
       {{ partial "site-favicon.html" . }}
     {{ end }}
@@ -39,15 +40,15 @@
     {{ end }}
   </head>
 
-  <body class="ma0 w-80 center {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}" style="">
+  <body class="ma0 w-80-ns center montserrat overflow-x-hidden">
 
   <header class="bg-blue white mt5 header">
     {{ block "header" . }}{{ partial "site-header.html" . }}{{ end }}
 		</header>
-    <main class="" role="main">
+    <main class="w-100 mv4" role="main">
       {{ block "main" . }}{{ end }}
     </main>
-		<footer class="bg-blue white header"  style="padding-right: 12.5%; padding-left: 12.5%; margin-left: -12.5%; margin-right: -12.5%;" role="contentinfo">
+		<footer class="bg-blue white header h3 mt3">
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
 		</footer>
     {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}

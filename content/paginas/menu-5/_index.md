@@ -1,6 +1,6 @@
 ---
-title: Proyecto 3
-description: Sobre Proyecto 3.
+title: Multimedia
+description: Sobre Multimedia.
 type: page
 menu:
   main:

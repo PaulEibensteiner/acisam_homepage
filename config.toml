@@ -1,4 +1,4 @@
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "es"
 MetaDataFormat = "yaml"
 Paginate = 4
 baseURL = "https://example.com"
@@ -6,13 +6,8 @@ enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
-title = "Asociaciòn de Capacitaciòn e Investigaciòn para la salud mental (ACISAM)"
-[[menu.main]]
-name = "Acerca de"
-url = "/paginas/acerca-de/"
-weight = 2
+title = "Asociación de Capacitación e Investigación para la salud mental (ACISAM)"
 [params]
-body_classes = "helvetica bg-white"
 description = "The last theme you'll ever need. Maybe."
 facebook = "https://www.facebook.com/acisam/"
 favicon = ""
@@ -23,7 +18,7 @@ linkedin = ""
 recent_posts_number = 4
 site_logo = "/images/Acisam.jpg"
 twitter = ""
-youtube = ""
+youtube = "https://www.youtube.com/user/evmacisam"
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"

@@ -1,23 +1,112 @@
-.menü > ul {
-	height: 0;
-	transition: height 0.5s;
+html {
+font-size: 87.5%;
 }
 
-.menü:hover ul {
-	height: 2em;
-	transition: height 0.5s;
+.lh-1875 {
+    line-height: 1.875;
+}
+
+.pt-100 {
+    padding-top: 15%;
+}
+
+.l {
+    font-weight: lighter;
+}
+
+.montserrat {
+    font-family: 'Montserrat', 'Avenir Next', 'Avenir', sans-serif;
+}
+
+header {
+    min-height: 4em;
+}
+
+
+.linkwrap {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    margin-top: -0.5em;
+}
+
+.nav li:hover {
+    background-color: white;
+    color:#357edd;
+}
+
+a {
+    color: inherit;
+}
+
+.abs-vert-center {
+    position: absolute;
+    top: 45%;
+    margin-top: -0.5em;
+}
+
+.headwrap {
+    border-left: 0.5rem solid white;
+    box-sizing: content-box;
+}
+
+.nav {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: -0.5rem;
+    margin-right: 0.5rem;
+}
+
+.firstnav {
+    top: 1.6vw;
+    bottom: 0;
+}
+
+.firstli {
+    border-top: 1rem solid white;
+/*    border: 1rem solid white;
+    margin-left: -1rem;
+    box-sizing: content-box;*/
+}
+
+.thirdnav {
+    top: 0;
+    left: 100%;
+    border-left: 1rem solid white;
+}
+
+.uberschrift {
+    font-size: 1.3vw;
+}
+
+ul {
+    z-index: 2;
+}
+
+.menü > ul {
+    display: none;
+}
+
+.menü:hover > ul {
+    display: block;
 }
 
 .active {
-    border-bottom: 0.2rem solid white;
+    background-color: white;
+    color:#357edd;
+/*    border-bottom: 0.5rem solid white;*/
 }
 
 
 
 /* bei breite von 80% den header auf 100% aufpumpen (-12.5 weil 80+x=100% ->x=20%, um von 80% auf 20% zu kommen muss man 1/4 nehmen = 25% dann durch 2 ist 12.5 
-bei 90 bspw: 90*x=10 x/2=endprozent */
+bei 90 bspw: 90*x=10 x/2=endprozent 
 
-header {
+*/
+.header {
 	padding-right: 12.5%; 
 	padding-left: 12.5%; 
 	margin-left: -12.5%; 
@@ -32,23 +121,24 @@ header {
 	width:calc(83.3%);
 }
 
-.knopf {
-	position: absolute;
-	top: 50%;
-	color: white;
+.button {
 	border: none;
-	background-color: transparent;
 	font-size: 3em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bg-transparent {
+	background-color: transparent;
 }
 
 .right {
 	right: 0;
 }
 
-.badge {
+.circle {
 	border: none;
   border-radius: 50%;
-	float: left;
 }
 
 .buttonwrapper {
@@ -89,4 +179,31 @@ header {
 .show:active {
   opacity: 1; 
 	transition: opacity .15s ease-out;
+}
+
+.facebook, .twitter, .instagram, .youtube, .github, .linkedin {
+  fill: white;
+}
+.facebook:hover {
+  fill: white;
+}
+
+.twitter:hover {
+  fill: #1da1f2;
+}
+
+.instagram:hover {
+  fill: #e1306c;
+}
+
+.youtube:hover {
+  fill: #cd201f;
+}
+
+.github:hover {
+  fill: #6cc644;
+}
+
+.linkedin:hover {
+  fill: #0077b5
 }

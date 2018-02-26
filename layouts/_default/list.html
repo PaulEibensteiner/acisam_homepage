@@ -1,18 +1,41 @@
 {{ define "main" }}
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
+<section class="ma2">
+    <h2 class="pa2">
+        {{ .Title }}
+    </h2>
+  <div class="pa2">
       {{ .Content }}
-    </div>
-  </article>
-  <div class="mw8 center">
-    {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
-    <section class="flex-ns flex-wrap justify-around mt5">
-      {{ range  $paginator.Pages }}
-        <div class="relative w-100  mb4 bg-white">
-          {{ partial "summary.html" . }}
-        </div>
-      {{ end }}
-    </section>
-  {{ template "_internal/pagination.html" . }}
   </div>
+</section>
+{{ if .Data.Pages }}
+<section class="ma2">
+    <h2 class="mh2">Paginas en esta Categoría</h2>
+    <ul class="cf w-100 ma0 pa0">
+    <!-- Ranges through content/post/*.md -->
+    {{ range .Data.Pages }}
+        <li class="relative db fl w-sixth ma0 h-0 pt-100">
+            <a href="{{.Permalink}}" class="ma2 absolute bg-blue db absolute--fill link">
+            <h3 class="db abs-vert-center white tc ma0 pa0 w-100">
+                {{.Title}}
+                </h3>
+            </a>
+        </li>
+    {{ end }}
+    </ul>
+</section>
+{{ end }}
+
+<!--<section class="ma2">
+    <ul class="">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+        <li>
+            <a href="{{ .URL }}">
+                {{ .Pre }}
+                {{ .Name }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</section>-->
 {{ end }}

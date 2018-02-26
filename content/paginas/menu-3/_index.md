@@ -1,6 +1,6 @@
 ---
-title: Proyecto 2
-description: Sobre Proyecto 2.
+title: Proyectos
+description: Proyectos.
 type: page
 menu:
   main:

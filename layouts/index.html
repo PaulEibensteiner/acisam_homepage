@@ -12,13 +12,13 @@
     {{/* Derive the section name  */}}
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
       
-    <section class="cf recents pv5 mh2">
+    <section class="cf recents pv3 mh2">
 
 {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
        {{ with .Site.GetPage "section" $section_name }}
-          <h1 class="flex-none mh2">
-            <a href="{{ .URL }}">{{ .Title }}</a>
-          </h1>
+          <h2 class="mh2">
+            <a class="link" href="{{ .URL }}">{{ .Title }}</a>
+          </h2>
         {{ end }}
 
 
@@ -32,14 +32,14 @@
 <!--Artikel Ende-->
       {{ if ge $section_count (add $n_posts 1) }}
 <!--Slide Knöpfe-->
-		<button class="left knopf w2 h2" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="right knopf w2 h2" onclick="plusDivs(1)">&#10095;</button>
+		<button type="button" class="white abs-vert-center left-0 button dim ma2 pa2 white bg-transparent" onclick="plusDivs(-1)">&#10094;</button>
+    <button type="button" class="abs-vert-center right-0 button pa2 ma2 dim white bg-transparent" onclick="plusDivs(1)">&#10095;</button>
 				<div class="carouselelements">
 					<div class="buttonwrapper">
-    <button class="badge w1 h1 ma1 bg-white-60 " onclick="currentDiv(1)"></button>
-    <button class="badge w1 h1 ma1 bg-white-60 " onclick="currentDiv(2)"></button>
-    <button class="badge w1 h1 ma1 bg-white-60 " onclick="currentDiv(3)"></button>
-    <button class="badge w1 h1 ma1 bg-white-60 " onclick="currentDiv(4)"></button>
+    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl" onclick="currentDiv(1)"></button>
+    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl" onclick="currentDiv(2)"></button>
+    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl" onclick="currentDiv(3)"></button>
+    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl" onclick="currentDiv(4)"></button>
 						</div>
 					</div>
 				</div>
@@ -49,7 +49,7 @@
         {{ range (first 4 (after $n_posts $section))  }}
 				<!--den part vl in partial abtrennen?-->
 				{{ $featured_image := .Params.featured_image }}
-				<article class="ph2 pv2 w-50 fl relative" style="height: 15rem">
+				<article class="pa2 w-50 fl relative" style="height: 15rem">
 					{{ if .Params.featured_image }}
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
         {{ $featured_image := (trim $featured_image "/") | absURL }}
@@ -58,7 +58,7 @@
           </a>
       {{ end }}
 				
-            <a href="{{ .URL }}" class="db h-100 w-100 pa3 white{{ if .Params.featured_image }} absolute show top-0 bg-black-20{{ else }} bg-blue{{ end }}">
+            <a href="{{ .URL }}" class="link db pa3 white{{ if .Params.featured_image }} ma2 absolute show absolute--fill bg-black-20{{ else }} bg-blue h-100 w-100 {{ end }}">
           <h2 class="">
               {{ .Title }}
           </h2>

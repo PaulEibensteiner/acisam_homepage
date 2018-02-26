@@ -53,7 +53,7 @@ function currentDiv(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("slides");
-  var dots = document.getElementsByClassName("badge");
+  var dots = document.getElementsByClassName("js-badge");
   if (n > x.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
@@ -70,8 +70,8 @@ function showDivs(n) {
 
 carousel();
 
-function carousel() {
+/*function carousel() {
 	plusDivs(1);
   setTimeout(carousel, 3000); // Change image every 2 seconds
 	
-}
+}*/

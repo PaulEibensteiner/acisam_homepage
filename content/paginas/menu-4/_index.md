@@ -1,5 +1,5 @@
 ---
-title: Contacto
+title: Editorial
 description: Pagina para contactar.
 type: page
 menu:

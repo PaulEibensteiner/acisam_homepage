@@ -28,10 +28,24 @@ paginate = 10
     weight = 2
 
 [[menu.main]]
+    name = "MISC"
+    identifier = "misc"
+    url  = "/misc/"
+    weight = 3
+    
+[[menu.main]]
     name = "FAQ"
     identifier = "faq"
-    url  = "/faq/"
-    weight = 3
+    url  = "/misc/faq/"
+    weight = 1
+    parent = "misc"
+    
+[[menu.main]]
+    name = "kp"
+    identifier = "kp"
+    url  = "/misc/faq/kp/"
+    weight = 1
+    parent = "misc"
 
 [[menu.main]]
     name = "Contact"

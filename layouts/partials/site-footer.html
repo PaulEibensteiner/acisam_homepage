@@ -1,6 +1,10 @@
-<div class="bl bw4 b--white">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+<div class="h-100 pl3 mr2 pr0 bg-white">
+    <div class="ph2 fl w-five-sixth bg-blue relative h-100">
+  <a class="f5 b link white abs-vert-center" href="{{ .Site.BaseURL }}">
     &copy; {{ now.Format "2006" }} {{ .Site.Title }}
   </a>
+        </div>
+    <div class="fl h-100 w-sixth ph2 bg-blue">
   {{ partial "social-follow.html" . }}
-  </div>
+    </div>
+</div>

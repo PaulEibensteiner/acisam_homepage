@@ -1,5 +1,5 @@
 ---
-title: Acerca De
+title: Mision y Vision
 description: Sobre Acisam.
 type: page
 menu:

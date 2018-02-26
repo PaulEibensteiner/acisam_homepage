@@ -1,10 +1,10 @@
 ---
-title: Proyecto 1a
+title: Audiovisuales
 description: Sobre Proyecto 1a.
 type: page
 menu:
   main:
-    parent: Proyecto 1
+    parent: Multimedia
     weight: 1
 
 ---
