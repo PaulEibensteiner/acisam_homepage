@@ -7,6 +7,10 @@ googleAnalytics = ""
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 title = "Asociación de Capacitación e Investigación para la salud mental (ACISAM)"
+[[menu.main]]
+name = "Acerca de"
+url = "/paginas/acerca-de/"
+weight = 2
 [params]
 description = "The last theme you'll ever need. Maybe."
 facebook = "https://www.facebook.com/acisam/"
