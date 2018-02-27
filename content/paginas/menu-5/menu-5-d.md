@@ -5,6 +5,6 @@ type: page
 menu:
   main:
     parent: Multimedia
-    weight: 2
+    weight: 4
 
 ---
