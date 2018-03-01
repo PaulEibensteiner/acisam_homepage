@@ -1,7 +1,7 @@
 <!-- TODO: Add follow intents where available TODO: Revisit color and hover color -->
-{{ $icon_size := "2em" }}
+{{ $icon_size := "1.9rem" }}
 {{ with .Site.Params.facebook }}
-  <a href="{{ . }}" target="_blank" class="fr dib dim mv3 mh2 pa0 facebook" title="Facebook link">
+  <a href="{{ . }}" target="_blank" class="fr dib dim mv2 mh2 pa0 facebook" title="Facebook link">
     {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
@@ -16,7 +16,7 @@
   </a>
 {{ end }}
 {{ with .Site.Params.youtube }}
-  <a href="{{ . }}" target="_blank" class="fr dib dim mv3 mh2 pa0 facebook" title="Youtube link">
+  <a href="{{ . }}" target="_blank" class="fr dib dim mv2 mh2 pa0 facebook" title="Youtube link">
     {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
