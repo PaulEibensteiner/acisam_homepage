@@ -4,7 +4,7 @@ description: Sobre Nosotros.
 type: page
 menu:
   main:
-    weight: 2
+weight: 2
 
 ---
 _Primera edicion por Forestry_

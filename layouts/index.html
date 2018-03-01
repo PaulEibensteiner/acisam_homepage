@@ -24,7 +24,7 @@
 
       {{ $n_posts := $.Param "recent_posts_number" | default 4 }}
 <!--Artikel Anfang, hier waren zwei divs-->
-			<div class="ph2 pv2 carousel fl w-100 w-two-thirds-ns relative" style="height: 30rem">
+			<div class="ph2 pv2 carousel fl w-100 w-two-thirds-ns relative" style="height: 26rem">
         {{/* Range through the first $n_posts items of the section */}}
         {{ range (first $n_posts $section) }}
             {{ partial "summary-with-image.html" . }}
@@ -49,7 +49,7 @@
         {{ range (first 4 (after $n_posts $section))  }}
 				<!--den part vl in partial abtrennen?-->
 				{{ $featured_image := .Params.featured_image }}
-				<article class="pa2 w-50 fl relative" style="height: 15rem">
+				<article class="pa2 w-50 fl relative" style="height: 13rem">
 					{{ if .Params.featured_image }}
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
         {{ $featured_image := (trim $featured_image "/") | absURL }}
@@ -59,7 +59,7 @@
       {{ end }}
 				
             <a href="{{ .URL }}" class="link db pa3 white{{ if .Params.featured_image }} ma2 absolute show absolute--fill bg-black-20{{ else }} bg-blue h-100 w-100 {{ end }}">
-          <h2 class="">
+          <h2 class="tc">
               {{ .Title }}
           </h2>
 							

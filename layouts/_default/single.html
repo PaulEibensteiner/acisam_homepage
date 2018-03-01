@@ -1,8 +1,9 @@
 {{ define "main" }}
     <section class="ma2">
-        <h2 class="pa2">
-          {{ .Title }}
-        </h2>
+    <div class="cf">
+    <h2 class="pa2 fl">{{ .Title }}</h2>
+    <p class="mh2 mv3 fr bg-blue white b pa2 lh-1875">Estas en {{ .Dir }}</p>
+        </div>
       <div class="pa2">
         {{ .Content }}
       </div>

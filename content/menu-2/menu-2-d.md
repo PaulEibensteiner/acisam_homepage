@@ -5,6 +5,6 @@ type: page
 menu:
   main:
     parent: Quienes Somos
-    weight: 4
+weight: 4
 
 ---

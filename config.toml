@@ -1,12 +1,11 @@
 DefaultContentLanguage = "es"
 MetaDataFormat = "yaml"
-Paginate = 4
 baseURL = "https://example.com"
 enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
-title = "Asociación de Capacitación e Investigación para la salud mental (ACISAM)"
+title = "Asociación de Capacitación e Investigación para la salud mental"
 [params]
 description = "The last theme you'll ever need. Maybe."
 facebook = "https://www.facebook.com/acisam/"

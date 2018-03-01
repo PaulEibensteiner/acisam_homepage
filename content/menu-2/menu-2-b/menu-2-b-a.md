@@ -5,6 +5,6 @@ type: page
 menu:
   main:
     parent: Historia
-    weight: 1
+weight: 1
 
 ---
