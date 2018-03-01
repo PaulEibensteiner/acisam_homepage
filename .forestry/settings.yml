@@ -7,8 +7,6 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
-  paginas:
-    default_front_matter_template: paginas
   novedades:
     default_front_matter_template: novedades
 version: 0.31.1
