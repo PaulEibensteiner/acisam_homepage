@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <article class="">
+  <article class="bodywrap">
     {{ .Content }}
   </article>
   {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
@@ -12,7 +12,7 @@
     {{/* Derive the section name  */}}
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
       
-    <section class="cf recents pv3 mh2">
+    <section class="cf recents pv3 ph2 bodywrap">
 
 {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
        {{ with .Site.GetPage "section" $section_name }}
@@ -36,10 +36,10 @@
     <button type="button" class="abs-vert-center right-0 button pa2 ma2 dim white bg-transparent" onclick="plusDivs(1)">&#10095;</button>
 				<div class="carouselelements">
 					<div class="buttonwrapper">
-    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl" onclick="currentDiv(1)"></button>
-    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl" onclick="currentDiv(2)"></button>
-    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl" onclick="currentDiv(3)"></button>
-    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl" onclick="currentDiv(4)"></button>
+    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl pa0" onclick="currentDiv(1)"></button>
+    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl pa0" onclick="currentDiv(2)"></button>
+    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl pa0" onclick="currentDiv(3)"></button>
+    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl pa0" onclick="currentDiv(4)"></button>
 						</div>
 					</div>
 				</div>

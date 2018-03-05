@@ -23,3 +23,10 @@ changefreq = "monthly"
 filename = "sitemap.xml"
 mainSections = "novedades"
 priority = 0.5
+[permalinks]
+menu-1 = "/:sections/:title/"
+menu-2 = "/:sections/:title/"
+menu-3 = "/:sections/:title/"
+menu-4 = "/:sections/:title/"
+menu-5 = "/:sections/:title/"
+novedades = "/:sections/:title/"

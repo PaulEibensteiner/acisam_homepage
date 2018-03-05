@@ -1,3 +1,17 @@
+.mh-7 {
+    max-height: 8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bodywrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 80rem;
+}
+
+
 .h-60 {
     height: 60%;
 }
@@ -51,8 +65,7 @@ a {
 }
 
 .headwrap {
-    border-left: 0.5rem solid white;
-    box-sizing: content-box;
+    border-left: 0.25rem solid white;
 }
 
 .nav {
@@ -83,7 +96,13 @@ a {
 }
 
 .uberschrift {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
+}
+
+@media screen and (min-width:90em) {
+    .uberschrift {
+    font-size: 1.6rem;
+    }
 }
 
 ul {
