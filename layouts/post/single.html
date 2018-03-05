@@ -1,30 +1,31 @@
-{{ define "header" }}
-   {{/* We can override any block in the baseof file be defining it in the template */}}
-  {{ partial "site-header.html" . }}
-{{ end }}
-
 {{ define "main" }}
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw7">
-      <p class="f6 b helvetica tracked">
-        {{/* Humanize removes hyphens and capitalizes the first word */}}
-        {{ humanize .Section | upper  }}
-      </p>
-      <h2 class="f1 athelas">
-        {{ .Title }}
-      </h2>
-        {{/* TODO: Add Hugo author  */}}
-        {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-      <time class="f6 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-        {{ .Date.Format "January 2, 2006" }}
-      </time>
-      <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray">
-        {{ .Content }}
-      </section>
-      {{ partial "tags.html" . }}
-    </article>
-    <div class="ph3 mt2 mt6-ns">
+  <section class="bodywrap cf ph2 pv3">
+    <div class="cf">
+    <h2 class="mv3 pa2 fl">{{ .Title }}</h2>    <time class="fl pv2 mv3 l mh2 mb3 mt0 db lh-1875">
+              {{ .Date.Day }} de {{ index $.Site.Data.mes (printf "%d" .Date.Month) }} {{ .Date.Year }} 
+    </time>
+    <p class="mh2 mv3 fr bg-blue white b pa2 lh-1875">{{ humanize .Section | upper  }}</p>
+    </div>
+      {{ if .Params.featured_image }}
+      {{ $featured_image := .Params.featured_image }}
+        {{ $featured_image := (trim $featured_image "/") | absURL }}
+        <img src="{{ $featured_image }}" class="ph2 fl w-two-thirds border-box" alt="image from {{ .Title }}" />
+          <div class="w-third fl ph2">
       {{ partial "menu-contextual.html" . }}
     </div>
-  </div>
+          <article class="fl ph2 mv3 w-two-thirds">
+        {{ .Content }}
+    </article>
+      {{ else }}
+      <article class="fl ph2 w-two-thirds">
+        {{ .Content }}
+    </article>
+    <div class="w-third fl ph2">
+      {{ partial "menu-contextual.html" . }}
+    </div>
+      {{ end }}
+
+
+
+  </section>
 {{ end }}

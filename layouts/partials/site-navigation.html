@@ -1,7 +1,7 @@
 <nav class="fl w-five-sixth border-box" role="navigation">
       <h1 class="ttu b black ph2 bg-white ma0 uberschrift" style="height: 1.6vw;">{{ .Site.Title }}</h1>
-    <div class="ml2 absolute ma0 pv0 pr3 pl0 firstnav bg-blue w-five-sixth">
-	<ul class="b f5 ttu absolute nav ma0 pa0">
+    <div class="ma0 pa0 absolute firstnav w-five-sixth">
+	<ul class="b f5 ttu absolute nav ml2 pr3 pl0 mr0 ma0 bg-blue">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
