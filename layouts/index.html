@@ -51,8 +51,7 @@
 				{{ $featured_image := .Params.featured_image }}
 				<article class="pa2 w-50 fl relative" style="height: 13rem">
 					{{ if .Params.featured_image }}
-          {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-        {{ $featured_image := (trim $featured_image "/") | absURL }}
+        {{ $featured_image := $featured_image | relURL }}
           <a href="{{.URL}}" class="db h-100 overflow-hidden">
             <img src="{{ $featured_image }}" class="center grow h-100" alt="image from {{ .Title }}" />
           </a>

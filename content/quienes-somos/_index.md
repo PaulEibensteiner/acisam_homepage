@@ -2,11 +2,10 @@
 title: Quienes Somos
 description: Sobre Nosotros.
 type: page
-weight: 2
+weight: 1
 menu:
   main:
-    weight: 2
-
+    weight: 1
 ---
 _Primera edicion por Forestry_
 

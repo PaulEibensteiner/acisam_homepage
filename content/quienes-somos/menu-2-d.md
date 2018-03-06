@@ -1,11 +1,11 @@
 ---
 title: Estructura organisativa
-description: Sobre la estrucutra.
+description: Todos los Alianzas.
 type: page
-weight: 3
+weight: 4
 menu:
   main:
     parent: Quienes Somos
-    weight: 3
+    weight: 4
 
 ---

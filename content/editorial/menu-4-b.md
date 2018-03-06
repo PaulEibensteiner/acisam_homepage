@@ -1,5 +1,5 @@
 ---
-title: Comunicado
+title: Comunicados
 description: title.
 type: page
 menu:

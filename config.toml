@@ -1,3 +1,4 @@
+relativeURLs = true
 DefaultContentLanguage = "es"
 MetaDataFormat = "yaml"
 baseURL = "https://example.com"
@@ -15,18 +16,15 @@ github = ""
 instagram = ""
 linkedin = ""
 recent_posts_number = 4
-site_logo = "/images/Acisam.jpg"
+site_logo = "images/Acisam.jpg"
 twitter = ""
 youtube = "https://www.youtube.com/user/evmacisam"
-[permalinks]
-menu-1 = "/:sections/:title/"
-menu-2 = "/:sections/:title/"
-menu-3 = "/:sections/:title/"
-menu-4 = "/:sections/:title/"
-menu-5 = "/:sections/:title/"
-novedades = "/:sections/:title/"
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
 mainSections = "novedades"
 priority = 0.5
+
+[permalinks]
+    novedades = "/:sections/:title/"
+    proyectos = "/:sections/:title/"

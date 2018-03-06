@@ -1,7 +1,7 @@
 <div class="bodywrap cf pl2 mr2 pr0 bg-white">
     <div class="headwrap pv3 ph2 fl w-five-sixth bg-blue relative">
         <a class="f5 b link white" href="{{ .Site.BaseURL }}" style="line-height: 1.15">
-    &copy; {{ now.Format "2006" }} ACISAM, last updated {{ .Hugo.BuildDate }}
+    &copy; {{ now.Format "2006" }} ACISAM, última actualización: {{ now.Day }} de {{ index $.Site.Data.mes (printf "%d" now.Month) }} {{ .Date.Year }}
         </a>
         </div>
     <div class="fl w-sixth ph2 bg-blue">

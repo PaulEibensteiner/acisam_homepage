@@ -17,9 +17,9 @@
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
 
-    <link href='{{ "dist/main.css" | absURL }}' rel='stylesheet' type="text/css" />
-		<link href='{{ "css/custom.css" | absURL }}' rel='stylesheet' type="text/css" />
-          <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,700,700i" rel="stylesheet"> 
+<!-- | absURL -->    <link href='{{ "dist/main.css" | relURL }}' rel='stylesheet' type="text/css" />
+<!-- | absURL -->	<link href='{{ "css/custom.css" | relURL }}' rel='stylesheet' type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,700,700i" rel="stylesheet"> 
     {{ block "favicon" . }}
       {{ partial "site-favicon.html" . }}
     {{ end }}

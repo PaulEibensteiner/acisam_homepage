@@ -7,8 +7,7 @@
     <p class="mh2 mv3 fr bg-blue white b pa2 lh-1875">{{ humanize .Section | upper  }}</p>
     </div>
       {{ if .Params.featured_image }}
-      {{ $featured_image := .Params.featured_image }}
-        {{ $featured_image := (trim $featured_image "/") | absURL }}
+      {{ $featured_image := .Params.featured_image | relURL }}
         <img src="{{ $featured_image }}" class="ph2 fl w-two-thirds border-box" alt="image from {{ .Title }}" />
           <div class="w-third fl ph2">
       {{ partial "menu-contextual.html" . }}
