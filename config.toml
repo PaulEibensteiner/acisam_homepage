@@ -1,10 +1,10 @@
-relativeURLs = true
 DefaultContentLanguage = "es"
 MetaDataFormat = "yaml"
 baseURL = "https://example.com"
 enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
+relativeURLs = true
 theme = "gohugo-theme-ananke"
 title = "Asociación de Capacitación e Investigación para la salud mental"
 [params]
@@ -19,12 +19,11 @@ recent_posts_number = 4
 site_logo = "images/Acisam.jpg"
 twitter = ""
 youtube = "https://www.youtube.com/user/evmacisam"
+[permalinks]
+novedades = "/:sections/:title/"
+proyectos = "/:sections/:title/"
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
 mainSections = "novedades"
 priority = 0.5
-
-[permalinks]
-    novedades = "/:sections/:title/"
-    proyectos = "/:sections/:title/"
