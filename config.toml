@@ -20,10 +20,10 @@ site_logo = "images/Acisam.jpg"
 twitter = ""
 youtube = "https://www.youtube.com/user/evmacisam"
 [permalinks]
-novedades = "/:sections/:title/"
 editorial = "/:sections/:title/"
 ejes-de-trabajo = "/:sections/:title/"
 multimedia = "/:sections/:title/"
+novedades = "/:sections/:title/"
 proyectos = "/:sections/:title/"
 quienes-somos = "/:sections/:title/"
 [sitemap]
