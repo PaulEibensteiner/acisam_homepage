@@ -21,8 +21,7 @@ fields:
   type: text
   hidden: false
   default: post
-- name: featured_image
-  label: Featured image
-  type: text
-  hidden: false
-  default: ''
+- type: file
+  name: featured_image
+  label: featured image
+  description: Imagen mostrado en la pagina principal y grande al empiezo del articulo
