@@ -8,8 +8,8 @@ menu:
     weight: 1
 
 ---
-La asociación de capacitación e investigación para la salud mental es una institución formada por profesionales y técnicos de diversas disciplinas que desarrollan procesos psicosociales con personas comunidades y organizaciones de los sectores populares con énfasis en niñez y juventud contribuyendo al fortalecimiento y reconocimiento de sus capacidades y recursos así como sus motivaciones para transformarse y transformar el entorno natural 
+![](/post/2018/02/08/front page river.jpg)La asociación para el desarrollo y la investigación para la salud es una institución conformada por profesionales y técnicos de diversas disciplinas que realizan procesos psicosociales con personas y organizaciones de los sectores populares con énfasis en educación y recursos humanos. Así como sus motivaciones para transformar y transformar el entorno natural
 
-ACISAM se perfila con un aporte a la construcción de una sociedad basada en la justicia social y solidaridad humana. 
+ACISAM se perfila con un aporte a la construcción de una sociedad basada en la justicia social y solidaridad humana.
 
-El trabajo institucional de ACISAM no se limita a las a las intervenciones comunitarias O grupales sino como su nombre lo indica también dedica esfuerzo a la investigación y la publicación de documentos que sistematizan las experiencias de la misma manera, ACISAM realiza capacitaciones desarrolla seminarios diplomados talleres cursos y participa en eventos especializados de psicología comunicación participativa y desarrollo territorial. población.
+El Trabajo Institucional de ACISAM no se Limita un Las Intervenciones comunitarias O grupales Como Sino su nombre lo indica también Implica Esfuerzo para la Investigación y Publicación de Documentos Que sistematizan las Experiencias de la Misma Manera, ACISAM Realiza Capacitaciones Desarrolla Seminarios diplomados talleres cursos y participa en eventos especializados de psicología comunicación participativa y desarrollo territorial. población
