@@ -8,17 +8,8 @@ menu:
     weight: 1
 
 ---
-_Primera edicion por Forestry_
+La asociación de capacitación e investigación para la salud mental es una institución formada por profesionales y técnicos de diversas disciplinas que desarrollan procesos psicosociales con personas comunidades y organizaciones de los sectores populares con énfasis en niñez y juventud contribuyendo al fortalecimiento y reconocimiento de sus capacidades y recursos así como sus motivaciones para transformarse y transformar el entorno natural 
 
-Responsabilidades de las asociaciones miembros de la Red:
-Administrar fondos otorgados por la IAF para iniciativas económicas.
-Asistir, compartir y dar aportes a conferencias, congresos y encuentros regionales definidos en el proyecto.
-Desarrollar, con la ayuda de ACISAM, un modelo de práctica en salud metal para reducir la brecha en la atención integral y de calidad en toda la región centroamericana.
-Actividades:
-Facilitar el desarrollo de alianzas gracias a una variedad de participantes que intercambian experiencias exitosas, aprendizajes y modelos de promoción y ejecución de proyectos para el desarrollo humano, defensa y liderazgo entre otros, que permitirán elevar los niveles de conciencia sobre las necesidades y prioridades de la PDM y sus familias.
-Ejes de trabajo:
+ACISAM se perfila con un aporte a la construcción de una sociedad basada en la justicia social y solidaridad humana. 
 
-1. Fortalecimiento organizativo: Hasta hoy son ocho asociaciones de personas con discapacidad mental y sus familias organizadas en la red.
-2. Comunicación y espacios de incidencia Se otorgarán fondos económicos para capacitación en el modelo De Familia a Familia, con clases psico-educativas y grupos de arte terapia e iniciativas económicas.
-3. Educación e intercambio de información. Se está creando una revista. También se harán congresos regionales en cada país para reunir a miembros de la red e intercambiar experiencias.
-   Un primer congreso se realizó del 26 a 30 de octubre de 2015 en El Salvador. Este evento reunió a Familias y Personas con Discapacidad Mental de las asociaciones y países de la región centroamericana. Fue un espacio para intercambiar conocimientos, experiencias y realizar consultas acerca de los principales problemas, dificultades y avances en el trabajo de y para las PDM  y señalar la importancia del cumplimiento los Derechos Humanos de esta población.
+El trabajo institucional de ACISAM no se limita a las a las intervenciones comunitarias O grupales sino como su nombre lo indica también dedica esfuerzo a la investigación y la publicación de documentos que sistematizan las experiencias de la misma manera, ACISAM realiza capacitaciones desarrolla seminarios diplomados talleres cursos y participa en eventos especializados de psicología comunicación participativa y desarrollo territorial. población.
