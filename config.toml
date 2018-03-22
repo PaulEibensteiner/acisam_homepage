@@ -8,10 +8,8 @@ relativeURLs = true
 theme = "gohugo-theme-ananke"
 title = "Asociación de Capacitación e Investigación para la salud mental"
 [params]
-description = "The last theme you'll ever need. Maybe."
 facebook = "https://www.facebook.com/acisam/"
 favicon = ""
-featured_image = "/images/gohugo-default-sample-hero-image.jpg"
 github = ""
 instagram = ""
 linkedin = ""

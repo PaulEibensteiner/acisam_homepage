@@ -1,4 +1,4 @@
-﻿aussen herum entweder “section”, “header” oder “article” mit rand auf der seite
+aussen herum entweder “section”, “header” oder “article” mit rand auf der seite
 
 Innen titelelement mit box in position absolute left 0
 
@@ -13,3 +13,13 @@ checken was currentpage.ismenucurrent macht
 
 
 menu if children auch für untermenü machen damit keine leeren uls entstehen
+
+favicon erstellen und hinzufuegen
+
+recent posts number hinkriegen
+
+css ordnen und gscheit machen
+
+indents schoen machen
+
+https://regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/
