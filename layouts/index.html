@@ -36,10 +36,11 @@
     <button type="button" class="abs-vert-center right-0 button pa2 ma2 dim white bg-transparent" onclick="plusDivs(1)">&#10095;</button>
 				<div class="carouselelements">
 					<div class="buttonwrapper">
-    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl pa0" onclick="currentDiv(1)"></button>
-    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl pa0" onclick="currentDiv(2)"></button>
-    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl pa0" onclick="currentDiv(3)"></button>
-    <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl pa0" onclick="currentDiv(4)"></button>
+                        
+                        {{ range $index, $num := (seq $n_posts) }}
+                            {{$indexStartingAt1 := (add $index 1)}}
+                            <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl pa0" onclick="currentDiv({{$indexStartingAt1}})"></button>
+                        {{ end }}
 						</div>
 					</div>
 				</div>

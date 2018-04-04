@@ -1,10 +1,10 @@
 <div class="bodywrap cf pl2 mr2 pr0 bg-white">
-    <div class="headwrap pv3 ph2 fl w-five-sixth bg-blue relative">
+    <div class="headwrap pv3 ph2 fl w-two-thirds bg-blue relative">
         <a class="f5 b link white" href="{{ "index.html" | relURL }}" style="line-height: 1.15">
     &copy; {{ now.Format "2006" }} ACISAM, última actualización: {{ now.Day }} de {{ index $.Site.Data.mes (printf "%d" now.Month) }} {{ .Date.Year }}
         </a>
         </div>
-    <div class="fl w-sixth ph2 bg-blue">
+    <div class="fl w-third ph2 bg-blue">
   {{ partial "social-follow.html" . }}
     </div>
 </div>

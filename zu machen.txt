@@ -1,25 +1,19 @@
-aussen herum entweder “section”, “header” oder “article” mit rand auf der seite
-
-Innen titelelement mit box in position absolute left 0
-
-
-was ist cf?
-
-headlines stylen
-
 karusell auf nicht nur genau 4 artikel trimmen
 
-checken was currentpage.ismenucurrent macht
-
-
-menu if children auch für untermenü machen damit keine leeren uls entstehen
+menu if children auch für untermenü machen damit keine leeren uls entstehen?
 
 favicon erstellen und hinzufuegen
 
-recent posts number hinkriegen
+social media hinzufuegbar machen
+
+-----
+
+alle dateien ueberpruefen
 
 css ordnen und gscheit machen
 
+build mal machen und dateistruktur ueberpruefen
+
 indents schoen machen
 
-https://regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/
+mobile versioin

@@ -1,22 +1,22 @@
 DefaultContentLanguage = "es"
 MetaDataFormat = "yaml"
-baseURL = "https://example.com"
+baseURL = "https://www.acisam.com"
 enableRobotsTXT = true
 googleAnalytics = ""
-languageCode = "en-us"
+languageCode = "es-sv"
 relativeURLs = true
 theme = "gohugo-theme-ananke"
 title = "Asociación de Capacitación e Investigación para la salud mental"
 [params]
+favicon = "favicon.ico"
+recent_posts_number = 2
+site_logo = "images/Acisam.jpg"
 facebook = "https://www.facebook.com/acisam/"
-favicon = ""
+youtube = "https://www.youtube.com/user/evmacisam"
 github = ""
 instagram = ""
 linkedin = ""
-recent_posts_number = 4
-site_logo = "images/Acisam.jpg"
 twitter = ""
-youtube = "https://www.youtube.com/user/evmacisam"
 [permalinks]
 editorial = "/:sections/:title/"
 ejes-de-trabajo = "/:sections/:title/"

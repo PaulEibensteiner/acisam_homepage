@@ -4,7 +4,6 @@
 	<ul class="b f5 ttu absolute nav ml2 pr3 pl0 mr0 ma0 bg-blue">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-      {{ if .HasChildren }}
         <li class="white ph2 db list h-100 w-20 fl tc menü {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
           <a href="{{ .URL }}" class="h-100 db w-100 relative list nav-button">
               <div class="linkwrap">
@@ -12,10 +11,12 @@
             {{ .Name }}
               </div>
           </a>
+      {{ if .HasChildren }}
           <ul class="bg-blue list tc sub-menu pa0 firstli w-100">
             {{ range .Children }}
               <li class="white menü relative ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
                 <a href="{{ .URL }}" class="no-underline">{{ .Name }}</a>
+      {{ if .HasChildren }}
                   <ul class="absolute bg-blue list tc thirdnav pa0 ma0 w-100">
                       {{ range .Children }}
                       <li class="white ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
@@ -23,20 +24,12 @@
                       </li>
                       {{ end }}
                   </ul>
+                      {{ end }}
               </li>
             {{ end }}
           </ul>
-			</li>
-      {{else}}
-        <li class="white ph2 db list h-100 w-20 fl tc menü {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
-          <a href="{{.URL}}" class="db h-100 w-100 relative dib list nav-button">
-              <div class="linkwrap">
-            {{ .Pre }}
-            {{ .Name }}
-              </div>
-          </a>
-			</li>
       {{end}}
+			</li>
     {{end}}
   </ul>
  </div>
