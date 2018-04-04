@@ -8,15 +8,15 @@ relativeURLs = true
 theme = "gohugo-theme-ananke"
 title = "Asociación de Capacitación e Investigación para la salud mental"
 [params]
-favicon = "favicon.ico"
-recent_posts_number = 2
-site_logo = "images/Acisam.jpg"
 facebook = "https://www.facebook.com/acisam/"
-youtube = "https://www.youtube.com/user/evmacisam"
+favicon = "favicon.ico"
 github = ""
 instagram = ""
 linkedin = ""
+recent_posts_number = 2
+site_logo = "images/Acisam.jpg"
 twitter = ""
+youtube = "https://www.youtube.com/user/evmacisam"
 [permalinks]
 editorial = "/:sections/:title/"
 ejes-de-trabajo = "/:sections/:title/"
