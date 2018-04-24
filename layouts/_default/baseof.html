@@ -19,8 +19,8 @@
     <link href='{{ "dist/main.css" | relURL }}' rel='stylesheet' type="text/css" />
 	<link href='{{ "css/custom.css" | relURL }}' rel='stylesheet' type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,700,700i" rel="stylesheet">
-<!--     netlify link besser nur in index     -->
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!--     netlify     -->
+      {{ block "head" . }}{{ end }}
     {{ block "favicon" . }}
       {{ partial "site-favicon.html" . }}
     {{ end }}
@@ -53,5 +53,6 @@
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
 		</footer>
     {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
+      {{ block "indexscript" . }}{{ end }}
   </body>
 </html>

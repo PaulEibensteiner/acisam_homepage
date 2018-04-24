@@ -9,12 +9,7 @@ social media hinzufuegbar machen
 -----
 
 aenderung: seitenquelldaten sind auf github oben, aber hosting nicht ueber github direkt moeglich (weil keine hugo engine und nicht so gutes hosting wie netlify) also hosting auf netlify machen - dafuer brauch ich dann kein forestry. acisam.ngo kann einfach gekauft werden und hinzugefuegt werden, keine anderen laufenden kosten.
-
 netflify cms: ich kann mglw bilder in den posts saven, wenn ich den slash vor public folder weg lasse
-
-block in baseof definieren, statt link einfach in head of baseof kopieren, damit der link nicht in allen seiten, sondern nur der index seite ist
-
-netlify cms einrichten und ausprobieren, schaut viel nicer als forestry aus
 
 mobile version
 
