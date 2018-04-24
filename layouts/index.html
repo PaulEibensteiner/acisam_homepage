@@ -20,8 +20,6 @@
             <a class="link" href="{{ .URL }}">{{ .Title }}</a>
           </h2>
         {{ end }}
-
-
       {{ $n_posts := $.Param "recent_posts_number" | default 4 }}
 <!--Artikel Anfang, hier waren zwei divs-->
 			<div class="ph2 pv2 carousel fl w-100 w-two-thirds-ns relative" style="height: 26rem">
@@ -34,14 +32,13 @@
 <!--Slide Knöpfe-->
 		<button type="button" class="white abs-vert-center left-0 button dim ma2 pa2 white bg-transparent" onclick="plusDivs(-1)">&#10094;</button>
     <button type="button" class="abs-vert-center right-0 button pa2 ma2 dim white bg-transparent" onclick="plusDivs(1)">&#10095;</button>
-				<div class="carouselelements">
-					<div class="buttonwrapper">
-                        
+				<div class="carouselelements tc">
+					<span class="buttonwrapper">
                         {{ range $index, $num := (seq $n_posts) }}
                             {{$indexStartingAt1 := (add $index 1)}}
-                            <button class="button circle js-badge w1 h1 ma1 bg-white-60 fl pa0" onclick="currentDiv({{$indexStartingAt1}})"></button>
+                            <button class="button circle js-badge w1 h1 mr1 bg-white-60 pa0" onclick="currentDiv({{$indexStartingAt1}})"></button>
                         {{ end }}
-						</div>
+						</span>
 					</div>
 				</div>
 <!--Mehr Anfang-->

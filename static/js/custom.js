@@ -42,14 +42,6 @@ function carousel() {
 var slideIndex = 1;
 showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("slides");
@@ -68,10 +60,27 @@ function showDivs(n) {
 
 // automatische slides?
 
-carousel();
 
-/*function carousel() {
-	plusDivs(1);
-  setTimeout(carousel, 3000); // Change image every 2 seconds
-	
-}*/
+
+ var initial = window.setTimeout(
+        function() {
+            plusDivs(1)
+        }, 3000);
+
+function reset() {
+    window.clearTimeout(initial);
+    initial = window.setTimeout(
+        function() {
+            plusDivs(1)
+        }, 3000);
+}
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+    reset();
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+    reset();
+}

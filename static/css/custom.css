@@ -195,15 +195,13 @@ bei 90 bspw: 90*x=10 x/2=endprozent
 }
 
 .buttonwrapper {
-	width: 6rem;
 	margin: auto;
 }
 
 .carouselelements {
-	top: -35%;
-	position: relative;
+	top: 65%;
+	position: absolute;
 	width: 100%;
-	height: 10%;
 }
 
 .hide {
