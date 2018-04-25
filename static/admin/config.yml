@@ -24,7 +24,12 @@ collections:
       - {label: "Titulo", name: "title", widget: "string", default: "{{slug}}"}
       - {label: "Descripcion", name: "description", widget: "string", default: "{{slug}}"}
       - {label: "Tipo", name: "type", widget: "hidden", default: "page"}
-      - label: "Featured Image"
-        name: "thumbnail"
-        widget: "image"
-        default: "/uploads/chocolate-dogecoin.jpg"
+      - label: "Menu"
+        name: "menu"
+        widget: "object"
+        fields: 
+            - label: "Main""
+              name: "main""
+              widget: "object""
+              fields:
+                - {label: "Weight", name: "weight", widget: "number"}
