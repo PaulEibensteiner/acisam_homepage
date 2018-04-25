@@ -28,8 +28,8 @@ collections:
         name: "menu"
         widget: "object"
         fields: 
-            - label: "Main""
-              name: "main""
-              widget: "object""
-              fields:
-                - {label: "Weight", name: "weight", widget: "number"}
+          - label: "Main""
+            name: "main""
+            widget: "object""
+            fields:
+              - {label: "Weight", name: "weight", widget: "number"}
