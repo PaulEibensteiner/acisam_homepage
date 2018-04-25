@@ -15,3 +15,22 @@ collections:
       - {label: "Descripcion", name: "description", widget: "string", default: "{{slug}}"}
       - {label: "Tipo", name: "type", widget: "hidden", default: "post"}
       - {label: "Imagen grande", name: "featured_image", widget: "image"}
+  - name: "quienes-somos" # Used in routes, e.g., /admin/collections/blog
+    label: "Quienes Somos" # Used in the UI
+    folder: "content/quienes-somos" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titulo", name: "title", widget: "string", default: "{{slug}}"}
+      - {label: "Descripcion", name: "description", widget: "string", default: "{{slug}}"}
+      - {label: "Tipo", name: "type", widget: "hidden", default: "page"}
+      - {label: "Imagen grande", name: "featured_image", widget: "image"}
+- label: "Menu"
+  name: "menu"
+  widget: "object"
+  fields:
+    - label: "Main"
+      name: "main"
+      widget: "object"
+      fields:
+        - {label: "Weight", name: "weight", widget: "number"}
