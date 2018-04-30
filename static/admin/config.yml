@@ -36,7 +36,7 @@ collections:
               - {label: "Parent", name: "parent", widget: "string"}
               - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-        - name: "quienes-somos" # Used in routes, e.g., /admin/collections/blog
+  - name: "proyectos" # Used in routes, e.g., /admin/collections/blog
     label: "Proyectos" # Used in the UI
     folder: "content/proyectos" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -56,6 +56,7 @@ collections:
               - {label: "Parent", name: "parent", widget: "string"}
               - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "novedades" # Used in routes, e.g., /admin/collections/blog
     label: "Novedades" # Used in the UI
     folder: "content/novedades" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -75,6 +76,7 @@ collections:
               - {label: "Parent", name: "parent", widget: "string"}
               - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "multimedia" # Used in routes, e.g., /admin/collections/blog
     label: "Multimedia" # Used in the UI
     folder: "content/multimedia" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -94,6 +96,7 @@ collections:
               - {label: "Parent", name: "parent", widget: "string"}
               - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "ejes-de-trabajo" # Used in routes, e.g., /admin/collections/blog
     label: "Ejes de Trabajo" # Used in the UI
     folder: "content/ejes-de-trabajo" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -113,6 +116,7 @@ collections:
               - {label: "Parent", name: "parent", widget: "string"}
               - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "editorial" # Used in routes, e.g., /admin/collections/blog
     label: "Editorial" # Used in the UI
     folder: "content/editorial" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
