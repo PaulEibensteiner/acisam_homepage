@@ -5,16 +5,16 @@ media_folder: "static/img" # Media files will be stored in the repo under static
 public_folder: "/img" # The src attribute for uploaded media will begin with /images/uploads
 display_url: https://acisam.netlify.com/index.html
 collections:
-- label: "Instrucciones"
-  name: "instrucciones"
-  files:
-    - label: "Lea me primero!!"
-      name: "lea-me"
-      file: "static/admin/readme.md"
-      fields:
-        - {label: "Titulo", name: "title", widget: "string"}
-        - {label: "Descripcion", name: "despcription", widget: "string"}
-        - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Instrucciones"
+    name: "instrucciones"
+    files:
+      - label: "Lea me primero!!"
+        name: "lea-me"
+        file: "static/admin/readme.md"
+        fields:
+          - {label: "Titulo", name: "title", widget: "string"}
+          - {label: "Descripcion", name: "despcription", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: "novedades" # Used in routes, e.g., /admin/collections/blog
     label: "Novedades" # Used in the UI
     folder: "content/novedades" # The path to the folder where the documents are stored
