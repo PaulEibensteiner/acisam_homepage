@@ -6,6 +6,5 @@ weight: '1'
 menu:
   main:
     parent: Alianza
-    weight: '1'
 ---
 
