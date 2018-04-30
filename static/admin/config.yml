@@ -32,4 +32,5 @@ collections:
             name: "main"
             widget: "object"
             fields:
-              - {label: "Weight", name: "weight", widget: "number"}
+              - {label: "Parent", name: "parent", widget: "number"}
+              - {label: "Weight", name: "weight", widget: "string"}
