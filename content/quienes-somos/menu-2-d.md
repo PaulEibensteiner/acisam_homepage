@@ -2,7 +2,6 @@
 title: Estructura organisativa
 description: Todos los Alianzas.
 type: page
-weight: 4
 menu:
   main:
     parent: Quienes Somos
