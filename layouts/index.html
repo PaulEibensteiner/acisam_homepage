@@ -16,13 +16,9 @@
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
       
     <section class="cf recents pv3 ph2 bodywrap">
-
-{{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
-       {{ with .Site.GetPage "section" $section_name }}
           <h2 class="mh2">
             <a class="link" href="{{ .URL }}">{{ .Title }}</a>
           </h2>
-        {{ end }}
       {{ $n_posts := $.Param "recent_posts_number" | default 4 }}
 <!--Artikel Anfang, hier waren zwei divs-->
 			<div class="ph2 pv2 carousel fl w-100 w-two-thirds-ns relative" style="height: 26rem">
