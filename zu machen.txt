@@ -6,6 +6,8 @@ favicon erstellen und hinzufuegen
 
 social media hinzufuegbar machen
 
+link zum red wo hin?
+
 -----
 
 aenderung: seitenquelldaten sind auf github oben, aber hosting nicht ueber github direkt moeglich (weil keine hugo engine und nicht so gutes hosting wie netlify) also hosting auf netlify machen - dafuer brauch ich dann kein forestry. acisam.ngo kann einfach gekauft werden und hinzugefuegt werden, keine anderen laufenden kosten.
@@ -20,8 +22,6 @@ css ordnen und gscheit machen
 build mal machen und dateistruktur ueberpruefen
 
 indents schoen machen
-
-mobile versioin
 
 impressum
 
