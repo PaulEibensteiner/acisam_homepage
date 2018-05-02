@@ -7,7 +7,7 @@ menu:
     parent: Proyectos
     weight: 1
 ---
-<p>You are being redirected to the Webpage of the RED CENTROAMERICANA DE LA SALUD MENTAL!</p>
+<p>You are being redirected to the Webpage of the RED CENTROAMERICANA DE LA SALUD MENTAL...</p>
 
 
 <script>
