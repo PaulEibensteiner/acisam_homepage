@@ -12,14 +12,16 @@
               </div>
           </a>
       {{ if .HasChildren }}
-          <ul class="bg-blue list tc sub-menu pa0 firstli w-100">
+          <ul class="list tc sub-menu pa0 w-100">
+            <div class="arrowup"></div>
             {{ range .Children }}
-              <li class="white menü relative ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+              <li class="bg-blue white menü relative ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
                 <a href="{{ .URL }}" class="no-underline">{{ .Name }}</a>
       {{ if .HasChildren }}
-                  <ul class="absolute bg-blue list tc thirdnav pa0 ma0 w-100">
+                  <ul class="absolute list tc thirdnav ma0 pl3 w-100">
+                    <div class="arrowleft"></div>
                       {{ range .Children }}
-                      <li class="white ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+                      <li class="bg-blue white ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
                   <a href="{{ .URL }}" class="no-underline">{{ .Name }}</a>
                       </li>
                       {{ end }}
