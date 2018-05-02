@@ -8,7 +8,7 @@
         {{ $unterseiten  := union .Pages .Sections }}
     {{ range $unterseiten.ByWeight }}
         <li class="relative db fl w-sixth ma0 h-0 pt-100">
-            <a href="{{.Permalink}}" class="ma2 absolute bg-blue db absolute--fill link">
+            <a href="{{.Permalink}}" class="ma2 absolute bg-blue db absolute absolute--fill link">
             <h3 class="db abs-vert-center white tc ma0 pa0 w-100">
                 {{.Title}}
                 </h3>
