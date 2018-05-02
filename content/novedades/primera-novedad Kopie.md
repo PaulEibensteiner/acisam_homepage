@@ -1,7 +1,7 @@
 ---
 title: 6. Novedad
 date: '2018-02-08 16:51:30 +0000'
-description: Estamos en la oficina
+description: Estamos en la oficina y hay que escribir mas aqui para ver como anda. No se que pasa si pones demasiada informacion aqui
 type: post
 featured_image: /img/Rio.jpg
 ---

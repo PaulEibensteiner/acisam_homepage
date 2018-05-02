@@ -3,11 +3,11 @@
       {{ if .Params.featured_image }}
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
         {{  $featured_image := $featured_image | relURL }}
-          <a href="{{.URL}}" class="db h-60 overflow-hidden">
+          <a href="{{.URL}}" class="db h-100 overflow-hidden">
             <img src="{{ $featured_image }}" class=" grow w-100" alt="image from {{ .Title }}" />
           </a>
       {{ end }}
-      <div class="white {{ if .Params.featured_image }}ph5 pv4 h-25 {{ else }}h-100 pa5 {{ end }}">
+      <div class="white bg-dark-blue {{ if .Params.featured_image }}ph4 pv3 absolute w-100 bottom-0 {{ else }}h-100 pa5 {{ end }}">
           <div class="cf w-100" >
           <a href="{{.URL}}" class="fl dim link white tl">
         <h2 class="dib f3 lh-title ma0">

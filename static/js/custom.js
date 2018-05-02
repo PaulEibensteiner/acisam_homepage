@@ -62,10 +62,10 @@ function showDivs(n) {
 
 
 
- var initial = window.setTimeout(
+/* var initial = window.setTimeout(
         function() {
             plusDivs(1)
-        }, 3000);
+        }, 3000);*/
 
 function reset() {
     window.clearTimeout(initial);
