@@ -1,5 +1,5 @@
 ---
-title: Red Centroamericana de la salud mental
+title: Red SAN
 description: title.
 type: page
 menu:

@@ -108,7 +108,7 @@ a {
 }
 
 .firstnav {
-    top: 1.6vw;
+    top: 1.8vw;
     bottom: 0;
 }
 
@@ -126,12 +126,24 @@ a {
 }
 
 .uberschrift {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    height: 1.4vw;
+}
+
+.whitebar {
+    height: 1.8vw;
 }
 
 @media screen and (min-width:90em) {
     .uberschrift {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+        height: 1.8rem;
+    }
+    .firstnav {
+    top: 1.8rem;
+    }
+    .whitebar {
+    height: 1.8rem;
     }
 }
 
