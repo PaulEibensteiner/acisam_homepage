@@ -258,3 +258,12 @@ bei 90 bspw: 90*x=10 x/2=endprozent
 .linkedin:hover {
   fill: #0077b5
 }
+
+h1, h2, h3 {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+li {
+    font-weight: 200;
+}
