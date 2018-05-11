@@ -8,11 +8,12 @@ menu:
     weight: 1
 
 ---
-La asociación para el desarrollo y la investigación para la salud es una institución conformada por profesionales y técnicos de diversas disciplinas que realizan procesos psicosociales con personas y organizaciones de los sectores populares con énfasis en educación y recursos humanos. Así como sus motivaciones para transformar y transformar el entorno natural
 
 {{% imagen-derecha %}}
 ![imagen por ejemplo](/img/post/2018/02/front page river.jpg "the river")
 {{% /imagen-derecha %}}
+
+La asociación para el desarrollo y la investigación para la salud es una institución conformada por profesionales y técnicos de diversas disciplinas que realizan procesos psicosociales con personas y organizaciones de los sectores populares con énfasis en educación y recursos humanos. Así como sus motivaciones para transformar y transformar el entorno natural
 
 ACISAM se perfila con un aporte a la construcción de una sociedad basada en la justicia social y solidaridad humana.
 

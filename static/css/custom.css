@@ -1,6 +1,9 @@
-.mva {
-    margin-left: auto;
-    margin-right: auto;
+.content>p {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+margin-right: auto;
 }
 
 .arrowup {
@@ -287,6 +290,14 @@ bei 90 bspw: 90*x=10 x/2=endprozent
 h1, h2, h3 {
     font-weight: 200;
     font-size: 1.5rem;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 li {
