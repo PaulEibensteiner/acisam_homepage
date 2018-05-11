@@ -7,6 +7,4 @@ menu:
     parent: Proyectos
     weight: 3
 ---
-[contenido](www.youtube.com)
-
-![gente divertida](/img/1474227455644.jpg)
+p
