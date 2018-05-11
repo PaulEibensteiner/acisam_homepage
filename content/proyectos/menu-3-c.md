@@ -6,5 +6,5 @@ menu:
   main:
     parent: Proyectos
     weight: 3
-
 ---
+contenido
