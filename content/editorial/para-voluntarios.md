@@ -36,7 +36,7 @@ Achtung: Kalte Dusche und Ungeziefer sind hier normal. Waschmaschinen gibt es no
 
 ## Visum
 
-Fuer die C4-Staaten (Guatemala, El Salvador, Honduras und Nicaragua) erhaelt man bei der Einreise in einen der Staaten ein bis zu 3 Monate haltendes Visum, das fuer den gesamten Raum gilt. Nach Ablauf dieser 3 Monate (auch wenn man zwischen diesen Staaten gewechselt hat) muss man sein Visum verlaengern.  
+Fuer die C4-Staaten (Guatemala, El Salvador, Honduras und Nicaragua) erhält man bei der Einreise in einen der Staaten ein bis zu 3 Monate haltendes Visum, das für den gesamten Raum gilt. Nach Ablauf dieser 3 Monate (auch wenn man zwischen diesen Staaten gewechselt hat) muss man sein Visum verlängern.  
 
 
 
@@ -45,9 +45,9 @@ Kurzer Aufenthalt
 * Ausreise nach Mexico (das machen die meisten), Belize oder Costa Rica. Man muss sich dann mindestens 72 Stunden in diesem Land aufhalten. Je nach Land und Länge des Aufenthaltes können hier unterschiedlich hohe Kosten bei Aus- und Einreise einfallen. 
 * Einmalige Verlaengerung des Visums um bis zu 90 Tage in San Salvador, dazu setzt man sich am besten mit der Immigrationsbehoerde (https://www.migrationpolicy.org) oder mit den Leuten vor Ort (Chefs, Arbeitskollegen, Bekannte, Alcaldia) in Verbindung. Vorbereitungszeit etwa 2-3 Wochen. ACHTUNG: Dieses Visum kann nur einmal für einen Zeitraum von maximal 90 Tagen ausgestellt werden. 
 
-Länger Aufenthalt
+Längerer Aufenthalt
 
-* Auf Antrag kann auch ein mehrmonatiges Visum genehmigt werden, welches für einen Aufenthaltszeitraum ab 6 Monaten sinnvoll ist. Auch dazu setzt man sich mit der Immigrationsbehoerde in Kontakt, das ist allerdings mit hoeherem buerokratischen Aufwand und dementsprechend mehr Vorbereitungszeit verbunden. In der Arbeit gibt es teilweise bereits Erfahrung dazu (zB CORDES). Für die Verlängerung muss man das Dokument F.11 gemeinsam mit der NGO Vorort ausfüllen. Dies dauert aber angeblich 3 Monate und kostet ~120$ 
+* Auf Antrag kann auch ein mehrmonatiges Visum genehmigt werden, welches für einen Aufenthaltszeitraum ab 6 Monaten sinnvoll ist. Auch dazu setzt man sich mit der Immigrationsbehoerde in Kontakt, das ist allerdings mit höherem bürokratischen Aufwand und dementsprechend mehr Vorbereitungszeit verbunden. In der Arbeit gibt es teilweise bereits Erfahrung dazu (zB CORDES). Für die Verlängerung muss man das Dokument F.11 gemeinsam mit der NGO Vorort ausfüllen. Dies dauert aber angeblich 3 Monate und kostet ~120$. 
 
 Benötigte Dokumente:
 
