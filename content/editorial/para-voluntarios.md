@@ -11,23 +11,30 @@ menu:
 
 ## Wohnen in San Salvador
 
-Optionen
+Wo?
+
+* Am besten in der nähe oder wo es gute Öffis Verkehrsanbindung zu Acisam gibt. Hier k
+
+Optionen:                                                                                                                
+
+* Bei Sonia Funes
+  Besitzerin der Casa Alexis (Pension, in der Hans normalerweise bei Salvador Besuchen wohnt), vermietet verschiedene Wohnungen zwischen 250 – 325$ für 1- 2 Personen. Sonja ist sehr freundlich, Casa Alexis gibt’s auch auf AirBnB und Wohnungen sind sehr nahe bei ACISAM. 
+  Achtung: Kann passieren, dass ihr in einer Wohnung für 300$ ohne Tageslicht wohnt.
+  Kontakt:
+  Reparto Universitario Avenida Los Lirios y Calle Las Violetas #1104
+  00000 San Salvador, EL Salvador
+  +503 7885 1951
+  <https://www.facebook.com/Alexas-Casa-de-Huespedes-535957356487203/>
+* Airbnb ist teuer die Wohnungen haben aber meist einen guten Standard, man kann die VermieterInnen für preise für längerne Zeit kontaktieren und dann verhandeln. ~200-300$/Monat
+* Beim Mitarbeitern
+
+
 
 Achtung: Kalte Dusche und Ungeziefer sind hier normal. Waschmaschinen gibt es aber sehr oft. 
 
-Airbnb: teuer aber guter Standard, man kann die VermieterInnen auch anschreiben und preise für längerne Zeit verhandeln. 
-
-Bei Sonia Funes 
-
-Besitzerin der Casa Alexis (Pension, in der Hans normalerweise bei Salvador Besuchen wohnt), vermietet verschiedene Wohnungen zwischen 250 – 325$ für 1- 2 Personen. Achtung: Kann passieren, dass ihr in einer Wohnung für 300$ ohne Tageslicht wohnt... 
 
 
 
-Aber Sonja ist sehr freundlich, Casa Alexis gibt’s auch auf AirBnB und Wohnungen sind sehr nahe bei ACISAM. 
-
-
-
-+503 7885 1951 
 
 
 
