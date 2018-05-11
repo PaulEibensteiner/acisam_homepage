@@ -29,3 +29,5 @@ changefreq = "monthly"
 filename = "sitemap.xml"
 mainSections = "novedades"
 priority = 0.5
+[blackfriday]
+    extensions = ["hardLineBreak"]
