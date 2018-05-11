@@ -1,6 +1,6 @@
 ---
 title: Para Voluntarios
-description: Informacion para voluntarios de austria en aleman
+description: Informacion para voluntarios en aleman
 type: page
 menu:
   main:
