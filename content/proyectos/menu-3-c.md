@@ -8,3 +8,5 @@ menu:
     weight: 3
 ---
 [contenido](youtube.com)
+
+![gente divertida](/img/1474227455644.jpg)
