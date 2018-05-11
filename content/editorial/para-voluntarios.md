@@ -13,7 +13,7 @@ menu:
 
 Wo?
 
-* Am besten in der nähe oder wo es gute Öffis Verkehrsanbindung zu Acisam gibt. Hier k
+* Am besten in der nähe von Acisam, links von der Universität oder wo es gute Öffis Verkehrsanbindung zu Acisam gibt. Hier können die Lokals unterstützen.
 
 Optionen:                                                                                                                
 
@@ -26,19 +26,13 @@ Optionen:
   +503 7885 1951
   <https://www.facebook.com/Alexas-Casa-de-Huespedes-535957356487203/>
 * Airbnb ist teuer die Wohnungen haben aber meist einen guten Standard, man kann die VermieterInnen für preise für längerne Zeit kontaktieren und dann verhandeln. ~200-300$/Monat
-* Beim Mitarbeitern
+* Bei MitarbeiterInnen
 
 
 
-Achtung: Kalte Dusche und Ungeziefer sind hier normal. Waschmaschinen gibt es aber sehr oft. 
+Achtung: Kalte Dusche und Ungeziefer sind hier normal. Waschmaschinen gibt es normalerweise. 
 
 
-
-
-
-
-
- 
 
 ## Visum
 
