@@ -1,6 +1,6 @@
 ---
-title: '{{slug}}'
-description: '{{slug}}'
+title: Voluntariado
+description: Informacion para voluntarios en aleman
 type: page
 menu:
   main:
