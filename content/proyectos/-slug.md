@@ -7,11 +7,23 @@ menu:
     parent: Proyectos
     weight: '7'
 ---
-# PRUEBA DE TEXTO
+# PROGRAMA DE FAMILIA A FAMILIA:
 
+**¿Qué es?** es un programa que brinda atención a personas con enfermedades mentales y a sus familiares cuidadores en El Salvador, Nicaragua, Costa Rica y Panamá. Además realiza acciones de incidencia pública mediante la participación en instituciones de gobierno y creación de alianzas  para procurar el cumplimiento de los Derechos Humanos de las personas con discapacidad mental.
 
+**¿Cómo lo hace?** mediante dos modelos de atención especial para personas con enfermedades mentales y para los familiares cuidadores: 
 
+**1. Modelo "de familia a familia"**: con este modelo se brinda atención a familiares que cuidan a personas con enfermedades mentales mediante talleres educativos, de desahogo y autoayuda. El enfoque de trabajo es comunitario y de Derechos Humanos, la metodología que  se utiliza es la de educación entre iguales.
 
+**2. Guía de arte y recuperación "un encuentro con mi interior":  **es un modelo de atención para personas usuarias  en el cual se brindan talleres psicoeducativos, de autoayuda y de crecimiento personal. El enfoque de trabajo es comunitario y de Derechos Humanos, la metodología que  se utiliza es la de educación entre iguales.
+
+**¿Cuánto tiempo duran los talleres? **generalmente los talleres para familiares duran alrededor de tres meses al igual que los talleres para personas usuarias, en algunos casos estos últimos se extienden por más tiempo.
+
+**¿Quiénes pueden apoyar? **personas afines a las carreras de trabajo social, psicología y diseño gráfico.
+
+**Contacto para mayor información: **Nelson Flamenco, Coordinador del programa: familiasaludmental@gmail.com/  Cecilia Almendarez, facilitadora del proyecto: redregionaldesaludmental@gmail.com
+
+**Requisitos: **tener disposición de trabajar los sábados y dominio del español en un 50% o más.
 
 # Informaciones adiccionales en aleman
 
