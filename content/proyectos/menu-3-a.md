@@ -1,5 +1,5 @@
 ---
-title: Red SAN
+title: Red C.A. de Salud Mental
 description: title.
 type: page
 menu:
