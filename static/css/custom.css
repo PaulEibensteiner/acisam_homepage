@@ -1,3 +1,13 @@
+p {
+    margin-bottom: 1.15em;
+    margin-top: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1.15em;
+}
+
 .content>p, .content>h1, .content>h2 {
     padding-left: .5rem;
     padding-right: .5rem;
@@ -49,11 +59,6 @@ margin-right: auto;
     max-width: 66.6667%;
     padding-left: 0.5em;
     padding-right: 0.5em;
-}
-
-p {
-    padding: 0;
-    margin: 0;
 }
 
 .mh-7 {
@@ -165,12 +170,13 @@ a {
     }
 }
 
-ul {
+.menü > ul {
+    display: none;
     z-index: 2;
 }
 
-.menü > ul {
-    display: none;
+ul.nav {
+    z-index: 2;
 }
 
 .menü:hover > ul {
@@ -300,6 +306,7 @@ h2 {
 
 h1 {
     text-transform: uppercase;
+    margin-top: 2.30em;
 }
 
 li {
