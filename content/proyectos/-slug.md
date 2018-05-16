@@ -15,15 +15,15 @@ menu:
 
 **1. Modelo "de familia a familia"**: con este modelo se brinda atención a familiares que cuidan a personas con enfermedades mentales mediante talleres educativos, de desahogo y autoayuda. El enfoque de trabajo es comunitario y de Derechos Humanos, la metodología que  se utiliza es la de educación entre iguales.
 
-**2. Guía de arte y recuperación "un encuentro con mi interior":  **es un modelo de atención para personas usuarias  en el cual se brindan talleres psicoeducativos, de autoayuda y de crecimiento personal. El enfoque de trabajo es comunitario y de Derechos Humanos, la metodología que  se utiliza es la de educación entre iguales.
+**2. Guía de arte y recuperación "un encuentro con mi interior":** es un modelo de atención para personas usuarias  en el cual se brindan talleres psicoeducativos, de autoayuda y de crecimiento personal. El enfoque de trabajo es comunitario y de Derechos Humanos, la metodología que  se utiliza es la de educación entre iguales.
 
-**¿Cuánto tiempo duran los talleres? **generalmente los talleres para familiares duran alrededor de tres meses al igual que los talleres para personas usuarias, en algunos casos estos últimos se extienden por más tiempo.
+**¿Cuánto tiempo duran los talleres?** generalmente los talleres para familiares duran alrededor de tres meses al igual que los talleres para personas usuarias, en algunos casos estos últimos se extienden por más tiempo.
 
-**¿Quiénes pueden apoyar? **personas afines a las carreras de trabajo social, psicología y diseño gráfico.
+**¿Quiénes pueden apoyar?** personas afines a las carreras de trabajo social, psicología y diseño gráfico.
 
-**Contacto para mayor información: **Nelson Flamenco, Coordinador del programa: familiasaludmental@gmail.com/  Cecilia Almendarez, facilitadora del proyecto: redregionaldesaludmental@gmail.com
+**Contacto para mayor información:** Nelson Flamenco, Coordinador del programa: familiasaludmental@gmail.com/  Cecilia Almendarez, facilitadora del proyecto: redregionaldesaludmental@gmail.com
 
-**Requisitos: **tener disposición de trabajar los sábados y dominio del español en un 50% o más.
+**Requisitos:** tener disposición de trabajar los sábados y dominio del español en un 50% o más.
 
 # Informaciones adiccionales en aleman
 
