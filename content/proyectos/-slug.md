@@ -11,6 +11,7 @@ menu:
 
 **¿Qué es?** es un programa que brinda atención a personas con enfermedades mentales y a sus familiares cuidadores en El Salvador, Nicaragua, Costa Rica y Panamá. Además realiza acciones de incidencia pública mediante la participación en instituciones de gobierno y creación de alianzas  para procurar el cumplimiento de los Derechos Humanos de las personas con discapacidad mental.
 
+
 ¿Cómo lo hace? mediante dos modelos de atención especial para personas con enfermedades mentales y para los familiares cuidadores: 
 
 **1. Modelo "de familia a familia"**: con este modelo se brinda atención a familiares que cuidan a personas con enfermedades mentales mediante talleres educativos, de desahogo y autoayuda. El enfoque de trabajo es comunitario y de Derechos Humanos, la metodología que  se utiliza es la de educación entre iguales.
