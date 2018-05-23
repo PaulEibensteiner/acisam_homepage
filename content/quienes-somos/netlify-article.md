@@ -7,4 +7,4 @@ menu:
     parent: Alianza
     weight: 1
 ---
-
+![Rio con personas](/img/Rio.jpg)
