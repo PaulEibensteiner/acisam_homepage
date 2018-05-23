@@ -7,4 +7,8 @@ menu:
     parent: Alianza
     weight: 1
 ---
+{{% imagen-derecha %}}
+
 ![Rio con personas](/img/Rio.jpg)
+
+{{% /imagen-derecha %}}
