@@ -62,10 +62,10 @@ function showDivs(n) {
 
 
 
- var initial = window.setTimeout(
+/* var initial = window.setTimeout(
         function() {
             plusDivs(1)
-        }, 3000);
+        }, 3000);*/
 
 function reset() {
     window.clearTimeout(initial);
@@ -83,4 +83,73 @@ function plusDivs(n) {
 function currentDiv(n) {
   showDivs(slideIndex = n);
     reset();
+}
+
+// mobiles menu
+
+function removeClass(elements, myClass) {
+
+  // if there are no elements, we're done
+  if (!elements) { return; }
+
+  // if we have a selector, get the chosen elements
+  if (typeof(elements) === 'string') {
+    elements = document.querySelectorAll(elements);
+  }
+
+  // if we have a single DOM element, make it an array to simplify behavior
+  else if (elements.tagName) { elements=[elements]; }
+
+  // create pattern to find class name
+  var reg = new RegExp('(^| )'+myClass+'($| )','g');
+
+  // remove class from all chosen elements
+  for (var i=0; i<elements.length; i++) {
+    elements[i].className = elements[i].className.replace(reg,' ');
+  }
+}
+
+function addClass(elements, myClass) {
+
+  // if there are no elements, we're done
+  if (!elements) { return; }
+
+  // if we have a selector, get the chosen elements
+  if (typeof(elements) === 'string') {
+    elements = document.querySelectorAll(elements);
+  }
+
+  // if we have a single DOM element, make it an array to simplify behavior
+  else if (elements.tagName) { elements=[elements]; }
+
+  // add class to all chosen elements
+  for (var i=0; i<elements.length; i++) {
+
+    // if class is not already found
+    if ( (' '+elements[i].className+' ').indexOf(' '+myClass+' ') < 0 ) {
+
+      // add class
+      elements[i].className += ' ' + myClass;
+    }
+  }
+}
+
+function toggle(subjekt) {
+    if (subjekt.parentElement.classList.contains('cliked')) {
+            subjekt.parentElement.classList.toggle("cliked");
+            
+        }
+    else {
+        removeClass(subjekt.parentElement.parentElement.children, "cliked");
+        addClass(subjekt.parentElement, "cliked");
+    }
+    
+}
+
+// button animation
+
+function showmenu(subjekt) {
+    document.getElementById( 'nav' ).classList.toggle("dn");
+    document.getElementById( "header" ).classList.toggle("mb7");
+    subjekt.classList.toggle("opened");
 }

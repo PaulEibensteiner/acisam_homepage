@@ -7,7 +7,7 @@
             <img src="{{ $featured_image }}" class=" grow w-100" alt="image from {{ .Title }}" />
           </a>
       {{ end }}
-      <div class="white bg-dark-blue {{ if .Params.featured_image }}ph4 pv3 absolute w-100 bottom-0 {{ else }}h-100 pa5 {{ end }}">
+      <div class="white bg-dark-blue {{ if .Params.featured_image }}ph4 pv3 absolute-ns w-100 bottom-0 {{ else }}h-100 pa5 {{ end }}">
           <div class="cf w-100" >
           <a href="{{.URL}}" class="fl dim link white tl">
         <h2 class="dib f3 lh-title ma0">

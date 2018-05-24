@@ -13,6 +13,18 @@ link zum red wo hin?
 aenderung: seitenquelldaten sind auf github oben, aber hosting nicht ueber github direkt moeglich (weil keine hugo engine und nicht so gutes hosting wie netlify) also hosting auf netlify machen - dafuer brauch ich dann kein forestry. acisam.ngo kann einfach gekauft werden und hinzugefuegt werden, keine anderen laufenden kosten.
 netflify cms: ich kann mglw bilder in den posts saven, wenn ich den slash vor public folder weg lasse
 
+x admin erklaeren vorbereiten
+
+x imagen-isquierda
+x video
+x schriftfarben und gr
+x justificar
+x hugo will wie bei der red centroamericana seite informes mit link zu issuu und videos von youtube auf startseite
+
+visitor count?
+
+translation float right shortcode
+
 mobile version
 
 alle dateien ueberpruefen
@@ -26,3 +38,5 @@ indents schoen machen
 impressum
 
 mit hugo gemeinsam erklaerungen (vor allem im config file) hinzufuegen
+
+mobile first beim menu umsetzen

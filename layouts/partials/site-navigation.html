@@ -1,28 +1,36 @@
-<nav class="fl w-five-sixth border-box" role="navigation">
-      <h1 class="ttu b black ph2 bg-white ma0 uberschrift">{{ .Site.Title }}</h1>
-    <div class="ma0 pa0 absolute firstnav w-five-sixth">
-	<ul class="b f5 ttu absolute nav ml2 pr3 pl0 mr0 ma0 bg-blue">
+<nav id="nav" class="z-3 mobilenav w-five-sixth-ns absolute strech-ns border-box db-ns dn" role="navigation">
+    <h1 class="ttu b black ph2 w-100 h-25 bg-white ma0 uberschrift dn db-ns">{{ .Site.Title }}</h1>
+	<ul class="b nav f5 ttu w-100 h-75 ph2 ma0-ns pa0-ns">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-        <li class="white ph2 db list h-100 w-20 fl tc menü {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
-          <a href="{{ .URL }}" class="h-100 db w-100 relative list nav-button">
-              <div class="linkwrap">
+        <li class="white bg-blue db list h-100-ns w-20-ns w-100 fl-ns tc-ns menü firstlastborder ph2-ns ph1 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+          <a href="{{ .URL }}" class="h-100-ns db-ns dib w-100-ns ph2-ns ph1 pv3 relative list nav-button">
+              <div class="linkwrap-ns di">
             {{ .Pre }}
             {{ .Name }}
               </div>
           </a>
       {{ if .HasChildren }}
-          <ul class="list tc sub-menu pa0 w-100">
-            <div class="arrowup"></div>
+            <button onclick="toggle(this)" class="ph1 pv3 h2-5 fr db dn-ns" aria-expanded="false">
+                <span class="screen-reader-text">Menu</span>
+                {{ partial "svg/masicon.svg" }}
+            </button>
+          <ul class="w-100-ns w-100 submenu ph2 pa0-ns">
+            <div class="arrowtop dn db-ns">
+              </div>
             {{ range .Children }}
-              <li class="bg-blue white menü relative ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+              <li class="tc-ns list bg-blue white menü relative ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
                 <a href="{{ .URL }}" class="no-underline">{{ .Name }}</a>
       {{ if .HasChildren }}
-                  <ul class="absolute list tc thirdnav ma0 pl3 w-100">
-                    <div class="arrowleft"></div>
+             <button onclick="toggle(this)" id="mydiv" class="h1 fr db dn-ns" aria-expanded="false">
+                <span class="screen-reader-text">Menu</span>
+                {{ partial "svg/masicon.svg" }}
+            </button>
+                  <ul class="absolute-ns list thirdnav-ns ma0-ns pa0 pl3-ns w-100 thirdnav bg-black-10 bg-transparent-ns">
+                    <div class="arrowleft dn db-ns"></div>
                       {{ range .Children }}
-                      <li class="bg-blue white ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
-                  <a href="{{ .URL }}" class="no-underline">{{ .Name }}</a>
+                      <li class="bg-blue-ns white ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+                  <a href="{{ .URL }}" class="no-underline ma0 pa0">{{ .Name }}</a>
                       </li>
                       {{ end }}
                   </ul>
@@ -34,5 +42,10 @@
 			</li>
     {{end}}
   </ul>
- </div>
 </nav>
+<div class="w-two-thirds cf absolute strech db dn-ns bg-blue">
+    <button onclick="showmenu(this);" class="menu-toggle h-100 w-25 fr ph2" id="menu-toggle" aria-expanded="false">
+        <span class="screen-reader-text">Menu</span>
+        {{ partial "svg/burgericon.svg" }}
+    </button>
+</div>
