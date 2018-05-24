@@ -11,7 +11,7 @@
               </div>
           </a>
       {{ if .HasChildren }}
-            <button onclick="toggle(this)" class="ph2 pv3 h2-5 absolute right-0 top-0 db dn-ns" aria-expanded="false">
+            <button onclick="toggle(this)" class="ph2 pv3 h2-5 w2-5 absolute right-0 top-0 di dn-ns" aria-expanded="false">
                 <span class="screen-reader-text">Menu</span>
                 {{ partial "svg/masicon.svg" }}
             </button>
@@ -22,7 +22,7 @@
               <li class="tc-ns list bg-blue white menü relative ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
                 <a href="{{ .URL }}" class="no-underline">{{ .Name }}</a>
       {{ if .HasChildren }}
-             <button onclick="toggle(this)" id="mydiv" class="h1 fr db dn-ns" aria-expanded="false">
+             <button onclick="toggle(this)" class="h2-5 w2-5 absolute right-0 top-0 ma0 pv3 ph2 db dn-ns" aria-expanded="false">
                 <span class="screen-reader-text">Menu</span>
                 {{ partial "svg/masicon.svg" }}
             </button>
