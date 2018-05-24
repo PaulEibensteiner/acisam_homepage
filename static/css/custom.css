@@ -2,6 +2,13 @@
     line-height: 0.7;
 }
 
+.bodywrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 80rem;
+}
+
 .ancho>p>img {
     max-width: 100%;
 }
@@ -188,6 +195,12 @@ ul.nav {
 /* mobile menu */
 
 @media screen and (min-width:30em) {
+    .bodywrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 80rem;
+    }
     .menü:hover > ul {
     display: block;
     }
@@ -286,13 +299,6 @@ ul.nav {
     max-height: 8em;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.bodywrap {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    max-width: 80rem;
 }
 
 

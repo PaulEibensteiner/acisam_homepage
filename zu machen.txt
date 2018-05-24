@@ -8,10 +8,12 @@ social media hinzufuegbar machen
 
 link zum red wo hin?
 
------
-
 aenderung: seitenquelldaten sind auf github oben, aber hosting nicht ueber github direkt moeglich (weil keine hugo engine und nicht so gutes hosting wie netlify) also hosting auf netlify machen - dafuer brauch ich dann kein forestry. acisam.ngo kann einfach gekauft werden und hinzugefuegt werden, keine anderen laufenden kosten.
 netflify cms: ich kann mglw bilder in den posts saven, wenn ich den slash vor public folder weg lasse
+
+mobile version
+
+-----
 
 x admin erklaeren vorbereiten
 
@@ -25,7 +27,7 @@ visitor count?
 
 translation float right shortcode
 
-mobile version
+
 
 alle dateien ueberpruefen
 
