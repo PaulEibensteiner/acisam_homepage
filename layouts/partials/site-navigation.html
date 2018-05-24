@@ -3,15 +3,15 @@
 	<ul class="b nav f5 ttu w-100 h-75 ph2 ma0-ns pa0-ns">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-        <li class="white bg-blue db list h-100-ns w-20-ns w-100 fl-ns tc-ns menü firstlastborder ph2-ns ph1 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
-          <a href="{{ .URL }}" class="h-100-ns db-ns dib w-100-ns ph2-ns ph1 pv3 relative list nav-button">
+        <li class="relative white bg-blue db list h-100-ns w-20-ns w-100 fl-ns tc-ns menü firstlastborder ph2-ns ph1 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+          <a href="{{ .URL }}" class="h-100-ns db-ns db w-100 ph2-ns pl1 pr3 pv3 relative list nav-button">
               <div class="linkwrap-ns di">
             {{ .Pre }}
             {{ .Name }}
               </div>
           </a>
       {{ if .HasChildren }}
-            <button onclick="toggle(this)" class="ph1 pv3 h2-5 fr db dn-ns" aria-expanded="false">
+            <button onclick="toggle(this)" class="ph2 pv3 h2-5 absolute right-0 top-0 db dn-ns" aria-expanded="false">
                 <span class="screen-reader-text">Menu</span>
                 {{ partial "svg/masicon.svg" }}
             </button>
