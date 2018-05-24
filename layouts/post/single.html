@@ -8,20 +8,18 @@
     </div>
       {{ if .Params.featured_image }}
       {{ $featured_image := .Params.featured_image | relURL }}
-        <img src="{{ $featured_image }}" class="ph2 fl w-two-thirds border-box" alt="image from {{ .Title }}" />
-          <div class="w-third fl ph2">
-      {{ partial "menu-contextual.html" . }}
-    </div>
-    <article class="fl content mv3 w-two-thirds">
-        {{ .Content }}
-    </article>
+      <div  class="ancho mv3-ns w-100 ph2">
+          <p>
+        <img src="{{ $featured_image }}" class="" alt="image from {{ .Title }}" />
+            </p>
+      </div>
       {{ else }}
-      <article class="fl content w-two-thirds">
-        {{ .Content }}
-    </article>
-    <div class="w-third fl ph2">
+      {{ end }}
+    <article class="content">
+    <div class="derecha fr w-third-ns w-100 ph2 dn db-ns">
       {{ partial "menu-contextual.html" . }}
     </div>
-      {{ end }}
+        {{ .Content }}
+    </article>
   </section>
 {{ end }}
