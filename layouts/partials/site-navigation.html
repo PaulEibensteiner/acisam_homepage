@@ -3,8 +3,8 @@
 	<ul class="b nav f5 ttu w-100 h-75 ph2 ma0-ns pa0-ns">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-        <li class="cf white bg-blue db list h-100-ns w-20-ns w-100 fl-ns tc-ns menü firstlastborder ph2-ns ph1 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
-          <a href="{{ .URL }}" class="h-100-ns db-ns fl dib w-100-ns ph2-ns pl1 pr3 pv3 list">
+        <li class="cf white bg-blue db list h-100-ns w-20-ns w-100 fl-ns tc-ns menü firstlastborder ph2-ns ph2 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+          <a href="{{ .URL }}" class="relative h-100-ns db-ns fl dib w-100-ns ph2-ns pl0 pr3 pv3 list">
               <div class="linkwrap-ns di">
             {{ .Pre }}
             {{ .Name }}
