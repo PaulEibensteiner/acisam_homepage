@@ -13,9 +13,9 @@ netflify cms: ich kann mglw bilder in den posts saven, wenn ich den slash vor pu
 
 mobile version
 
------
+x schrift justify, view counter?
 
-x schrift justify, visitor count
+-----
 
 1. Css durchgehn und alles auf tachyons style bringen. Schaun ob css kombiniert werden, wenn ja anderes dokument machen und aufteilen. seite mal bauen und schaun was raus kommt, mglw. theme entfernen. Bildpfade ueberlegen
 

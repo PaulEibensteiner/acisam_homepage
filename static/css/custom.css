@@ -203,6 +203,9 @@ ul.nav {
 /* mobile menu */
 
 @media screen and (min-width:30em) {
+    p {
+        text-align: justify;
+    }
     .bodywrap {
     margin-left: auto;
     margin-right: auto;
