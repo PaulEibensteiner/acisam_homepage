@@ -1,6 +1,6 @@
 DefaultContentLanguage = "es"
 MetaDataFormat = "yaml"
-baseURL = "https://www.acisam.com"
+baseURL = "https://www.acisam.netlify.com"
 enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "es-sv"
