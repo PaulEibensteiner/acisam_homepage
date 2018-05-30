@@ -1,35 +1,20 @@
 {{ define "main" }}
-          {{ partial "site-contentdisplay.html" . }}
-{{ if .Data.Pages }}
-<section class="pa2 bodywrap">
-    <h2 class="mh2">Paginas en esta Categoría</h2>
-    <ul class="cf w-100 ma0 pa0">
-    <!-- Ranges through content/post/*.md -->
-        {{ $unterseiten  := union .Pages .Sections }}
-    {{ range $unterseiten.ByWeight }}
-        <li class="relative db fl w-sixth-ns w-50 ma0 h-0 pt-100">
-            <a href="{{.Permalink}}" class="ma2 absolute bg-blue db absolute absolute--fill link">
-            <h3 class="db abs-vert-center white tc ma0 pa0 w-100">
-                {{.Title}}
-                </h3>
-            </a>
-        </li>
-    {{ end }}
-    </ul>
-</section>
-{{ end }}
-
-<!--<section class="ma2">
-    <ul class="">
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-        <li>
-            <a href="{{ .URL }}">
-                {{ .Pre }}
-                {{ .Name }}
-            </a>
-        </li>
-        {{ end }}
-    </ul>
-</section>-->
+{{ partial "site-contentdisplay.html" . }}
+	{{ if .Data.Pages }}
+	<section class="pa2 bodywrap">
+		<h2 class="mh2">Paginas en esta Categoría</h2>
+		<ul class="cf w-100 ma0 pa0">
+			<!-- Ranges through content/post/*.md -->
+			{{ $unterseiten := union .Pages .Sections }} {{ range $unterseiten.ByWeight }}
+			<li class="relative db fl w-sixth-ns w-50 ma0 h-0 pt-100">
+				<a href="{{.Permalink}}" class="ma2 bg-blue db absolute--fill absolute link">
+					<h3 class="db abs-vert-center white tc ma0 pa0 w-100">
+						{{.Title}}
+					</h3>
+				</a>
+			</li>
+			{{ end }}
+		</ul>
+	</section>
+	{{ end }}
 {{ end }}

@@ -1,25 +1,25 @@
 {{ define "main" }}
-  <section class="bodywrap cf ph2 pv3">
-    <div class="cf">
-    <h2 class="mv3 pa2 fl">{{ .Title }}</h2>    <time class="fl pv2 mv3 l mh2 mb3 mt0 db lh-1875">
-              {{ .Date.Day }} de {{ index $.Site.Data.mes (printf "%d" .Date.Month) }} {{ .Date.Year }} 
-    </time>
-    <p class="mh2 mv3 fr bg-blue white b pa2 lh-1875">{{ humanize .Section | upper  }}</p>
-    </div>
-      {{ if .Params.featured_image }}
-      {{ $featured_image := .Params.featured_image | relURL }}
-      <div  class="ancho mv3-ns w-100 ph2">
-          <p>
-        <img src="{{ $featured_image }}" class="" alt="image from {{ .Title }}" />
-            </p>
-      </div>
-      {{ else }}
-      {{ end }}
-    <article class="content">
-    <div class="derecha fr w-third-ns w-100 ph2 dn db-ns">
-      {{ partial "menu-contextual.html" . }}
-    </div>
-        {{ .Content }}
-    </article>
-  </section>
+	<section class="bodywrap cf ph2 pv3">
+		<div class="cf">
+			<h2 class="mv3 pa2 fl">{{ .Title }}</h2>
+			<time class="fl pv2 mv3 l mh2 mb3 mt0 db lh-1875">
+					  {{ .Date.Day }} de {{ index $.Site.Data.mes (printf "%d" .Date.Month) }} {{ .Date.Year }} 
+		 	</time>
+			<p class="mh2 mv3 fr bg-blue white b pa2 lh-1875">{{ humanize .Section | upper }}</p>
+		</div>
+		{{ if .Params.featured_image }}
+		{{ $featured_image := .Params.featured_image | relURL }}
+		<div class="ancho mv3-ns w-100 ph2">
+			<p>
+				<img src="{{ $featured_image }}" class="" alt="image from {{ .Title }}" />
+			</p>
+		</div>
+		{{ else }} {{ end }}
+		<article class="content">
+			<div class="derecha fr w-third-ns w-100 ph2 dn db-ns">
+				{{ partial "menu-contextual.html" . }}
+			</div>
+			{{ .Content }}
+		</article>
+	</section>
 {{ end }}

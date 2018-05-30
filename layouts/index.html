@@ -1,85 +1,77 @@
 {{ define "head" }}
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {{ end }}
 {{ define "main" }}
-  <article class="bodywrap">
-    {{ .Content }}
-  </article>
-  {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
-  {{ $mainSections := .Site.Params.mainsection | default (slice "novedades") }}
-  {{/* Create a variable with that section to use in multiple places. */}}
-  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
-  {{/* Check to see if the section is defined for ranging through it */}}
-  {{ $section_count := len $section }}
-  {{ if ge $section_count 1 }}
-    {{/* Derive the section name  */}}
-    {{ $section_name := index (.Site.Params.mainSections) 0 }}
-      
-    <section class="cf recents pv3 ph2 bodywrap">
-          <h2 class="mh2">
-            <a class="link" href="{{ .URL }}">{{ .Title }}</a>
-          </h2>
-      {{ $n_posts := $.Param "recent_posts_number" | default 4 }}
-<!--Artikel Anfang, hier waren zwei divs-->
-			<div class="ph2 pv2 carousel fl w-100 w-two-thirds-ns relative h26-ns">
-        {{/* Range through the first $n_posts items of the section */}}
-        {{ range (first $n_posts $section) }}
-            {{ partial "summary-with-image.html" . }}
-        {{ end }}
-<!--Artikel Ende-->
-      {{ if ge $section_count (add $n_posts 1) }}
-<!--Slide Knöpfe-->
-		<button type="button" class="white abs-vert-center left-0 button dim ma2 pa2 white bg-transparent" onclick="plusDivs(-1)">&#10094;</button>
-    <button type="button" class="abs-vert-center right-0 button pa2 ma2 dim white bg-transparent" onclick="plusDivs(1)">&#10095;</button>
-				<div class="carouselelements tc">
-					<span class="buttonwrapper">
-                        {{ range $index, $num := (seq $n_posts) }}
-                            {{$indexStartingAt1 := (add $index 1)}}
-                            <button class="button circle js-badge w1 h1 mr1 bg-white-60 pa0" onclick="currentDiv({{$indexStartingAt1}})"></button>
-                        {{ end }}
-						</span>
-					</div>
-				</div>
-<!--Mehr Anfang-->
-      <div class="w-100 w-third-ns fl">
-        {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
-        {{ range (first 4 (after $n_posts $section))  }}
-				<!--den part vl in partial abtrennen?-->
-				{{ $featured_image := .Params.featured_image }}
-				<article class="pa2 w-50 fl relative" style="height: 13rem">
-					{{ if .Params.featured_image }}
-        {{ $featured_image := $featured_image | relURL }}
-          <a href="{{.URL}}" class="db h-100 overflow-hidden">
-            <img src="{{ $featured_image }}" class="center grow h-100" alt="image from {{ .Title }}" />
-          </a>
-      {{ end }}
-				
-            <a href="{{ .URL }}" class="link db pa0 white{{ if .Params.featured_image }} ma2 absolute show absolute--fill bg-black-20{{ else }} relative bg-blue h-100 w-100 {{ end }}">
-          <h2 class="db abs-vert-center mva w-100 tc">
-              {{ .Title }}
-          </h2>
-							
-            </a>
-				</article>
-        {{ end }}
-      {{ end }}
-
-      </div>
-			
-        </section>
-  {{ end }}
+	<article class="bodywrap">
+		{{ .Content }}
+	</article>
+	{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
+	{{ $mainSections := .Site.Params.mainsection | default (slice "novedades") }}
+	{{/* Create a variable with that section to use in multiple places. */}}
+	{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+	{{/* Check to see if the section is defined for ranging through it */}}
+	{{ $section_count := len $section }}
+	{{ if ge $section_count 1 }}
+	{{/* Derive the section name */}}
+	{{ $section_name := index (.Site.Params.mainSections) 0 }}
+	<section class="cf recents pv3 ph2 bodywrap">
+		<h2 class="mh2">{{ .Title }}</h2>
+		{{ $n_posts := $.Param "recent_posts_number" | default 4 }}
+		<!--Artikel Anfang, hier waren zwei divs-->
+		<div class="ph2 pv2 fl w-100 w-two-thirds-ns relative h26-ns">
+			{{/* Range through the first $n_posts items of the section */}}
+			{{ range (first $n_posts $section) }}
+			{{ partial "summary-with-image.html" . }} {{ end }}
+			<!--Artikel Ende-->
+			{{ if ge $section_count (add $n_posts 1) }}
+			<!--Slide Knöpfe-->
+			<button type="button" class="white abs-vert-center left-0 f1 dim ma2 pa2 white bg-transparent" onclick="plusDivs(-1)">&#10094;</button>
+			<button type="button" class="abs-vert-center right-0 f1 pa2 ma2 dim white bg-transparent" onclick="plusDivs(1)">&#10095;</button>
+			<div class="absolute w-100 tc top-1">
+				<span class="center">
+				{{ range $index, $num := (seq $n_posts) }}
+					{{$indexStartingAt1 := (add $index 1)}}
+					<button class="button circle js-badge w1 h1 mr1 bg-white-60 pa0" onclick="currentDiv({{$indexStartingAt1}})"></button>
+				{{ end }}
+				</span>
+			</div>
+		</div>
+		<!--Mehr Anfang-->
+		<div class="w-100 w-third-ns fl">
+			{{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
+			{{ range (first 4 (after $n_posts $section)) }}
+			<!--den part vl in partial abtrennen?-->
+			{{ $featured_image := .Params.featured_image }}
+			<article class="pa2 w-50 fl relative" style="height: 13rem">
+				{{ if .Params.featured_image }}
+				{{ $featured_image := $featured_image | relURL }}
+				<a href="{{.URL}}" class="db h-100 overflow-hidden">
+					<img src="{{ $featured_image }}" class="center grow h-100" alt="image from {{ .Title }}" />
+				 </a>
+				{{ end }}
+				<a href="{{ .URL }}" class="link db pa0 white{{ if .Params.featured_image }} ma2 absolute show absolute--fill bg-black-20{{ else }} relative bg-blue h-100 w-100 {{ end }}">
+					<h2 class="db abs-vert-center mva w-100 tc">
+						{{ .Title }}
+					</h2>
+				</a>
+			</article>
+			{{ end }}
+			{{ end }}
+		</div>
+	</section>
+	{{ end }}
 {{ end }}
 {{ define "indexscript" }}
-<!--     netlify link     -->
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
+	<!--     netlify link     -->
+	<script>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+				if (!user) {
+					window.netlifyIdentity.on("login", () => {
+						document.location.href = "/admin/";
+					});
+				}
+			});
+		}
+	</script>
 {{ end }}

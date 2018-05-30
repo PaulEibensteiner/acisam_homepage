@@ -1,50 +1,49 @@
-<nav id="nav" class="z-3 mobilenav w-five-sixth-ns absolute strech-ns border-box db-ns dn" role="navigation">
-    <h1 class="ttu b black ph2 w-100 h-25 bg-white ma0 uberschrift dn db-ns">{{ .Site.Title }}</h1>
-	<ul class="b nav f5 ttu w-100 h-75 ph2 ma0-ns pa0-ns">
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-        <li class="cf white bg-blue db list h-100-ns w-20-ns w-100 fl-ns tc-ns menü firstlastborder ph2-ns ph2 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
-          <a href="{{ .URL }}" class="relative h-100-ns db-ns fn-ns fl d w-100-ns ph2-ns ma0-ns pa0-ns pl0 mr3 pr0 pv3 list">
-              <div class="linkwrap-ns di">
-            {{ .Pre }}
-            {{ .Name }}
-              </div>
-          </a>
-      {{ if .HasChildren }}
-            <button onclick="toggle(this)" class="ph0 pv3 h2-5 w1 ml--1 dib fr dn-ns">
-                <span class="screen-reader-text">Menu</span>
-                {{ partial "svg/masicon.svg" }}
-            </button>
-          <ul class="w-100-ns w-100 submenu ph2 pa0-ns">
-            <div class="arrowtop dn db-ns">
-              </div>
-            {{ range .Children }}
-              <li class="tc-ns list bg-blue white menü relative ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
-                <a href="{{ .URL }}" class="no-underline">{{ .Name }}</a>
-      {{ if .HasChildren }}
-             <button onclick="toggle(this)" class="h2-5 w2-5 absolute right-0 top-0 ma0 pv3 ph2 db dn-ns" aria-expanded="false">
-                <span class="screen-reader-text">Menu</span>
-                {{ partial "svg/masicon.svg" }}
-            </button>
-                  <ul class="absolute-ns list thirdnav-ns ma0-ns pa0 pl3-ns w-100 thirdnav bg-black-10 bg-transparent-ns">
-                    <div class="arrowleft dn db-ns"></div>
-                      {{ range .Children }}
-                      <li class="bg-blue-ns white ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
-                  <a href="{{ .URL }}" class="no-underline ma0 pa0">{{ .Name }}</a>
-                      </li>
-                      {{ end }}
-                  </ul>
-                      {{ end }}
-              </li>
-            {{ end }}
-          </ul>
-      {{end}}
-			</li>
-    {{end}}
-  </ul>
+<nav id="nav" class="top-0 mt-22 mt0-ns z-3 w-50 w-five-sixth-ns absolute stretch-left-ns border-box db-ns dn" role="navigation">
+	<h1 class="ttu b black ph2 w-100 h-25 bg-white ma0 f-expand dn db-ns">{{ .Site.Title }}</h1>
+	<ul class="b f5 ttu w-100 h-75 ph2 ma0-ns pa0-ns">
+		{{ $currentPage := . }}
+		{{ range .Site.Menus.main }}
+		<li class="hover-white-ns cf white bg-blue db list h-100-ns w-20-ns w-100 fl-ns tc-ns hide-dc firstlastborder ph2 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+			<a href="{{ .URL }}" class="relative h-100-ns db-ns fn-ns fl d w-100-ns ph2-ns ma0-ns pa0-ns pl0 mr3 pr0 pv3 list">
+				<div class="linkwrap-ns di">
+					{{ .Pre }}
+					{{ .Name }}
+				</div>
+			</a>
+			{{ if .HasChildren }}
+			<button onclick="toggle(this)" class="ph0 pv3 h2-5 w1 ml--1 dib fr dn-ns">
+         	<span class="screen-reader-text">Abre Submenu</span>
+          	{{ partial "svg/masicon.svg" }}
+         </button>
+			<ul class="dc hide-dc dn z-2 w-100-ns w-100 absolute top-0 left-100 static-ns ph2 pa0-ns">
+				<div class="arrowtop dn db-ns"></div>
+				{{ range .Children }}
+				<li class="hide-dc hover-white-ns tc-ns list bg-blue white relative ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+					<a href="{{ .URL }}" class="no-underline">{{ .Name }}</a>
+					{{ if .HasChildren }}
+					<button onclick="toggle(this)" class="h2-5 w2-5 absolute right-0 top-0 ma0 pv3 ph2 db dn-ns" aria-expanded="false">
+						<span class="screen-reader-text">Abre Subusubmenu</span>
+						{{ partial "svg/masicon.svg" }}
+					</button>
+					<ul class="dc dn db-ns absolute-ns list top-0 left-100 mt3 mb--1 ma0-ns pa0 pl3-ns w-100 bg-black-10 bg-transparent-ns">
+						<div class="arrowleft dn db-ns"></div>
+						{{ range .Children }}
+						<li class="hover-white-ns bg-blue-ns white ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+							<a href="{{ .URL }}" class="no-underline ma0 pa0">{{ .Name }}</a>
+						</li>
+						{{ end }}
+					</ul>
+					{{ end }}
+				</li>
+				{{ end }}
+			</ul>
+			{{end}}
+		</li>
+		{{end}}
+	</ul>
 </nav>
-<div class="w-two-thirds cf absolute strech db dn-ns bg-blue">
-    <button onclick="showmenu(this);" class="menu-toggle h-100 w-25 fr ph2" id="menu-toggle" aria-expanded="false">
+<div class="w-two-thirds cf absolute stretch-left db dn-ns bg-blue">
+	<button onclick="showmenu(this);" class="menu-toggle h-100 w-25 fr ph2" id="menu-toggle" aria-expanded="false">
         <span class="screen-reader-text">Menu</span>
         {{ partial "svg/burgericon.svg" }}
     </button>

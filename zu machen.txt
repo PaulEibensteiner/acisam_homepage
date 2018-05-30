@@ -17,7 +17,7 @@ x schrift justify, view counter?
 
 -----
 
-1. Css durchgehn und alles auf tachyons style bringen. Schaun ob css kombiniert werden, wenn ja anderes dokument machen und aufteilen. seite mal bauen und schaun was raus kommt, mglw. theme entfernen. Bildpfade ueberlegen
+1. seite mal bauen und schaun was raus kommt, mglw. theme entfernen. Bildpfade ueberlegen. theme entfernen?
 
 2. Custom Widgets für folgende Funktionen in Netlify cms erstellen
 x imagen derecha/isquierda/ancho/video
@@ -30,3 +30,15 @@ x admin erklaeren vorbereiten, erklärungspdf
 x indents schoen machen
 
 x impressum
+
+x robots.txt
+
+x 505 site
+
+x active marker auf seite auf der du gerade bist
+
+x add opengraph?
+
+x partials menu und zusammenfassung anders aufteilen?
+
+x tags hinzufuegen?
