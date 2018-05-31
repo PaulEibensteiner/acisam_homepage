@@ -6,6 +6,8 @@ menu:
   main:
     weight: 1
 ---
+{{< image name="/img/Foto0060.jpg" >}}
+
 {{% imagen-derecha %}}
 !\[imagen por ejemplo](/img/post/2018/02/front page river.jpg "the river")
 {{% /imagen-derecha %}}
@@ -15,5 +17,3 @@ La asociación para el desarrollo y la investigación para la salud es una insti
 ACISAM se perfila con un aporte a la construcción de una sociedad basada en la justicia social y solidaridad humana.
 
 El Trabajo Institucional de ACISAM no se Limita un Las Intervenciones comunitarias O grupales Como Sino su nombre lo indica también Implica Esfuerzo para la Investigación y Publicación de Documentos Que sistematizan las Experiencias de la Misma Manera, ACISAM Realiza Capacitaciones Desarrolla Seminarios diplomados talleres cursos y participa en eventos especializados de psicología comunicación participativa y desarrollo territorial. población
-
-image /img/Foto0060.jpg
