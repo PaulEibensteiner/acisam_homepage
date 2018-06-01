@@ -13,33 +13,87 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^1.0.0/dist/cms.js"></script>
 	<script>
-CMS.registerEditorComponent({
-  // Internal id of the component
-  id: "imagen",
-  // Visible label
-  label: "Añadir Imagen",
-  // Fields the user need to fill out when adding an instance of the component
-  fields: [{name: 'id', label: 'Lugar del Imagen', widget: 'image'}],
-  // Pattern to identify a block as being an instance of this component
-  pattern: /{{< image name="(.+)" >}}/,
-  // Function to extract data elements from the regexp match
-  fromBlock: function(match) {
-    return {
-      id: match[1]
-    };
-  },
-  // Preview output for this component. Can either be a string or a React component
-  // (component gives better render performance)
-  toPreview: function(obj) {
-    return (
-      '<img src="' + '/images/' + obj.id + '" alt="image"/>'
-    );
-  },
-  // Function to create a text block from an instance of this component
-  toBlock: function(obj) {
-    return '{{< image name="' + obj.id.substring(8) + '" >}}';
-  }
-});
+		CMS.registerEditorComponent({
+		  // Internal id of the component
+		  id: "imagen-derecha",
+		  // Visible label
+		  label: "Añadir Imagen a la derecha",
+		  // Fields the user need to fill out when adding an instance of the component
+		  fields: [{name: 'id', label: 'Lugar del Imagen', widget: 'image'}],
+		  // Pattern to identify a block as being an instance of this component
+		  pattern: /{{< imagen-derecha name="(.+)" >}}/,
+		  // Function to extract data elements from the regexp match
+		  fromBlock: function(match) {
+			 return {
+				id: match[1]
+			 };
+		  },
+		  // Preview output for this component. Can either be a string or a React component
+		  // (component gives better render performance)
+		  toPreview: function(obj) {
+			 return (
+				'<img src="' + '/images/' + obj.id + '" alt="image"/>'
+			 );
+		  },
+		  // Function to create a text block from an instance of this component
+		  toBlock: function(obj) {
+			 return '{{< imagen-derecha name="' + obj.id.substring(8) + '" >}}';
+		  }
+		});
+		CMS.registerEditorComponent({
+		  // Internal id of the component
+		  id: "imagen-ancho",
+		  // Visible label
+		  label: "Añadir Imagen ancho",
+		  // Fields the user need to fill out when adding an instance of the component
+		  fields: [{name: 'id', label: 'Lugar del Imagen', widget: 'image'}],
+		  // Pattern to identify a block as being an instance of this component
+		  pattern: /{{< imagen-ancho name="(.+)" >}}/,
+		  // Function to extract data elements from the regexp match
+		  fromBlock: function(match) {
+			 return {
+				id: match[1]
+			 };
+		  },
+		  // Preview output for this component. Can either be a string or a React component
+		  // (component gives better render performance)
+		  toPreview: function(obj) {
+			 return (
+				'<img src="' + '/images/' + obj.id + '" alt="image"/>'
+			 );
+		  },
+		  // Function to create a text block from an instance of this component
+		  toBlock: function(obj) {
+			 return '{{< imagen-ancho name="' + obj.id.substring(8) + '" >}}';
+		  }
+		});
+		CMS.registerEditorComponent({
+		  // Internal id of the component
+		  id: "imagen-izquierda",
+		  // Visible label
+		  label: "Añadir Imagen a la izquierda",
+		  // Fields the user need to fill out when adding an instance of the component
+		  fields: [{name: 'id', label: 'Lugar del Imagen', widget: 'image'}],
+		  // Pattern to identify a block as being an instance of this component
+		  pattern: /{{< imagen-izquierda name="(.+)" >}}/,
+		  // Function to extract data elements from the regexp match
+		  fromBlock: function(match) {
+			 return {
+				id: match[1]
+			 };
+		  },
+		  // Preview output for this component. Can either be a string or a React component
+		  // (component gives better render performance)
+		  toPreview: function(obj) {
+			 return (
+				'<img src="' + '/images/' + obj.id + '" alt="image"/>'
+			 );
+		  },
+		  // Function to create a text block from an instance of this component
+		  toBlock: function(obj) {
+			 return '{{< imagen-izquierda name="' + obj.id.substring(8) + '" >}}';
+		  }
+		});
 	</script>
 </body>
 </html>

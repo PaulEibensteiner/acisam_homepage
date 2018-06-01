@@ -217,7 +217,7 @@ header {
 		padding-right: 0;
 	}
 
-	.ancho > p > img {
+	.ancho img {
 		max-height: 80vh;
 		margin-right: auto;
 		margin-left: auto;
@@ -275,10 +275,10 @@ header {
 
 /* shortcode styles */
 
-.ancho > p > img {
+.ancho > img {
 	max-width: 100%;
 }
 
-.derecha > p > img {
+.derecha > img {
 	max-width: 100%;
 }

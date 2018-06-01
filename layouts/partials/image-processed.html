@@ -1,0 +1,9 @@
+{{ $nombre := .Get "name" }}
+{{ $page := . }}
+{{ with .Site.GetPage "section" "images" }}
+  {{ with .Resources.GetMatch $nombre }}
+<!-- 85rem x 16px x0.8 (wegen raendern) = 1088 -->
+    {{ $image1080x := (.Resize "1080x") }}
+    <img src="{{ $image1080x.RelPermalink }}">
+  {{ end }}
+{{ end }}

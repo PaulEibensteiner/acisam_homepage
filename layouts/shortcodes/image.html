@@ -1,8 +1,3 @@
-{{ $nombre := .Get "name" }}
-{{ $page := . }}
-{{ with .Site.GetPage "section" "images" }}
-  {{ with .Resources.GetMatch $nombre }}
-    {{ $image400x := (.Resize "400x") }}
-    <img src="{{ $image400x.RelPermalink }}">
-  {{ end }}
-{{ end }}
+<div  class="ancho mv3-ns w-100 ph2">
+	{{ partial "image-processed.html" . }}
+</div>

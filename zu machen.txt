@@ -42,3 +42,5 @@ x add opengraph?
 x partials menu und zusammenfassung anders aufteilen?
 
 x tags hinzufuegen?
+
+x responsive images?

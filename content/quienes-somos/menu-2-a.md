@@ -8,9 +8,7 @@ menu:
     weight: 1
 
 ---
-{{% imagen-ancho %}}
-![](/img/post/2018/02/Foto0060.jpg)
-{{% /imagen-ancho %}}
+{{< imagen-ancho name="Foto0060.jpg" >}}
 
 **Misión:**
 
