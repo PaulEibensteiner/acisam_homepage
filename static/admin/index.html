@@ -28,16 +28,16 @@ CMS.registerEditorComponent({
       id: match[1]
     };
   },
-  // Function to create a text block from an instance of this component
-  toBlock: function(obj) {
-    return '{{< image name="' + obj.id.substring(8) + '" >}}';
-  },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
   toPreview: function(obj) {
     return (
-      '<img src="' + obj.id + '" alt="image"/>'
+      '<img src="' + '/images/' + obj.id + '" alt="image"/>'
     );
+  },
+  // Function to create a text block from an instance of this component
+  toBlock: function(obj) {
+    return '{{< image name="' + obj.id.substring(8) + '" >}}';
   }
 });
 	</script>
