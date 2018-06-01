@@ -21,7 +21,7 @@ CMS.registerEditorComponent({
   // Fields the user need to fill out when adding an instance of the component
   fields: [{name: 'id', label: 'Lugar del Imagen', widget: 'image'}],
   // Pattern to identify a block as being an instance of this component
-  pattern: /{{< image .+/,
+  pattern: /{{< image name="(.+)" >}}/,
   // Function to extract data elements from the regexp match
   fromBlock: function(match) {
     return {
