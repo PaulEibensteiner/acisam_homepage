@@ -18,7 +18,6 @@ x schrift justify, view counter?
 -----
 
 2. Custom Widgets für folgende Funktionen in Netlify cms erstellen
-x video
 x schriftfarben/groessen
 
 x hugo will wie bei der red centroamericana seite informes mit link zu issuu und videos von youtube auf startseite
