@@ -7,4 +7,4 @@ featured_image: /images/hug.JPG
 ---
 <span class="red">No se que importante nuevo</span>
 
-youtube foE1mO2yM04
+{{< youtube id="foE1mO2yM04" >}}
