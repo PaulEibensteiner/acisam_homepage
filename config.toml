@@ -2,7 +2,6 @@ DefaultContentLanguage = "es"
 MetaDataFormat = "yaml"
 baseURL = "https://www.acisam.netlify.com"
 enableRobotsTXT = true
-googleAnalytics = ""
 languageCode = "es-sv"
 relativeURLs = true
 theme = "gohugo-theme-ananke"
@@ -14,7 +13,7 @@ github = ""
 instagram = ""
 linkedin = ""
 recent_posts_number = 2
-site_logo = "images/Acisam.jpg"
+site_logo = "staticimg/logo.jpg"
 twitter = ""
 youtube = "https://www.youtube.com/user/evmacisam"
 [permalinks]
