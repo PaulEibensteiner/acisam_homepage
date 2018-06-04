@@ -5,4 +5,6 @@ description: Estamos en la oficina
 type: post
 featured_image: /images/hug.JPG
 ---
-No se que importante nuevo
+<span class="red">No se que importante nuevo</span>
+
+youtube foE1mO2yM04
