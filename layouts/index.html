@@ -41,12 +41,10 @@
 			{{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
 			{{ range (first 4 (after $n_posts $section)) }}
 			<!--den part vl in partial abtrennen?-->
-			{{ $featured_image := .Params.featured_image }}
 			<article class="pa2 w-50 fl relative" style="height: 13rem">
 				{{ if .Params.featured_image }}
-				{{ $featured_image := $featured_image | relURL }}
 				<a href="{{.URL}}" class="db h-100 overflow-hidden">
-					<img src="{{ $featured_image }}" class="center grow h-100" alt="image from {{ .Title }}" />
+				 	{{ partial "featured-image.html" . }}
 				 </a>
 				{{ end }}
 				<a href="{{ .URL }}" class="link db pa0 white{{ if .Params.featured_image }} ma2 absolute show absolute--fill bg-black-20{{ else }} relative bg-blue h-100 w-100 {{ end }}">

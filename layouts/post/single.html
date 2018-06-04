@@ -8,10 +8,9 @@
 			<p class="mh2 mv3 fr bg-blue white b pa2 lh-1875">{{ humanize .Section | upper }}</p>
 		</div>
 		{{ if .Params.featured_image }}
-		{{ $featured_image := .Params.featured_image | relURL }}
 		<div class="ancho mv3-ns w-100 ph2">
 			<p>
-				<img src="{{ $featured_image }}" class="" alt="image from {{ .Title }}" />
+				 {{ partial "featured-image.html" . }}
 			</p>
 		</div>
 		{{ else }} {{ end }}

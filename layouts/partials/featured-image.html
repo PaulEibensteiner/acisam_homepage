@@ -1,12 +1,9 @@
-{{ $featured_image := .Params.featured_image }}
-{{ if .Params.featured_image }}
-	{{ $featured_image := $featured_image | relURL }}
-{{ $nombre := $featured_image }}
-{{ $page := . }}
-{{ with .Site.GetPage "section" "images" }}
-  {{ with .Resources.GetMatch $nombre }}
-<!-- 85rem x 16px x0.8 (wegen raendern) = 1088 -->
-    {{ $image1080x := (.Resize "1080x") }}
-    <img src="{{ $image1080x.RelPermalink }}" class="center grow h-100" alt="image from {{ .Title }}" >
-  {{ end }}
+{{ $path := .Params.featured_image }}
+	{{ $page := . }}
+	{{ with .Site.GetPage "section" "images" }}
+		{{ $nombre := strings.TrimPrefix "/images/" $path }}
+	  {{ with .Resources.GetMatch $nombre }}
+		 {{ $image1080x := (.Resize "1080x") }}
+		 <img src="{{ $image1080x.RelPermalink }}" class="center grow h-100" alt="image from {{ .Title }}" >
+	  {{ end }}
 {{ end }}
