@@ -1,0 +1,141 @@
+
+
+.f-expand {
+	font-size: 1.3vw;
+}
+
+.hover-white:hover {
+	background-color: white;
+	color: #357edd;
+}
+
+.w2-5 {
+	width: 3rem;
+}
+
+.mb--1 {
+	margin-bottom: -1em;
+}
+
+.left-100 {
+	left: 100%;
+}
+
+.hide {
+	opacity: 1;
+	transition: opacity .15s ease-in;
+}
+
+.hide:hover,
+.hide:focus {
+	opacity: 0;
+	transition: opacity .15s ease-in;
+}
+
+.hide:active {
+	opacity: 0;
+	transition: opacity .15s ease-out;
+}
+
+.show {
+	opacity: 0;
+	transition: opacity .15s ease-in;
+}
+
+.show:hover,
+.show:focus {
+	opacity: 1;
+	transition: opacity .15s ease-in;
+}
+
+.show:active {
+	opacity: 1;
+	transition: opacity .15s ease-out;
+}
+
+.white {
+	fill: white;
+}
+
+.h-20 {
+	height: 20%;
+}
+
+.h-80 {
+	height: 80%;
+}
+
+.ml--1 {
+	margin-left: -1em;
+}
+
+.mt-22 {
+	margin-top: 22%;
+}
+
+.lh-1 {
+	line-height: 0.7;
+}
+
+.abs-vert-center {
+	position: absolute;
+	top: 45%;
+	margin-top: -1em;
+}
+.abs-vert-center-1line {
+		position: absolute;
+		top: 50%;
+		margin-top: -0.5em;
+}
+
+.h2-5 {
+	height: 3rem;
+}
+
+.stretch-left {
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.mh-7 {
+	max-height: 8em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.h-60 {
+	height: 60%;
+}
+
+.lh-1875 {
+	line-height: 1.875;
+}
+
+.pt-100 {
+	padding-top: 15%;
+}
+
+.l {
+	font-weight: lighter;
+}
+
+.montserrat {
+	font-family: 'Montserrat', 'Avenir Next', 'Avenir', sans-serif;
+}
+
+a {
+	color: inherit;
+}
+
+.w-sixth {
+	width: calc(100% / 6);
+}
+
+.w-five-sixth {
+	width: calc(83.3%);
+}
+
+.bg-transparent {
+	background-color: transparent;
+}

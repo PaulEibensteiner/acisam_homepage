@@ -6,7 +6,7 @@ menu:
   main:
     weight: 1
 ---
-{{< imagen-ancho name="logo.jpg" >}}
+{{< imagen-ancho name="robbery.jpg" >}}
 
 La asociación para el desarrollo y la investigación para la salud es una institución conformada por profesionales y técnicos de diversas disciplinas que realizan procesos psicosociales con personas y organizaciones de los sectores populares con énfasis en educación y recursos humanos. Así como sus motivaciones para transformar y transformar el entorno natural
 

@@ -17,13 +17,15 @@ x schrift justify, view counter?
 
 -----
 
-1. seite mal bauen und schaun was raus kommt, mglw. theme entfernen. Bildpfade ueberlegen. theme entfernen?
+1. seite mal bauen und schaun was raus kommt, mglw. theme entfernen. theme entfernen?
 
 2. Custom Widgets für folgende Funktionen in Netlify cms erstellen
 x imagen derecha/isquierda/ancho/video
 x schriftfarben/groessen
 
 x hugo will wie bei der red centroamericana seite informes mit link zu issuu und videos von youtube auf startseite
+
+x bilderposition startseite
 
 x admin erklaeren vorbereiten, erklärungspdf
 

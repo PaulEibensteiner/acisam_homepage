@@ -4,8 +4,8 @@ baseURL = "https://www.acisam.netlify.com"
 enableRobotsTXT = true
 languageCode = "es-sv"
 relativeURLs = true
-theme = "gohugo-theme-ananke"
 title = "Asociación de Capacitación e Investigación para la salud mental"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
 facebook = "https://www.facebook.com/acisam/"
 favicon = "favicon.ico"
