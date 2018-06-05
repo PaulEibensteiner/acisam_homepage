@@ -8,12 +8,13 @@ collections:
   - label: "Instrucciones"
     name: "instrucciones"
     files:
-      - label: "Lea me primero!!"
-        name: "lea-me"
-        file: "static/admin/readme.md"
+      - label: "Homepage"
+        name: "homepage"
+        file: "content/_index.md"
         fields:
           - {label: "Titulo", name: "title", widget: "string"}
-          - {label: "Descripcion", name: "despcription", widget: "string"}
+          - {label: "Descripcion", name: "description", widget: "string"}
+          - {label: "Tipo", name: "type", widget: "hidden", default: "page"}
           - {label: "Body", name: "body", widget: "markdown"}
   - name: "novedades" # Used in routes, e.g., /admin/collections/blog
     label: "Novedades" # Used in the UI
