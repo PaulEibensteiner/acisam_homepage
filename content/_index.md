@@ -7,6 +7,6 @@ type: page
 
 {{< youtube-block title="Intro de videos comunitarios" id="KpWQQserADE" description="" >}}
 
-{{< youtube-block title="Enredados" id="af2iWVxukkE" description=" " >}}
+{{< youtube-block title="Enredados" id="af2iWVxukkE" description="" >}}
 
 {{< youtube-block title="keinplan" id="yyifYlV9ntc" description="" >}}
