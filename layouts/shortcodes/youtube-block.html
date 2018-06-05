@@ -1,0 +1,10 @@
+<div class="w-third ph2 pv3 fl relative">
+	<h2>{{ .Get "title" }}</h2>
+	<div class="videocontainer">
+		<iframe src="//www.youtube.com/embed/{{ .Get "id" }}" class="w-100 h-100 top-0 left-0 absolute" allowfullscreen="true" frameborder="0" title="YouTube Video"></iframe>
+	</div>
+	{{ with .Get "description"}}
+	<div class="arrowtop mt3"></div>
+	<p class="bt bw2 b--blue pt2">{{ . }}</p>
+	{{ end }}
+</div>

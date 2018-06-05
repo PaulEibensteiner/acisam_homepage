@@ -96,33 +96,6 @@
 		});
 		CMS.registerEditorComponent({
   // Internal id of the component
-  id: "youtube",
-  // Visible label
-  label: "Añadir Video de Youtube",
-  // Fields the user need to fill out when adding an instance of the component
-  fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
-  // Pattern to identify a block as being an instance of this component
-  pattern: /^{{< youtube id="(\S+)" >}}$/,
-  // Function to extract data elements from the regexp match
-  fromBlock: function(match) {
-    return {
-      id: match[1]
-    };
-  },
-  // Function to create a text block from an instance of this component
-  toBlock: function(obj) {
-    return '{{< youtube id="' + obj.id + '" >}}';
-  },
-  // Preview output for this component. Can either be a string or a React component
-  // (component gives better render performance)
-  toPreview: function(obj) {
-    return (
-      '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>'
-    );
-  }
-});
-		CMS.registerEditorComponent({
-  // Internal id of the component
   id: "color",
   // Visible label
   label: "Añadir texto en color",
@@ -149,6 +122,39 @@
   toPreview: function(obj) {
     return (
       '<span class="' + obj.color + '">' + obj.content + '</span>'
+    );
+  }
+});
+		CMS.registerEditorComponent({
+  // Internal id of the component
+  id: "youtube",
+  // Visible label
+  label: "Añadir Video de Youtube",
+  // Fields the user need to fill out when adding an instance of the component
+  fields: [
+	  {name: 'title', label: 'Titulo del Video', widget: 'string'},
+	  {name: 'id', label: 'Youtube Video ID', widget: 'string'},
+	  {name: 'text', label: 'Video Descripcion', widget: 'string'}
+			 ],
+  // Pattern to identify a block as being an instance of this component
+  pattern: /\n*{{< youtube-block title="(.+)" id="(.+)" description="(.*)" >}}/,
+  // Function to extract data elements from the regexp match
+  fromBlock: function(match) {
+    return {
+      title: match[1],
+      id: match[2],
+      text: match[3]
+    };
+  },
+  // Function to create a text block from an instance of this component
+  toBlock: function(obj) {
+    return '{{< youtube-block title="' + obj.title + '" id="' + obj.id + '" description="' + obj.text + '" >}}'
+  },
+  // Preview output for this component. Can either be a string or a React component
+  // (component gives better render performance)
+  toPreview: function(obj) {
+    return (
+      '<img src="http://img.youtube.com/vi/' + obj.title + '/maxresdefault.jpg" alt="Youtube Video"/>'
     );
   }
 });

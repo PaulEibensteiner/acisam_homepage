@@ -47,6 +47,14 @@ ul {
 
 /* special classes and dependencies */
 
+.videocontainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
 /* mobile menu */
 
 

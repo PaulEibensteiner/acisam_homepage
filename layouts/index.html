@@ -2,9 +2,6 @@
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {{ end }}
 {{ define "main" }}
-	<article class="bodywrap">
-		{{ .Content }}
-	</article>
 	{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
 	{{ $mainSections := .Site.Params.mainsection | default (slice "novedades") }}
 	{{/* Create a variable with that section to use in multiple places. */}}
@@ -58,6 +55,9 @@
 		</div>
 	</section>
 	{{ end }}
+	<article class="bodywrap cf ph2">
+		{{ .Content }}
+	</article>
 {{ end }}
 {{ define "indexscript" }}
 	<!--     netlify link     -->

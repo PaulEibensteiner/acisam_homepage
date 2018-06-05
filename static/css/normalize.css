@@ -1,3 +1,10 @@
+/* oder browsers von mir hinzugefuegt */
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
