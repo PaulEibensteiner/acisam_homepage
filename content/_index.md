@@ -9,6 +9,6 @@ type: page
 
 
 
-{{< youtube-block title="Intro de videos comunitarios" id="KpWQQserADE" description="Get OneRepublic’s new album ‘Oh My My,’ featuring ‘Kids,' 'Wherever I Go' and 'Let’s Hurt Tonight:’" >}}
+{{< youtube-block title="Intro de videos comunitarios" id="KpWQQserADE" description="" >}}
 
 {{< youtube-block title="Enredados" id="af2iWVxukkE" description="undefined" >}}
