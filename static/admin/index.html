@@ -32,7 +32,7 @@
 		  // (component gives better render performance)
 		  toPreview: function(obj) {
 			 return (
-				'<img src="' + '/images/' + obj.id + '" alt="image"/>'
+				'<img src="' + '/images/' + obj.id + '" alt="image" style="max-width:33%;float:right; padding:1em;" />'
 			 );
 		  },
 		  // Function to create a text block from an instance of this component
@@ -59,7 +59,7 @@
 		  // (component gives better render performance)
 		  toPreview: function(obj) {
 			 return (
-				'<img src="' + '/images/' + obj.id + '" alt="image"/>'
+				'<img src="' + '/images/' + obj.id + '" alt="image" style="max-width:100%; padding:1em;" />'
 			 );
 		  },
 		  // Function to create a text block from an instance of this component
@@ -86,7 +86,7 @@
 		  // (component gives better render performance)
 		  toPreview: function(obj) {
 			 return (
-				'<img src="' + '/images/' + obj.id + '" alt="image"/>'
+				'<img src="' + '/images/' + obj.id + '" alt="image" style="max-width:33%;float:left; padding:1em;" />'
 			 );
 		  },
 		  // Function to create a text block from an instance of this component
@@ -154,7 +154,7 @@
   // (component gives better render performance)
   toPreview: function(obj) {
     return (
-      '<img src="http://img.youtube.com/vi/' + obj.title + '/maxresdefault.jpg" alt="Youtube Video"/>'
+      '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video" style="max-width:33%;float:left; padding:1em;" />'
     );
   }
 });
