@@ -132,9 +132,9 @@
   label: "Añadir Video de Youtube",
   // Fields the user need to fill out when adding an instance of the component
   fields: [
-	  {name: 'title', label: 'Titulo del Video', widget: 'string'},
+	  {name: 'title', label: 'Titulo del Video', widget: 'string', required: false},
 	  {name: 'id', label: 'Youtube Video ID', widget: 'string'},
-	  {name: 'text', label: 'Video Descripcion', widget: 'string'}
+	  {name: 'text', label: 'Video Descripcion', widget: 'string', required: false}
 			 ],
   // Pattern to identify a block as being an instance of this component
   pattern: /\n*{{< youtube-block title="(.+)" id="(.+)" description="(.*)" >}}/,
