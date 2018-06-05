@@ -36,11 +36,13 @@ x 505 site
 
 x add opengraph?
 
+x Textauszeichnung verbessern (schriftgroesse)
+
+
+
 x partials menu und zusammenfassung anders aufteilen?
 
 x tags hinzufuegen?
-
-x Textauszeichnung verbessern (schriftgroesse)
 
 x responsive images?
 
