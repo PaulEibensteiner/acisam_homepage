@@ -18,13 +18,17 @@ x schrift justify, view counter?
 2. Custom Widgets für folgende Funktionen in Netlify cms erstellen
 x schriftfarben/groessen
 
+x namen der dokumente wenn erstellt mit netlify cms??
+
+x mobile design iframes
+
 -----
+
+x alles nach neuem Bennenungsschema benennen
 
 x hugo will wie bei der red centroamericana seite informes mit link zu issuu und videos von youtube auf startseite
 
 x admin erklaeren vorbereiten, erklärungspdf - repository name fixen
-
-x namen der dokumente wenn erstellt mit netlify cms??
 
 x kachelbilder als bg image nicht als eigenes element
 
@@ -49,3 +53,5 @@ x responsive images?
 x indents schoen machen
 
 x abstaende kleiner
+
+x image widget vereinfachen (statt verschiedenen shortcodes einfach value passen)
