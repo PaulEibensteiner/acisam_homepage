@@ -46,6 +46,10 @@ x Textauszeichnung verbessern (schriftgroesse)
 
 x partials menu und zusammenfassung anders aufteilen?
 
+x bilder klickbar machen (originale verlinken)
+
+x seo
+
 x tags hinzufuegen?
 
 x responsive images?
