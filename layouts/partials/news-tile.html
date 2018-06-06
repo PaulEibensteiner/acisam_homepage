@@ -1,0 +1,9 @@
+<article class="pa2 w-50 fl relative" style="height: 13rem">
+<a href="{{ .URL }}" class="link db white h-100 w-100 relative {{ if .Params.featured_image }} hide-child {{ else }}bg-blue{{ end }}"{{ if .Params.featured_image }} style="background-image:url({{ partial "featured-image.html" . }}); no-repeat:center; background-size:cover;"{{ end }}>
+		<div class="w-100 h-100 child {{ if .Params.featured_image }} bg-black-40{{ end }}">
+					<h2 class="db abs-vert-center mva w-100 tc">
+						{{ .Title }}
+					</h2>
+		</div>
+	</a>
+</article>

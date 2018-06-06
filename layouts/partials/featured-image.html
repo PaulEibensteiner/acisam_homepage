@@ -1,9 +1,9 @@
-{{ $path := .Params.featured_image }}
-	{{ $page := . }}
-	{{ with .Site.GetPage "section" "images" }}
-		{{ $nombre := strings.TrimPrefix "/images/" $path }}
-	  {{ with .Resources.GetMatch $nombre }}
-		 {{ $image1080x := (.Resize "1080x") }}
-		 <img src="{{ $image1080x.RelPermalink }}" class="center grow h-100" alt="image from {{ .Title }}" >
-	  {{ end }}
-{{ end }}
+{{- $path := .Params.featured_image -}}
+	{{- $page := . -}}
+	{{- with .Site.GetPage "section" "images" -}}
+		{{- $nombre := strings.TrimPrefix "/images/" $path -}}
+	  {{- with .Resources.GetMatch $nombre -}}
+		 {{- $image1080x := (.Resize "1080x") -}}
+		 {{- $image1080x.RelPermalink -}}
+	  {{- end -}}
+{{- end -}}

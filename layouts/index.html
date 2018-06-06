@@ -8,49 +8,23 @@
 	{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
 	{{/* Check to see if the section is defined for ranging through it */}}
 	{{ $section_count := len $section }}
+	{{ $n_posts := .Param "recent_posts_number" | default 4 }}
 	{{ if ge $section_count 1 }}
 	{{/* Derive the section name */}}
-	{{ $section_name := index (.Site.Params.mainSections) 0 }}
+	{{ $section_name := index $mainSections 0 }}
 	<section class="cf recents pv3 ph2 bodywrap">
-		<h2 class="mh2">{{ .Title }}</h2>
-		{{ $n_posts := $.Param "recent_posts_number" | default 4 }}
+		<h2 class="mh2">{{ $section_name }}</h2>
 		<!--Artikel Anfang, hier waren zwei divs-->
-		<div class="ph2 pv2 fl w-100 w-two-thirds-ns relative h26-ns">
-			{{/* Range through the first $n_posts items of the section */}}
-			{{ range (first $n_posts $section) }}
-			{{ partial "summary-with-image.html" . }} {{ end }}
-			<!--Artikel Ende-->
-			{{ if ge $section_count (add $n_posts 1) }}
-			<!--Slide Knöpfe-->
-			<button type="button" class="white abs-vert-center left-0 f1 dim ma2 pa2 white bg-transparent" onclick="plusDivs(-1)">&#10094;</button>
-			<button type="button" class="abs-vert-center right-0 f1 pa2 ma2 dim white bg-transparent" onclick="plusDivs(1)">&#10095;</button>
-			<div class="absolute w-100 tc top-1">
-				<span class="center">
-				{{ range $index, $num := (seq $n_posts) }}
-					{{$indexStartingAt1 := (add $index 1)}}
-					<button class="button circle js-badge w1 h1 mr1 bg-white-60 pa0" onclick="currentDiv({{$indexStartingAt1}})"></button>
-				{{ end }}
-				</span>
-			</div>
+		<div class="ph2 pv2 fl w-100 w-two-thirds-ns relative h26">
+			{{/* Call partial passing general variables zb .title as .page.title and all the other variables as defined */}}
+			{{ partial "carussell.html" (dict "page" . "section" $section "n_posts" $n_posts "section_count" $section_count) }}
 		</div>
 		<!--Mehr Anfang-->
 		<div class="w-100 w-third-ns fl">
 			{{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
 			{{ range (first 4 (after $n_posts $section)) }}
 			<!--den part vl in partial abtrennen?-->
-			<article class="pa2 w-50 fl relative" style="height: 13rem">
-				{{ if .Params.featured_image }}
-				<a href="{{.URL}}" class="db h-100 overflow-hidden">
-				 	{{ partial "featured-image.html" . }}
-				 </a>
-				{{ end }}
-				<a href="{{ .URL }}" class="link db pa0 white{{ if .Params.featured_image }} ma2 absolute show absolute--fill bg-black-20{{ else }} relative bg-blue h-100 w-100 {{ end }}">
-					<h2 class="db abs-vert-center mva w-100 tc">
-						{{ .Title }}
-					</h2>
-				</a>
-			</article>
-			{{ end }}
+				{{ partial "news-tile.html" . }}
 			{{ end }}
 		</div>
 	</section>

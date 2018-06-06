@@ -22,9 +22,9 @@ x namen der dokumente wenn erstellt mit netlify cms??
 
 x mobile design iframes
 
------
-
 x alles nach neuem Bennenungsschema benennen
+
+-----
 
 x hugo will wie bei der red centroamericana seite informes mit link zu issuu und videos von youtube auf startseite
 
@@ -38,11 +38,12 @@ x robots.txt
 
 x 505 site
 
-x add opengraph?
+
+
 
 x Textauszeichnung verbessern (schriftgroesse)
 
-
+x add opengraph?
 
 x partials menu und zusammenfassung anders aufteilen?
 

@@ -61,11 +61,13 @@ function showDivs(n) {
 // automatische slides?
 
 
+/*
 
  var initial = window.setTimeout(
         function() {
             plusDivs(1)
         }, 3000);
+*/
 
 function reset() {
     window.clearTimeout(initial);
