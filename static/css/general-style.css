@@ -47,12 +47,25 @@ ul {
 
 /* special classes and dependencies */
 
+hr {
+	clear: both;
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 1em;
+}
+
 .videocontainer {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 35px;
     height: 0;
     overflow: hidden;
+}
+
+div[data-configid] {
+	width: 33% !important;
+	padding: 0.5em;
+	float: left;
 }
 
 /* mobile menu */

@@ -34,8 +34,6 @@ x admin erklaeren vorbereiten, erklärungspdf - repository name fixen
 
 x impressum
 
-x sitemap?
-
 
 
 x add text formatting
@@ -69,3 +67,5 @@ x indents schoen machen
 x abstaende kleiner
 
 x image widget vereinfachen (statt verschiedenen shortcodes einfach value passen)
+
+x sitemap?
