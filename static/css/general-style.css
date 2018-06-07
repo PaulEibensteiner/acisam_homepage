@@ -82,6 +82,7 @@ div[data-configid] {
 	width: 33% !important;
 	padding: 0.5em;
 	float: left;
+	height: 18em !important;
 }
 
 /* mobile menu */
