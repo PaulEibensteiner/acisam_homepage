@@ -11,9 +11,7 @@ menu:
 
 **¿Qué es la Red Centroamericana de Salud Mental?** La Red Centroamericana de Salud Mental es la unión de varias asociaciones de familias y personas con discapacidad mental de El Salvador, Panamá, Nicaragua, Costa Rica, Belice y Honduras. A través de esta Red se impulsan diferentes estrategias como familia a familia, arte y recuperación, sensibilización e incidencia a nivel regional. 
 
-**¿Qué es?:** Familia a familia es un programa que brinda atención a personas con una enfermedad o discapacidad mental y a sus familiares cuidadores en El Salvador, Nicaragua, Costa Rica y Panamá. Además, realiza acciones de incidencia pública mediante la participación en instituciones de gobierno y creación de alianzas y redes para procurar el cumplimiento de los Derechos Humanos de las personas con discapacidad mental y su inclusión social.
-
-
+**¿Qué es familia a familia?:** Familia a familia es un programa que brinda atención a personas con una enfermedad o discapacidad mental y a sus familiares cuidadores en El Salvador, Nicaragua, Costa Rica y Panamá. Además, realiza acciones de incidencia pública mediante la participación en instituciones de gobierno y creación de alianzas y redes para procurar el cumplimiento de los Derechos Humanos de las personas con discapacidad mental y su inclusión social.
 
 **¿Cómo brinda atención el programa de familia a familia?** mediante dos modelos de atención para personas con enfermedad o discapacidad mental y para los familiares cuidadores: 
 
@@ -56,12 +54,6 @@ h.	Proponer desde sus capacidades y aprendizajes, un aporte significativo a la i
 Nelson Flamenco, Coordinador del programa: familiasaludmental@gmail.com
 
 Cecilia Almendarez, facilitadora del proyecto: redregionaldesaludmental@gmail.com
-
-
-
-
-
-
 
 # Informaciones adiccionales en aleman
 
