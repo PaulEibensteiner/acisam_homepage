@@ -26,9 +26,11 @@ x alles nach neuem Bennenungsschema benennen
 
 x 505 site
 
+x hugo will wie bei der red centroamericana seite informes mit link zu issuu und videos von youtube auf startseite
+
 -----
 
-x hugo will wie bei der red centroamericana seite informes mit link zu issuu und videos von youtube auf startseite
+x hugo issuu erklären
 
 x admin erklaeren vorbereiten, erklärungspdf - repository name fixen (hr erklaeren)
 
@@ -41,6 +43,8 @@ x add text formatting
 x robots.txt, google find on netlify support chat
 
 
+
+x video fix ohne hr
 
 x seo: https
 

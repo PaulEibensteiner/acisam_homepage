@@ -79,10 +79,16 @@ hr {
 }
 
 div[data-configid] {
-	width: 33% !important;
+	width: 100% !important;
 	padding: 0.5em;
 	float: left;
 	height: 18em !important;
+}
+
+@media screen and (min-width:30em) {
+	div[data-configid] {
+		width: 33% !important;
+	}
 }
 
 /* mobile menu */
