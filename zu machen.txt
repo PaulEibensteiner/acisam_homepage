@@ -24,6 +24,8 @@ x mobile design iframes
 
 x alles nach neuem Bennenungsschema benennen
 
+x 505 site
+
 -----
 
 x hugo will wie bei der red centroamericana seite informes mit link zu issuu und videos von youtube auf startseite
@@ -32,11 +34,19 @@ x admin erklaeren vorbereiten, erklärungspdf - repository name fixen
 
 x impressum
 
-x robots.txt
-
-x 505 site
+x sitemap?
 
 
+
+x add text formatting
+
+x robots.txt, google find on netlify support chat
+
+
+
+x seo: https
+
+x seo: sitemap
 
 x ränder kleiner
 
