@@ -38,6 +38,7 @@ x 505 site
 
 
 
+x ränder kleiner
 
 x Textauszeichnung verbessern (schriftgroesse)
 
