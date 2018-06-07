@@ -94,76 +94,95 @@ button svg {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	max-width: 80rem;
 }
 
-.bluewrapper::before {
-	content: "";
-	position: absolute;
-	width: 12.5%;
-	background-color: #357edd;
-	left: -12.5%;
-	top: 0;
-	bottom: 0;
-}
-
-.bluewrapper::after {
-	content: "";
-	position: absolute;
-	width: 12.5%;
-	background-color: #357edd;
-	right: -12.5%;
-	top: 0;
-	bottom: 0;
-	padding-left: 1rem;
-}
-
-.headwrapper::before {
-	content: "";
-	position: absolute;
-	width: 12.5%;
-	background-color: #357edd;
-	left: -12.5%;
-	margin-left: -0.5rem;
-	top: 0;
-	bottom: 0;
-}
-
-.headwrapper::after {
-	content: "";
-	position: absolute;
-	width: 12.5%;
-	background-color: #357edd;
-	right: -12.5%;
-	margin-right: -0.5rem;
-	top: 0;
-	bottom: 0;
-	padding-left: .5rem;
-}
-
-@media screen and (min-width:85rem) {
-	.f-expand {
-		font-size: 1.4rem;
-		height: 1.8rem;
-	}
-	
-	.headwrapper::before {
-		width: calc(50vw - 40rem);
-		left: calc(40rem - 50vw);
-	}
-
-	.headwrapper::after {
-		width: calc(50vw - 40rem);
-		right: calc(40rem - 50vw);
-	}
 	.bluewrapper::before {
-		width: calc(50vw - 40rem);
-		left: calc(40rem - 50vw);
+		content: "";
+		position: absolute;
+		width: 0.5rem;
+		background-color: #357edd;
+		left: 0rem;
+		top: 0;
+		bottom: 0;
 	}
 
 	.bluewrapper::after {
-		width: calc(50vw - 40rem);
-		right: calc(40rem - 50vw);
+		content: "";
+		position: absolute;
+		width: 0.5rem;
+		background-color: #357edd;
+		right: 0rem;
+		top: 0;
+		bottom: 0;
+		padding-left: 1rem;
+	}
+
+	.headwrapper::before {
+		content: "";
+		position: absolute;
+		width: 0.5rem;
+		background-color: #357edd;
+		left: 0rem;
+		top: 0;
+		bottom: 0;
+	}
+
+	.headwrapper::after {
+		content: "";
+		position: absolute;
+		width: 0.5rem;
+		background-color: #357edd;
+		right: 0rem;
+		top: 0;
+		bottom: 0;
+		padding-left: .5rem;
+	}
+
+@media screen and (min-width:30em) {
+	.bluewrapper::before {
+		width: 12.5%;
+		left: -12.5%;
+	}
+
+	.bluewrapper::after {
+		width: 12.5%;
+		right: -12.5%;
+	}
+
+	.headwrapper::before {
+		width: 12.5%;
+		left: -12.5%;
+	}
+
+	.headwrapper::after {
+		width: 12.5%;
+		right: -12.5%;
+		top: 25%;
+		bottom: 0;
+	}
+}
+@media screen and (min-width:87.5rem) {
+	.f-expand {
+		font-size: 1.4rem;
+	}
+	
+	.headwrapper::before {
+		width: calc(50vw - 40.5rem);
+		left: calc(40.5rem - 50vw);
+	}
+
+	.headwrapper::after {
+		width: calc(50vw - 40.5rem);
+		right: calc(40.5rem - 50vw);
+	}
+	.bluewrapper::before {
+		width: calc(50vw - 40.5rem);
+		left: calc(40.5rem - 50vw);
+	}
+
+	.bluewrapper::after {
+		width: calc(50vw - 40.5rem);
+		right: calc(40.5rem - 50vw);
 	}
 }
 
@@ -192,6 +211,7 @@ button svg {
 
 header {
 	min-height: 4em;
+	box-sizing: border-box;
 }
 
 .active {
@@ -207,13 +227,8 @@ header {
 		text-align: justify;
 	}
 	.bodywrap {
-		margin-left: auto;
-		margin-right: auto;
 		width: 80%;
 		max-width: 80rem;
-	}
-	.headwrapper::after {
-		top: 25%;
 	}
 	.firstlastborder:first-child {
 		border-left: 0.5rem solid white;

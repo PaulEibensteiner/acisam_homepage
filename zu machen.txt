@@ -30,8 +30,6 @@ x hugo will wie bei der red centroamericana seite informes mit link zu issuu und
 
 x admin erklaeren vorbereiten, erklärungspdf - repository name fixen
 
-x kachelbilder als bg image nicht als eigenes element
-
 x impressum
 
 x robots.txt
@@ -45,7 +43,7 @@ x Textauszeichnung verbessern (schriftgroesse)
 
 x add opengraph?
 
-x partials menu und zusammenfassung anders aufteilen?
+x partials in subfolder?
 
 x bilder klickbar machen (originale verlinken)
 
