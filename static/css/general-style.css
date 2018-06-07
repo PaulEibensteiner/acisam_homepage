@@ -1,7 +1,9 @@
+
+
+
 /* general element styling */
 
-h1,
-h2,
+
 h3 {
 	font-weight: 200;
 	font-size: 1.5rem;
@@ -9,11 +11,25 @@ h3 {
 
 h2 {
 	font-weight: 400;
+	font-size: 1.5rem;
 }
 
 h1 {
 	text-transform: uppercase;
 	margin-top: 2.30em;
+	font-weight: 200;
+	font-size: 2em;
+}
+
+.content h1 {
+	text-transform: uppercase;
+	margin-top: 2.30em;
+	padding-top: 0.2rem;
+	padding-bottom: 0.1rem;
+	color: white;
+	background-color: #357edd;
+	font-weight: 200;
+	font-size: 1.2rem;
 }
 
 li {
@@ -109,22 +125,25 @@ button svg {
 	width: 100%;
 }
 
-	.bluewrapper::before {
+h1 {
+	position: relative;
+}
+	.content h1::before,.bluewrapper::before {
 		content: "";
 		position: absolute;
 		width: 0.5rem;
 		background-color: #357edd;
-		left: 0rem;
+		left: -0.5rem;
 		top: 0;
 		bottom: 0;
 	}
 
-	.bluewrapper::after {
+	.content h1::after,.bluewrapper::after {
 		content: "";
 		position: absolute;
 		width: 0.5rem;
 		background-color: #357edd;
-		right: 0rem;
+		right: -0.5rem;
 		top: 0;
 		bottom: 0;
 		padding-left: 1rem;
@@ -152,14 +171,16 @@ button svg {
 	}
 
 @media screen and (min-width:30em) {
-	.bluewrapper::before {
+	.content h1::before,.bluewrapper::before {
 		width: 12.5%;
 		left: -12.5%;
+		margin-left: -0.5rem;
 	}
 
-	.bluewrapper::after {
+	.content h1::after,.bluewrapper::after {
 		width: 12.5%;
 		right: -12.5%;
+		margin-right: -0.5rem;
 	}
 
 	.headwrapper::before {
@@ -188,12 +209,12 @@ button svg {
 		width: calc(50vw - 40.5rem);
 		right: calc(40.5rem - 50vw);
 	}
-	.bluewrapper::before {
+	.content h1::before,.bluewrapper::before {
 		width: calc(50vw - 40.5rem);
 		left: calc(40.5rem - 50vw);
 	}
 
-	.bluewrapper::after {
+	.content h1::after,.bluewrapper::after {
 		width: calc(50vw - 40.5rem);
 		right: calc(40.5rem - 50vw);
 	}

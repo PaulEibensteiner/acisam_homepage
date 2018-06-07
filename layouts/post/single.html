@@ -1,7 +1,7 @@
 {{ define "main" }}
 	<section class="bodywrap cf ph2 pv3">
 		<div class="cf">
-			<h2 class="mv3 pa2 fl">{{ .Title }}</h2>
+			<h1 class="mv3 pa2 fl">{{ .Title }}</h1>
 			<time class="fl pv2 mv3 l mh2 mb3 mt0 db lh-1875">
 					  {{ .Date.Day }} de {{ index $.Site.Data.mes (printf "%d" .Date.Month) }} {{ .Date.Year }} 
 		 	</time>
@@ -10,7 +10,7 @@
 		{{ if .Params.featured_image }}
 		<div class="ancho mv3-ns w-100 ph2">
 			<p>
-				 {{ partial "featured-image.html" . }}
+				 <img src="{{ partial "featured-image.html" . }}" class="center min-h-100 mw-100" alt="image from {{ .Title }}" />
 			</p>
 		</div>
 		{{ else }} {{ end }}

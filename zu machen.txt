@@ -30,7 +30,7 @@ x 505 site
 
 x hugo will wie bei der red centroamericana seite informes mit link zu issuu und videos von youtube auf startseite
 
-x admin erklaeren vorbereiten, erklärungspdf - repository name fixen
+x admin erklaeren vorbereiten, erklärungspdf - repository name fixen (hr erklaeren)
 
 x impressum
 
@@ -43,6 +43,8 @@ x robots.txt, google find on netlify support chat
 
 
 x seo: https
+
+x custom preview: h1 blau
 
 x seo: sitemap
 

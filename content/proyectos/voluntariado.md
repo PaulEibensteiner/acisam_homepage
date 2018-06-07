@@ -7,7 +7,7 @@ menu:
     parent: Proyectos
     weight: '8'
 ---
-# RED CENTROAMERICANA DE SALUD MENTAL Y PROGRAMA DE FAMILIA A FAMILIA :
+## RED CENTROAMERICANA DE SALUD MENTAL Y PROGRAMA DE FAMILIA A FAMILIA :
 
 **¿Qué es la Red Centroamericana de Salud Mental?** La Red Centroamericana de Salud Mental es la unión de varias asociaciones de familias y personas con discapacidad mental de El Salvador, Panamá, Nicaragua, Costa Rica, Belice y Honduras. A través de esta Red se impulsan diferentes estrategias como familia a familia, arte y recuperación, sensibilización e incidencia a nivel regional. 
 

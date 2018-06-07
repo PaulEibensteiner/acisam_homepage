@@ -1,6 +1,7 @@
 <section class="bodywrap ph2 pv3">
     <div class="cf">
-    <p class="mh2 mv3 fr bg-blue white b pa2 lh-1875">{{ .Title }}</p>
+			<h1 class="mv3 pa2 fl">{{ .Title }}</h1>
+    <p class="mh2 mv3 fr bg-blue white b pa2 lh-1875">{{ humanize .Section | upper }}</p>
         </div>
       <article class="content">
         {{ .Content }}

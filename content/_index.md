@@ -3,7 +3,7 @@ title: Novedades recientes
 description: Landing page displaying News.
 type: page
 ---
-## Sobre que
+# Sobre que
 
 {{< youtube-block title="Intro de videos comunitarios" id="KpWQQserADE" description="" >}}
 
@@ -14,6 +14,6 @@ type: page
 ----------------------------
 
 
-## Publicaciones
+# Publicaciones
 <div data-configid="25900136/59827752" style="width:100%; height:259px;" class="issuuembed"></div>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
