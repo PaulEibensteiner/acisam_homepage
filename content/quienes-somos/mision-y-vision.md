@@ -6,9 +6,8 @@ menu:
   main:
     parent: Quienes Somos
     weight: 1
-
 ---
-{{< imagen-ancho name="Foto0060.jpg" >}}
+{{< imagen-anchoname=".jpg" >}}
 
 **Misión:**
 
@@ -16,5 +15,4 @@ ACISAM es una institución que desarrolla procesos psicosociales con personas, c
 
 **Visión:**
 
-ACISAM  aspira a contribuir a producir los cambios de las estructuras que impiden el desarrollo pleno de las personas y que se fundamentan en la opresión, explotación y marginación de grandes sectores de la población. Se  perfila con un aporte a la construcción de una sociedad basada en la justicia social y la solidaridad humana.
-
+ACISAM aspira a contribuir a producir los cambios de las estructuras que impiden el desarrollo pleno de las personas y que se fundamentan en la opresión, explotación y marginación de grandes sectores de la población. Se  perfila con un aporte a la construcción de una sociedad basada en la justicia social y la solidaridad humana.
