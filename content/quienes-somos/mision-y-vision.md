@@ -7,7 +7,7 @@ menu:
     parent: Quienes Somos
     weight: 1
 ---
-{{< imagen-anchoname=".jpg" >}}
+{{< imagen-ancho name="" >}}
 
 **Misión:**
 
