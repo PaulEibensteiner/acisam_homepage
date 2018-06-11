@@ -108,6 +108,35 @@
     );
   }
 });
+		CMS.registerEditorComponent({
+  // Internal id of the component
+  id: "block",
+  // Visible label
+  label: "Unir bloque",
+  // Fields the user need to fill out when adding an instance of the component
+  fields: [
+	  {name: 'content', label: 'Bloques para unir', widget: 'string', required: false}
+			 ],
+  // Pattern to identify a block as being an instance of this component
+  pattern: /{{% h-block %}}(.+){{% /h-block %}}/,
+  // Function to extract data elements from the regexp match
+  fromBlock: function(match) {
+    return {
+      content: match[1]
+    };
+  },
+  // Function to create a text block from an instance of this component
+  toBlock: function(obj) {
+    return '{{% h-block %}}' + obj.content + '{{% /h-block %}}'
+  },
+  // Preview output for this component. Can either be a string or a React component
+  // (component gives better render performance)
+  toPreview: function(obj) {
+    return (
+      '<div class="mh-6 overflow-x-scroll">' + obj.content + '</div>'
+    );
+  }
+});
 	</script>
 </body>
 </html>
