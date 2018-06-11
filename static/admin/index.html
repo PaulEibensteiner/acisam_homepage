@@ -115,10 +115,10 @@
   label: "Unir bloque",
   // Fields the user need to fill out when adding an instance of the component
   fields: [
-	  {name: 'content', label: 'Bloques para unir', widget: 'string', required: false}
+	  {name: 'content', label: 'Bloques para unir (no puede leer enter, por eso hay que poner las bloques en una linia)', widget: 'string', required: false}
 			 ],
   // Pattern to identify a block as being an instance of this component
-  pattern: /{{% h-block %}}(.+){{% /h-block %}}/,
+  pattern: /{{% h-block %}}([\s\S]*?){{% \/h-block %}}/s,
   // Function to extract data elements from the regexp match
   fromBlock: function(match) {
     return {
