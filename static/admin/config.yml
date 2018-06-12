@@ -8,12 +8,20 @@ slug:
   encoding: "ascii"
   clean_accents: true
 collections:
-  - label: "Instrucciones"
-    name: "instrucciones"
+  - label: "Diverso"
+    name: "diverso"
     files:
-      - label: "Homepage"
+      - label: "Página principal"
         name: "homepage"
         file: "content/_index.md"
+        fields:
+          - {label: "Titulo", name: "title", widget: "string"}
+          - {label: "Descripcion", name: "description", widget: "string"}
+          - {label: "Tipo", name: "type", widget: "hidden", default: "page"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Limitación de responsabilidad"
+        name: "legal"
+        file: "content/limitacion-de-responsabilidad.md"
         fields:
           - {label: "Titulo", name: "title", widget: "string"}
           - {label: "Descripcion", name: "description", widget: "string"}

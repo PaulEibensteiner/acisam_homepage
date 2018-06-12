@@ -1,3 +1,7 @@
+.childblock>a {
+	display: block !important;
+}
+
 .mh-6 {
 	max-height:32rem;
 }
