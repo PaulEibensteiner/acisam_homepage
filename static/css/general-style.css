@@ -1,8 +1,12 @@
-
-
-
 /* general element styling */
 
+.ytblock~*:not(.ytblock) {
+	clear: both;
+}
+
+p:empty {
+	display: none;
+}
 
 h3 {
 	font-weight: 200;
