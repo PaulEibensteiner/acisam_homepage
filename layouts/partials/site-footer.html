@@ -1,20 +1,21 @@
 <div class="bluewrapper relative">
-	<div class="cf">
-		<div class="h2-5 pr2 bl bw3 b--white fl ma0 w-third bg-blue relative">
-			<a class="abs-vert-center-1line mh2 link white" href="{{ "" | relURL }}">
+	<div class="cf bg-blue bl br bw3 b--white">
+		<div class="fl ma0 w-50-ns w-100 relative lh-copy pa2">
+			<p>
+			<a class="link white db" href="{{ "" | relURL }}">
     			&copy; {{ now.Format "2006" }} ACISAM<span class="di-l dn">, actualizado: {{ now.Day }} de {{ index $.Site.Data.mes (printf "%d" now.Month) }} {{ .Date.Year }}</span>
       	</a>
-		</div>
-		<div class="h2-5 ph2 fl ma0 w-third bg-blue relative">
-			<a class="abs-vert-center-1line ph2 link white db tc w-100 ttu" href="{{ "limitacion-de-responsabilidad.html" | relURL }}">
+			<a class="link white db ttu" href="{{ "limitacion-de-responsabilidad.html" | relURL }}">
 				Limitación de responsabilidad
 			</a>
-		</div>
-		<div class="fl w-third pl2 br bw3 b--white bg-blue">
+			</p>
 			{{ partial "social-follow.html" . }}
-			<div class="fr mh2 lh-copy mv2 childblock dn db-ns">
+			<div class="fl mh2 lh-copy mv2 childblock dn db-ns">
 				<script type="text/javascript" src="http://www.websitegoodies.com/counter.php?id=72657&color=%23357edd"></script>
 			</div>
+		</div>
+		<div class="fl w-50-ns w-100 pl2 lh-copy pa2 tr-ns white">
+			{{ with .Site.GetPage "page" "footer.md" }}{{ .Content }}{{ end }}
 		</div>
 	</div>
 </div>

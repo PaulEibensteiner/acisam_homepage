@@ -27,6 +27,14 @@ collections:
           - {label: "Descripcion", name: "description", widget: "string"}
           - {label: "Tipo", name: "type", widget: "hidden", default: "page"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Contacto"
+        name: "footer"
+        file: "content/footer.md"
+        fields:
+          - {label: "Titulo", name: "title", widget: "string"}
+          - {label: "Descripcion", name: "description", widget: "string"}
+          - {label: "Tipo", name: "type", widget: "hidden", default: "page"}
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: "novedades" # Used in routes, e.g., /admin/collections/blog
     label: "Novedades" # Used in the UI
     folder: "content/novedades" # The path to the folder where the documents are stored

@@ -1,6 +1,6 @@
 <!-- TODO: Add follow intents where available TODO: Revisit color and hover color -->
 {{ $icon_size := "2em" }}
-{{ $icon_class := "fr lh-1 db dim mh1 mv2 pa0 white" }}
+{{ $icon_class := "fl lh-1 db dim mh1 mv2 pa0 white" }}
 {{ with .Site.Params.facebook }}
   <a href="{{ . }}" target="_blank" class={{ $icon_class }} title="Facebook link">
     {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}

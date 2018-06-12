@@ -30,11 +30,11 @@ x hugo will wie bei der red centroamericana seite informes mit link zu issuu und
 
 -----
 
-x hugo version und shortcode counter zu funktionieren bringen
-
 x admin erklaeren vorbereiten, erklärungspdf - repository name fixen (hr erklaeren)
 
 x carlos soll endlich news machen
+
+x Kontakt im footer
 
 
 
