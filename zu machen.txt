@@ -28,13 +28,16 @@ x 505 site
 
 x hugo will wie bei der red centroamericana seite informes mit link zu issuu und videos von youtube auf startseite
 
+x robots.txt, google find on netlify support chat
+
+
 -----
 
-x admin erklaeren vorbereiten, erklärungspdf - repository name fixen (hr erklaeren)
+x admin erklaeren vorbereiten, erklärungspdf - repository name fixen
 
 x carlos soll endlich news machen
 
-x Kontakt im footer
+x gallerie
 
 
 
@@ -42,9 +45,6 @@ x Kontakt im footer
 x hover fragen beantwortet und dann einfach kaufen, am besten namecheap
 
 x add text formatting
-
-x robots.txt, google find on netlify support chat
-
 
 
 x video fix ohne hr
