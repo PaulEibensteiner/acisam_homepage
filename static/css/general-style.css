@@ -208,22 +208,22 @@ h1 {
 	}
 	
 	.headwrapper::before {
-		width: calc(50vw - 40.5rem);
-		left: calc(40.5rem - 50vw);
+		width: calc(50vw - 40.6rem);
+		left: calc(40.6rem - 50vw);
 	}
 
 	.headwrapper::after {
-		width: calc(50vw - 40.5rem);
-		right: calc(40.5rem - 50vw);
+		width: calc(50vw - 40.6rem);
+		right: calc(40.6rem - 50vw);
 	}
 	.content h1::before,.bluewrapper::before {
-		width: calc(50vw - 40.5rem);
-		left: calc(40.5rem - 50vw);
+		width: calc(50vw - 40.6rem);
+		left: calc(40.6rem - 50vw);
 	}
 
 	.content h1::after,.bluewrapper::after {
-		width: calc(50vw - 40.5rem);
-		right: calc(40.5rem - 50vw);
+		width: calc(50vw - 40.6rem);
+		right: calc(40.6rem - 50vw);
 	}
 }
 
