@@ -18,7 +18,7 @@ collections:
           - {label: "Titulo", name: "title", widget: "string"}
           - {label: "Descripcion", name: "description", widget: "string"}
           - {label: "Tipo", name: "type", widget: "hidden", default: "page"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Contenido de la pagina", name: "body", widget: "markdown"}
       - label: "Limitación de responsabilidad"
         name: "legal"
         file: "content/limitacion-de-responsabilidad.md"
@@ -26,7 +26,7 @@ collections:
           - {label: "Titulo", name: "title", widget: "string"}
           - {label: "Descripcion", name: "description", widget: "string"}
           - {label: "Tipo", name: "type", widget: "hidden", default: "page"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Contenido de la pagina", name: "body", widget: "markdown"}
       - label: "Contacto"
         name: "footer"
         file: "content/footer.md"
@@ -34,7 +34,7 @@ collections:
           - {label: "Titulo", name: "title", widget: "string"}
           - {label: "Descripcion", name: "description", widget: "string"}
           - {label: "Tipo", name: "type", widget: "hidden", default: "page"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Contenido de la pagina", name: "body", widget: "markdown"}
   - name: "novedades" # Used in routes, e.g., /admin/collections/blog
     label: "Novedades" # Used in the UI
     folder: "content/novedades" # The path to the folder where the documents are stored
@@ -46,7 +46,7 @@ collections:
       - {label: "Descripcion", name: "description", widget: "string"}
       - {label: "Tipo", name: "type", widget: "hidden", default: "post"}
       - {label: "Imagen grande", name: "featured_image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
+      - {label: "Contenido de la pagina", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
   - name: "quienes-somos" # Used in routes, e.g., /admin/collections/blog
     label: "Quienes Somos" # Used in the UI
     folder: "content/quienes-somos" # The path to the folder where the documents are stored
@@ -66,7 +66,7 @@ collections:
             fields:
               - {label: "Contiendo en Menu", name: "parent", widget: "select", options: ["Editorial", "Ejes de Trabajo", "Multimedia", "Proyectos", "Quienes Somos"]}
               - {label: "Orden", name: "weight", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
+      - {label: "Contenido de la pagina", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
   - name: "proyectos" # Used in routes, e.g., /admin/collections/blog
     label: "Proyectos" # Used in the UI
     folder: "content/proyectos" # The path to the folder where the documents are stored
@@ -86,7 +86,7 @@ collections:
             fields:
               - {label: "Contiendo en Menu", name: "parent", widget: "select", options: ["Editorial", "Ejes de Trabajo", "Multimedia", "Proyectos", "Quienes Somos"]}
               - {label: "Orden", name: "weight", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
+      - {label: "Contentido de la pagina", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
   - name: "multimedia" # Used in routes, e.g., /admin/collections/blog
     label: "Multimedia" # Used in the UI
     folder: "content/multimedia" # The path to the folder where the documents are stored
@@ -106,7 +106,7 @@ collections:
             fields:
               - {label: "Contiendo en Menu", name: "parent", widget: "select", options: ["Editorial", "Ejes de Trabajo", "Multimedia", "Proyectos", "Quienes Somos"]}
               - {label: "Orden", name: "weight", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
+      - {label: "Contentido de la pagina", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
   - name: "ejes-de-trabajo" # Used in routes, e.g., /admin/collections/blog
     label: "Ejes de Trabajo" # Used in the UI
     folder: "content/ejes-de-trabajo" # The path to the folder where the documents are stored
@@ -126,7 +126,7 @@ collections:
             fields:
               - {label: "Contiendo en Menu", name: "parent", widget: "select", options: ["Editorial", "Ejes de Trabajo", "Multimedia", "Proyectos", "Quienes Somos"]}
               - {label: "Orden", name: "weight", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
+      - {label: "Contentido de la pagina", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
   - name: "editorial" # Used in routes, e.g., /admin/collections/blog
     label: "Editorial" # Used in the UI
     folder: "content/editorial" # The path to the folder where the documents are stored
@@ -146,4 +146,4 @@ collections:
             fields:
               - {label: "Contiendo en Menu", name: "parent", widget: "select", options: ["Editorial", "Ejes de Trabajo", "Multimedia", "Proyectos", "Quienes Somos"]}
               - {label: "Orden", name: "weight", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
+      - {label: "Contentido de la pagina", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}

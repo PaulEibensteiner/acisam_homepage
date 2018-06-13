@@ -33,6 +33,8 @@ x robots.txt, google find on netlify support chat
 
 -----
 
+x do: custom domain kaufen, fr: Mit Francisco dokument durchgehen und schauen ob verständlich. Dann mit ihm zusammen ein Umfangreicheres Dokument erstellen, was die Zusammenhänge github, Netlify, Domain, netlify cms usw erklärt und mit ihm zusammen einen Netlify Account mit hugo seiner Email erstellen, und seite, domain usw hinzufügen (environmental variables auch).
+
 x admin erklaeren vorbereiten, erklärungspdf
 
 x carlos soll endlich news machen
