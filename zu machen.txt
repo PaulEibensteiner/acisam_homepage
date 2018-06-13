@@ -33,11 +33,13 @@ x robots.txt, google find on netlify support chat
 
 -----
 
-x admin erklaeren vorbereiten, erklärungspdf - repository name fixen
+x admin erklaeren vorbereiten, erklärungspdf
 
 x carlos soll endlich news machen
 
 x gallerie
+
+x nur eingeladene editoren
 
 
 

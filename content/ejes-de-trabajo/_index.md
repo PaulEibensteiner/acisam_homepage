@@ -1,8 +1,11 @@
 ---
-title: _index
+title: Ejes de Trabajo
+description: Pagina
 type: page
 menu:
   main:
-    parent: Ejes de Trabajo
+    weight: 4
+
 ---
+
 # Content
