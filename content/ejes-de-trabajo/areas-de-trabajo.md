@@ -1,5 +1,5 @@
 ---
-title: Áreas de trabajo
+title: Áreas de trabajo 1
 description: 'Áreas de trabajo, enfoques, valores y principios'
 type: page
 menu:
