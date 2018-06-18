@@ -4,10 +4,10 @@
 	{{ $featured_image := .Params.featured_image }}
       {{ if $featured_image }}
           <a href="{{.URL}}" class="db h-100 overflow-hidden">
-				 <img src="{{ partial "featured-image.html" . }}" class="center grow min-h-100 mw-100" alt="image from {{ .Title }}" />
+				 <img src="{{ partial "featured-image.html" . }}" class="center min-h-100 mw-100" alt="image from {{ .Title }}" />
           </a>
       {{ end }}
-      <div class="white bg-black-50 {{ if $featured_image }}ph4 pv3 absolute w-100 bottom-0 {{ else }}h-100 pa5 {{ end }}">
+      <div class="z-1 white btgrad {{ if $featured_image }}ph4 pv3 absolute w-100 bottom-0 {{ else }}h-100 pa5 {{ end }}">
           <div class="cf w-100" >
           <a href="{{.URL}}" class="fl dim link white tl">
         <h2 class="dib f3 lh-title ma0">
@@ -34,9 +34,13 @@
 			<!--Artikel Ende-->
 			{{ if ge .section_count (add .n_posts 1) }}
 			<!--Slide Knöpfe-->
-			<button type="button" class="white abs-vert-center left-0 f1 dim ma2 pa2 white bg-transparent" onclick="plusDivs(-1)">&#10094;</button>
-			<button type="button" class="abs-vert-center right-0 f1 pa2 ma2 dim white bg-transparent" onclick="plusDivs(1)">&#10095;</button>
-			<div class="absolute w-100 tc top-1">
+			<button type="button" class="w-10 absolute left-0 top-0 bottom-0 ma2 pa2  bg-transparent gradhover-left" onclick="plusDivs(-1)">
+				<div class="arrowright f3"></div>
+			</button>
+			<button type="button" class="w-10 absolute right-0 top-0 bottom-0 ma2 pa2  bg-transparent gradhover-right" onclick="plusDivs(1)">
+				<div class="arrowleft f3 fr"></div>
+			</button>
+			<div class="absolute left-0 right-0 ma2 pt4 tc top-0">
 				<span class="center">
 				{{ range $index, $num := (seq .n_posts) }}
 					{{$indexStartingAt1 := (add $index 1)}}

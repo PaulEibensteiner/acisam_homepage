@@ -30,26 +30,30 @@ x hugo will wie bei der red centroamericana seite informes mit link zu issuu und
 
 x robots.txt, google find on netlify support chat
 
-
------
+x nur eingeladene editoren
 
 x do: custom domain kaufen, fr: Mit Francisco dokument durchgehen und schauen ob verständlich. Dann mit ihm zusammen ein Umfangreicheres Dokument erstellen, was die Zusammenhänge github, Netlify, Domain, netlify cms usw erklärt und mit ihm zusammen einen Netlify Account mit hugo seiner Email erstellen, und seite, domain usw hinzufügen (environmental variables auch).
 
 x admin erklaeren vorbereiten, erklärungspdf
 
-x carlos soll endlich news machen
-
-x gallerie
-
-x nur eingeladene editoren
 
 
+-----
+
+x gallerie - einheitliche bildeinbingungsfunktion - vl noch nicht weil auf responsive images warten, swipe?
+
+x farbenliste erstellen
 
 
-x hover fragen beantwortet und dann einfach kaufen, am besten namecheap
 
 x add text formatting
 
+x fore https
+
+
+x read more copy??
+
+x gradient
 
 x video fix ohne hr
 
@@ -84,3 +88,5 @@ x image widget vereinfachen (statt verschiedenen shortcodes einfach value passen
 x sitemap?
 
 jeadersguardado17@gmail.com	20090499
+
+Shadow27

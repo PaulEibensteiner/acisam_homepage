@@ -155,3 +155,12 @@ function showmenu(subjekt) {
     document.getElementById( "header" ).classList.toggle("mb7");
     subjekt.classList.toggle("opened");
 }
+
+// modal
+function openModal(subjektid) {
+  document.getElementById(subjektid).style.display = "block";
+}
+
+function closeModal(subjektid) {
+  document.getElementById(subjektid).style.display = "none";
+}

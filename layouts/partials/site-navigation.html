@@ -26,7 +26,7 @@
 						{{ partial "svg/masicon.svg" }}
 					</button>
 					<ul class="dc dn db-ns absolute-ns list top-0 left-100 mt3 mb--1 ma0-ns pa0 pl3-ns w-100 bg-black-10 bg-transparent-ns">
-						<div class="arrowleft dn db-ns"></div>
+						<div class="arrowleft absolute left-0 top-05 dn db-ns"></div>
 						{{ range .Children }}
 						<li class="hover-white-ns bg-blue-ns white ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
 							<a href="{{ .URL }}" class="no-underline ma0 pa0">{{ .Name }}</a>
