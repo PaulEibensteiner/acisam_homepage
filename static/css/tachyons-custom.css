@@ -13,10 +13,6 @@
 .btgrad {
 	background: #357edd;
    background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.4), rgba(0,0,0,0.0));
-} 
-
-.childblock>a {
-	display: block !important;
 }
 
 .mh-6 {
@@ -106,6 +102,15 @@
 
 .lh-1 {
 	line-height: 0.7;
+}
+
+.lh13 {
+	line-height: 13rem;
+}
+
+.centertable {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .abs-vert-center {

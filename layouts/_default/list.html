@@ -3,14 +3,18 @@
 	{{ if .Data.Pages }}
 	<section class="pa2 bodywrap">
 		<h2 class="mh2">Paginas en esta Categoría</h2>
-		<ul class="cf w-100 ma0 pa0">
+		<ul class="cf w-100 ma0 pa0 relative">
 			<!-- Ranges through content/post/*.md -->
 			{{ $unterseiten := union .Pages .Sections }} {{ range $unterseiten.ByWeight }}
-			<li class="relative db fl w-sixth-ns w-50 ma0 h-0 pt-100">
-				<a href="{{ .URL }}" class="ma2 bg-blue db absolute--fill absolute link">
-					<h3 class="db abs-vert-center white tc ma0 pa0 w-100">
-						{{.Title}}
-					</h3>
+			<li class="db fl w-sixth-ns w-50 ma0 relative">
+				<a href="{{ .URL }}" class="db h-0 aspect-ratio--1x1">
+					<div class="absolute absolute--fill">
+					<div class="bg-blue link w-100 h-100 dt">
+						<h3 class="centertable white tc ma0 pa0 w-100">
+							{{.Title}}
+						</h3>
+					</div>
+					</div>
 				</a>
 			</li>
 			{{ end }}
