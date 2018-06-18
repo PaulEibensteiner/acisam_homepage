@@ -18,3 +18,9 @@ Thierry, fue el encargado en facilitar el sexto módulo de la Escuela de Cine Co
 Thierry, hizo énfasis en el deber que tenemos de enseñar las nuevas formas de hacer comunicación, para que cuando se abran nuevos espacios de difusión, de protagonismo audiovisual se tenga una nueva forma y nuevos contenidos.
 
 Al final de la jornada se concluyó con la presentación del documental salvadoreño que mas premios ha tenido a nivel internacional “ El tigre y El venado” cuyo director es el Periodista Salvadoreño Sergio Sibrían.
+
+
+
+mas infromación haz clic aqui. 
+
+https://www.facebook.com/acisam.chalate/?hc_ref=ARQR4QHYMwPh4sd3GGAgtUFCf2rd-rms0Rpr7qhujRN562MWPSgibVwpQwdhPgAeRPU&fref=nf
