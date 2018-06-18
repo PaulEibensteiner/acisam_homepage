@@ -9,7 +9,7 @@ type: page
 
 {{< youtube-block title="Enredados" id="af2iWVxukkE" description="" >}}
 
-{{< youtube-block title="Intercambio regional de AWO International" id="yyifYlV9ntc" description="" >}}
+{{< youtube-block title="Intercambio regional" id="yyifYlV9ntc" description="" >}}
 
 # Manuales
 
