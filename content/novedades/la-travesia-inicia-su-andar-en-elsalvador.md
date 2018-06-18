@@ -1,5 +1,5 @@
 ---
-title: "\"La Travesía\" inicia su andar en ElSalvador \U0001F4F9"
+title: "\"La Travesía\" inicia su andar en #ElSalvador \U0001F4F9"
 date: '2018-02-08T10:51:00-06:00'
 description: La Ecc Escuela De Cine Comunitario Acisam
 type: post

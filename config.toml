@@ -6,13 +6,14 @@ languageCode = "es-sv"
 relativeURLs = true
 title = "Asociación de Capacitación e Investigación para la salud mental"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+RemovePathAccents = true
 [params]
 facebook = "https://www.facebook.com/acisam/"
 favicon = "favicon.ico"
 github = ""
 instagram = ""
 linkedin = ""
-recent_posts_number = 2
+recent_posts_number = 3
 site_logo = "staticimg/logo.jpg"
 twitter = ""
 youtube = "https://www.youtube.com/user/evmacisam"
@@ -20,7 +21,7 @@ youtube = "https://www.youtube.com/user/evmacisam"
 editorial = "/:sections/:title/"
 ejes-de-trabajo = "/:sections/:title/"
 multimedia = "/:sections/:title/"
-novedades = "/:sections/:title/"
+novedades = "/:sections/:year/:filename/"
 proyectos = "/:sections/:title/"
 quienes-somos = "/:sections/:title/"
 [sitemap]
