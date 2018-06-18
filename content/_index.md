@@ -3,6 +3,12 @@ title: Novedades recientes
 description: Landing page displaying News.
 type: page
 ---
+# Hugo
+
+El mejor rapero del mundo
+
+
+
 # Videos
 
 {{< youtube-block title="Arte y Recuperación" id="BciLgl25If8" description="" >}}
