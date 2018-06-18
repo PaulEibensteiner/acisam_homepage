@@ -1,9 +1,11 @@
 ---
-title: 5. Novedad
+title: El Programa Infanto-Juvenil de ACISAM
 date: '2018-02-09 16:51:20 +0000'
-description: Estamos en la oficina
+description: >-
+  El objetivo fue retomar metodologías de trabajo con niñas y niños que fueron
+  acertadas en ese período de trabajo y que puedan ser adaptadas en el contexto
+  actual.
 type: post
-featured_image: /images/front page river.jpg
+featured_image: /images/32875629_1498286790283352_147459262497423360_n.jpg
 ---
-Empoderar a usuarios de los servicios de salud mental Personas con Discapacidad Mental (PDM) y a sus familias en la lucha por sus derechos, por medio de una red de asociaciones de base en Centro América. También se busca consolidar y fortalecer una red, que contribuya a mejorar los servicios cerrar la brecha en la atención de las necesidades de salud mental de la región centroamericana y destrezas administrativas, de liderazgo, incidencia, planificación, evaluación y desarrollo de alianzas de las asociaciones miembros, para que ejecuten programas de mayor.
-Empoderar a usuarios de los servicios de salud mental Personas con Discapacidad Mental (PDM) y a sus familias en la lucha por sus derechos, por medio de una red de asociaciones de base en Centro América. También se busca consolidar y fortalecer una red, que contribuya a mejorar los servicios cerrar la brecha en la atención de las necesidades de salud mental de la región centroamericana y destrezas administrativas, de liderazgo, incidencia, planificación, evaluación y desarrollo de alianzas de las asociaciones miembros, para que ejecuten programas de mayor impacto y sostenible.
+El Programa Infanto-Juvenil de ACISAM, es decir, los equipos Cihuatán y Chalatenango, desarrollamos un espacio de intercambio sobre la experiencia de Protagonismo Infanto-Juvenil desarrollada durante la década del 90. El objetivo fue retomar metodologías de trabajo con niñas y niños que fueron acertadas en ese período de trabajo y que puedan ser adaptadas en el contexto actual. Vimos el vídeo proceso de esta experiencia, revisamos el trabajo con visión de proceso, la estructura organizativa del árbol, algunas técnicas lúdicas para trabajar con niñas, niños y personas adultas, la metodología de rincones y concretamente el rincón de crecimiento personal con el Libro de Crecimiento Personal. También reflexionamos sobre si nuestro trabajo actual tiene visión de proceso, qué estamos haciendo de trabajo con niñez actualmente y cuáles son nuestras necesidades. Acordamos continuar trabajando este tema en una segunda jornada.
