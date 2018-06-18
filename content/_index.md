@@ -3,8 +3,6 @@ title: Novedades recientes
 description: Landing page displaying News.
 type: page
 ---
-<iframe width="33%" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCUrQHyN7dZI2G5zMmn9vVsA" frameborder="0" allowfullscreen></iframe>
-
 # Videos
 
 {{< youtube-block title="Arte y Recuperación" id="BciLgl25If8" description="" >}}
