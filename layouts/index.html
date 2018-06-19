@@ -15,7 +15,7 @@
 	<section class="cf recents pv3 ph2 bodywrap">
 		<h2 class="mh2">{{ $section_name }}</h2>
 		<!--Artikel Anfang, hier waren zwei divs-->
-		<div class="ph2 pv2 fl w-100 w-two-thirds-ns relative h26">
+		<div class="ph2 pv2 fl w-100 w-two-thirds-ns relative h26 overflow-hidden">
 			{{/* Call partial passing general variables zb .title as .page.title and all the other variables as defined */}}
 			{{ partial "carussell.html" (dict "page" . "section" $section "n_posts" $n_posts "section_count" $section_count) }}
 		</div>

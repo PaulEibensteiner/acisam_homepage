@@ -1,5 +1,4 @@
 ---
-title: Novedades recientes
 description: Landing page displaying News.
 type: page
 ---
