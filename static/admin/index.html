@@ -51,8 +51,24 @@
   label: "Añadir texto en color",
   // Fields the user need to fill out when adding an instance of the component
   fields: [
-			 {name: 'color', label: 'Color de fuente en palabra ingles', widget: 'string'},
-			 {name: 'content', label: 'Texto en color', widget: 'string'}
+			 {
+				 name: 'color', 
+				 label: 'Color de fuente en palabra ingles', 
+				 widget: 'select',
+				 options: [
+					 { label: 'blanco', value: 'white' },
+					 { label: 'gris', value: 'gray' },
+					 { label: 'gris claro', value: 'silver' },
+					 { label: 'rojo', value: 'red' },
+					 { label: 'naranja', value: 'orange' },
+					 { label: 'amarillo', value: 'yellow' },
+					 { label: 'verde', value: 'green' },
+					 { label: 'verde oscuro', value: 'dark-green' },
+					 { label: 'azul', value: 'blue' },
+					 { label: 'azul oscuro', value: 'white' }
+				]
+			 },
+			 {name: 'content', label: 'Texto en color', widget: 'text'}
 			 ],
   // Pattern to identify a block as being an instance of this component
   pattern: /<span class="(.+)">(.+)<\/span>/,
@@ -71,7 +87,7 @@
   // (component gives better render performance)
   toPreview: function(obj) {
     return (
-      '<span class="' + obj.color + '">' + obj.content + '</span>'
+      '<span style="color:' + obj.color + ';">' + obj.content + '</span>'
     );
   }
 });

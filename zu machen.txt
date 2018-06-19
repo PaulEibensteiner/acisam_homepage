@@ -44,6 +44,8 @@ x gallerie - einheitliche bildeinbingungsfunktion - vl noch nicht weil auf respo
 
 x farbenliste erstellen
 
+x anadir video en vivo
+
 
 
 x add text formatting
