@@ -68,6 +68,14 @@ ul {
 
 /* special classes and dependencies */
 
+.counter br {
+	display: none !important;
+}
+
+.counter>a:first-child {
+	display: none !important;
+}
+
 /* gallery */
 
 .modal {
