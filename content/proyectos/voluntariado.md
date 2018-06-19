@@ -1,5 +1,5 @@
 ---
-title: Voluntariado
+title: Trabajo con Voluntario/as
 description: Informacion para voluntarios en aleman
 type: page
 menu:
