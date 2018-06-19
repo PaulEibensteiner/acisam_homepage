@@ -3,3 +3,7 @@ https://acisam.netlify.com/* https://www.acisam.info/:splat 301!
 
 # These extra rules are required because HTTPS is not forced
 http://acisam.netlify.com/* https://www.acisam.info/:splat 301!
+
+# Redirect to https like suggested in this post: 
+# https://stackoverflow.com/questions/49712714/can-netlify-redirect-traffic-from-http-to-https-without-forcing-ssl
+http://www.acisam.info/* https://www.acisam.info/:splat 301!
