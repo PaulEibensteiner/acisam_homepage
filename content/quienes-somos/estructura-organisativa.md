@@ -7,4 +7,4 @@ menu:
     parent: Quienes Somos
     weight: 4
 ---
-\
+![null](/images/acisam-organigrama.bmp)
