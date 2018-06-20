@@ -6,9 +6,9 @@
 		<ul class="cf w-100 ma0 pa0 relative">
 			<!-- Ranges through content/post/*.md -->
 			{{ $unterseiten := union .Pages .Sections }} {{ range $unterseiten.ByWeight }}
-			<li class="db fl w-sixth-ns w-50 ma0 relative">
+			<li class="pa2 db fl w-sixth-ns w-50 ma0 relative">
 				<a href="{{ .URL }}" class="db h-0 aspect-ratio--1x1">
-					<div class="absolute absolute--fill">
+					<div class="absolute absolute--fill pa2">
 					<div class="bg-blue link w-100 h-100 dt">
 						<h3 class="centertable white tc ma0 pa0 w-100">
 							{{.Title}}
