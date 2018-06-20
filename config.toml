@@ -4,7 +4,7 @@ baseURL = "https://www.acisam.netlify.com"
 enableRobotsTXT = true
 languageCode = "es-sv"
 relativeURLs = true
-title = "Asociación de Capacitación e Investigación para la salud mental"
+title = "ACISAM"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 RemovePathAccents = true
 [params]

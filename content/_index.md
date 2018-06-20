@@ -1,4 +1,5 @@
 ---
+title: "Asociación de Capacitación e Investigación para la salud mental"
 description: Landing page displaying News.
 type: page
 ---
