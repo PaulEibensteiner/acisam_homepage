@@ -2,7 +2,7 @@
 {{ partial "site-contentdisplay.html" . }}
 	{{ if .Data.Pages }}
 	<section class="pa2 bodywrap">
-		<h2 class="mh2">Paginas en esta Categoría</h2>
+		<h1 class="mh2">Paginas en esta Categoría</h1>
 		<ul class="cf w-100 ma0 pa0 relative">
 			<!-- Ranges through content/post/*.md -->
 			{{ $unterseiten := union .Pages .Sections }} {{ range $unterseiten.ByWeight }}

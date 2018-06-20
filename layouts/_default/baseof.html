@@ -22,20 +22,7 @@
 		<link href='{{ "css/tachyons-custom-ns.css" | relURL }}' rel='stylesheet' type="text/css" />
 		<link href='{{ "css/general-style.css" | relURL }}' rel='stylesheet' type="text/css" />
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,700,700i" rel="stylesheet">
-		<!--     netlify     -->
-		{{ block "head" . }}{{ end }}
 		{{ block "favicon" . }} {{ partial "site-favicon.html" . }} {{ end }}
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119905936-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-			gtag('config', 'UA-119905936-1');
-		</script>
 	</head>
 
 	<body class="ma0 pa0 montserrat">

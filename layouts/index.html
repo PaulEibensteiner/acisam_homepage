@@ -1,6 +1,3 @@
-{{ define "head" }}
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-{{ end }}
 {{ define "main" }}
 	{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
 	{{ $mainSections := .Site.Params.mainsection | default (slice "novedades") }}
@@ -13,7 +10,7 @@
 	{{/* Derive the section name */}}
 	{{ $section_name := index $mainSections 0 }}
 	<section class="cf recents pv3 ph2 bodywrap">
-		<h2 class="mh2">{{ $section_name }}</h2>
+		<h1 class="mh2">{{ $section_name }}</h1>
 		<!--Artikel Anfang, hier waren zwei divs-->
 		<div class="ph2 pv2 fl w-100 w-two-thirds-ns relative h26 overflow-hidden">
 			{{/* Call partial passing general variables zb .title as .page.title and all the other variables as defined */}}
