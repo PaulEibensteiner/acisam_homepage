@@ -37,17 +37,17 @@
 			<!--Artikel Ende-->
 			{{ if ge .section_count (add .n_posts 1) }}
 			<!--Slide Knöpfe-->
-			<button type="button" class="w-10 absolute left-0 top-0 bottom-0 ma2 pa2  bg-transparent gradhover-left" onclick="plusDivs(-1)">
+			<button type="button" class="w-10-ns w-25 absolute left-0 top-0 bottom-0 ma2 pa2  bg-transparent gradhover-left" onclick="plusDivs(-1)">
 				<div class="arrowright f3"></div>
 			</button>
-			<button type="button" class="w-10 absolute right-0 top-0 bottom-0 ma2 pa2  bg-transparent gradhover-right" onclick="plusDivs(1)">
+			<button type="button" class="w-10-ns w-25 absolute right-0 top-0 bottom-0 ma2 pa2  bg-transparent gradhover-right" onclick="plusDivs(1)">
 				<div class="arrowleft f3 fr"></div>
 			</button>
 			<div class="absolute left-0 right-0 ma2 pt4 tc top-0">
 				<span class="center">
 				{{ range $index, $num := (seq .n_posts) }}
 					{{$indexStartingAt1 := (add $index 1)}}
-					<button class="button circle js-badge w1 h1 mr1 bg-white-60 pa0" onclick="currentDiv({{$indexStartingAt1}})"></button>
+					<button class="button circle dib-ns dn js-badge w1 h1 mr1 bg-white-60 pa0" onclick="currentDiv({{$indexStartingAt1}})"></button>
 				{{ end }}
 				</span>
 			</div>

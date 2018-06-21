@@ -54,6 +54,8 @@ responsive und klickbare images
 
 h1 und article uses: Schaut sehr gut aus, nur mglw in newsticker h1s verwenden
 
+x responsive fuer news tile anpassen
+
 -----
 
 x gallerie, swipe?
@@ -67,7 +69,7 @@ x gradient
 x seo: 
 facebook link in news
 
-
+buttongroesse
 
 
 x custom preview: h1 blau
@@ -83,8 +85,6 @@ x indents schoen machen
 x view counter schoener
 
 x mehr textfarben
-
-x responsive fuer news tile anpassen
 
 x redesign weitere news
 
