@@ -5,12 +5,6 @@ description: >-
   participativa ubicada en San Salvador, El Salvador
 type: page
 ---
-# En Vivo
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sZFZmxT8FDg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-
 # Videos
 
 {{< youtube-block title="Arte y Recuperación" id="BciLgl25If8" description="" >}}
