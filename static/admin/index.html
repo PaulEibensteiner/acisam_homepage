@@ -22,10 +22,10 @@
 		  fields: [
 			  {name: 'id', label: 'Selecionar imagen', widget: 'image'},
 			  {name: 'align', label: 'Lugar del Imagen', widget: "select", options: ["derecha", "izquierda", "ancho"]},
-			  {name: 'name', label: 'Subtitulo', widget: "text", required: false, default: "bullshit"}
+			  {name: 'caption', label: 'Subtitulo', widget: "text"}
 			],
 		  // Pattern to identify a block as being an instance of this component
-		  pattern: /{{< image src="(.+)" align="(.+)" caption="(.+)" >}}/,
+		  pattern: /{{< image src="(.*)" align="(.*)" caption="(.*)" >}}/,
 		  // Function to extract data elements from the regexp match
 		  fromBlock: function(match) {
 			 return {
@@ -43,7 +43,7 @@
 		  },
 		  // Function to create a text block from an instance of this component
 		  toBlock: function(obj) {
-			 return '{{< image src="' + obj.id.substring(8) + '" align="' + obj.align + '" caption="' + obj.caption + '" >}}';
+			 return '{{< image src="' + obj.id.replace("/images/", "") + '" align="' + obj.align + '" caption="' + obj.caption + '" >}}';
 		  }
 		});
 		CMS.registerEditorComponent({

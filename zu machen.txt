@@ -47,11 +47,11 @@ https://www.sitepoint.com/critical-rendering-path-css-fast-loading-website/
 remove unused css classes using gulp
 alter classes using the technique used in the tachyons starting
 
+x forestry logo loeschen
+
 -----
 
 x gallerie - einheitliche bildeinbingungsfunktion - vl noch nicht weil auf responsive images warten, swipe?
-
-x forestry logo loeschen
 
 x anadir video en vivo
 
@@ -96,9 +96,11 @@ x mehr textfarben
 
 x responsive fuer news tile anpassen
 
+x redesign weitere news
+
 x redirect zu kp
 
-x 
+x untermenu als relation mglw?
 
 jeadersguardado17@gmail.com	20090499
 
