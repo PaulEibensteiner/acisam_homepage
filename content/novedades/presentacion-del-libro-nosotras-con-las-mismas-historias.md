@@ -5,7 +5,7 @@ description: >-
   CSJ a través del Departamento de Atención Integral a Víctimas y ACISAM
   presentan libro "Nosotras...con la misma historia"
 type: post
-featured_image: /images/33899725_1707600879288377_6252051809657946112_n.jpg
+featured_image: /images/presentacion-libro.jpg
 ---
 Presentación del libro "Nosotras con las mismas historias", libro que relata historias de mujeres privadas de libertad, producido por ACISAM y con apoyo de la Unión Europea.
 
