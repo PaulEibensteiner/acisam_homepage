@@ -96,6 +96,10 @@ x mehr textfarben
 
 x responsive fuer news tile anpassen
 
+x redirect zu kp
+
+x 
+
 jeadersguardado17@gmail.com	20090499
 
 Shadow27
