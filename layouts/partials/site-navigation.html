@@ -5,7 +5,7 @@
 	<ul class="b f5 ttu w-100 h-75 ph2 ma0-ns pa0-ns">
 		{{ $currentPage := . }}
 		{{ range .Site.Menus.main }}
-		<li class="hover-white-ns cf white bg-blue db list h-100-ns w-20-ns w-100 fl-ns tc-ns hide-dc firstlastborder ph2 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+		<li class="hover-white-ns cf white bg-blue db list h-100-ns w-20-ns w-100 fl-ns tc-ns hide-dc firstlastborder pl2 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
 			<a href="{{ .URL }}" class="relative h-100-ns db-ns fn-ns fl d w-100-ns ph2-ns ma0-ns pa0-ns pl0 mr3 pr0 pv3 list">
 				<div class="linkwrap-ns di">
 					{{ .Pre }}
@@ -13,7 +13,7 @@
 				</div>
 			</a>
 			{{ if .HasChildren }}
-			<button onclick="toggle(this)" class="ph0 pv3 h2-5 w1 ml--1 dib fr dn-ns">
+			<button onclick="toggle(this)" class="ph1 pv3 h2-5 w1 ml--1 dib fr dn-ns">
          	<span class="screen-reader-text">Abre Submenu</span>
           	{{ partial "svg/masicon.svg" }}
          </button>
@@ -23,7 +23,7 @@
 				<li class="hide-dc hover-white-ns tc-ns list bg-blue white relative ph2 pv3 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
 					<a href="{{ .URL }}" class="no-underline">{{ .Name }}</a>
 					{{ if .HasChildren }}
-					<button onclick="toggle(this)" class="h2-5 w2-5 absolute right-0 top-0 ma0 pv3 ph2 db dn-ns" aria-expanded="false">
+					<button onclick="toggle(this)" class="h2-5 w1 absolute right-0 top-0 ma0 pv3 ph1 db dn-ns" aria-expanded="false">
 						<span class="screen-reader-text">Abre Subusubmenu</span>
 						{{ partial "svg/masicon.svg" }}
 					</button>
