@@ -5,7 +5,7 @@
       {{ if $featured_image }}
 		{{ $alt := delimit (slice "image from" .Title) " " }}
 		{{ $src := .Params.featured_image }}
-		{{ $class := "center min-h-100 mw-100" }}
+		{{ $class := "center min-h-100 max-w-100-ns" }}
           <a href="{{.URL}}" class="db h-100 overflow-hidden">
 	  			{{ partial "image-responsive.html" (dict "all" . "path" $src "alt" $alt "class" $class) }}
           </a>

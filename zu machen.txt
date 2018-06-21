@@ -49,26 +49,24 @@ alter classes using the technique used in the tachyons starting
 
 x forestry logo loeschen
 
+responsive und klickbare images
+
+
+h1 und article uses: Schaut sehr gut aus, nur mglw in newsticker h1s verwenden
+
 -----
 
-x gallerie - einheitliche bildeinbingungsfunktion - vl noch nicht weil auf responsive images warten, swipe?
+x gallerie, swipe?
 
 x anadir video en vivo
 
 
-
-
-x read more copy??
 
 x gradient
 
 x seo: 
 facebook link in news
 
-responsive und klickbare images
-
-
-h1 und article uses: Schaut sehr gut aus, nur mglw in newsticker h1s verwenden
 
 
 
@@ -80,15 +78,7 @@ x Textauszeichnung verbessern (schriftgroesse)
 
 x add opengraph?
 
-x partials in subfolder, partials aussortieren
-
-x tags hinzufuegen?
-
 x indents schoen machen
-
-x abstaende kleiner
-
-x image widget vereinfachen (statt verschiedenen shortcodes einfach value passen)
 
 x view counter schoener
 

@@ -20,6 +20,9 @@
 	.w-five-sixth-ns {
 		width: calc(83.3%);
 	}
+	.max-w-100-ns {
+		max-width: 100%;
+	}
 	.stretch-left-ns {
 		top: 0;
 		bottom: 0;

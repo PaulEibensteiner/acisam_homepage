@@ -1,3 +1,7 @@
+.object-fit {
+	object-fit: cover;
+}
+
 .max-w-100 {
 	max-width: 100%;
 }
