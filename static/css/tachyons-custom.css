@@ -6,6 +6,14 @@
 	max-height: 100%;
 }
 
+.max-h-80vh {
+	max-height: 80vh;
+}
+
+.max-w-two-third {
+	max-width: 66.6667%;
+}
+
 .top-05 {
 	top: 0.5em;
 }

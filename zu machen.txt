@@ -42,9 +42,16 @@ meta description
 https://discourse.gohugo.io/t/meta-description-lists-and-static-pages/2667
 https://discourse.gohugo.io/t/meta-description-attribute/3922/2
 
+eliminate render-blocking javascript and css in above-the-fold content
+https://www.sitepoint.com/critical-rendering-path-css-fast-loading-website/
+remove unused css classes using gulp
+alter classes using the technique used in the tachyons starting
+
 -----
 
 x gallerie - einheitliche bildeinbingungsfunktion - vl noch nicht weil auf responsive images warten, swipe?
+
+x forestry logo loeschen
 
 x anadir video en vivo
 
@@ -63,10 +70,7 @@ responsive und klickbare images
 
 h1 und article uses: Schaut sehr gut aus, nur mglw in newsticker h1s verwenden
 
-eliminate render-blocking javascript and css in above-the-fold content
-https://www.sitepoint.com/critical-rendering-path-css-fast-loading-website/
-remove unused css classes using gulp
-alter classes using the technique used in the tachyons starting
+
 
 x custom preview: h1 blau
 
@@ -89,6 +93,8 @@ x image widget vereinfachen (statt verschiedenen shortcodes einfach value passen
 x view counter schoener
 
 x mehr textfarben
+
+x responsive fuer news tile anpassen
 
 jeadersguardado17@gmail.com	20090499
 

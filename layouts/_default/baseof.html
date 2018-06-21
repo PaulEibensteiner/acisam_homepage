@@ -14,6 +14,7 @@
 		{{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
 		{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
 			<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+			<link href='{{ "mincss/zoom.css" | relURL }}' rel='stylesheet' type="text/css" />
 			<link href='{{ "mincss/normalize.css" | relURL }}' rel='stylesheet' type="text/css" />
 			<link href='{{ "mincss/tachyons-custom.css" | relURL }}' rel='stylesheet' type="text/css" />
 			<link href='{{ "mincss/tachyons.css" | relURL }}' rel='stylesheet' type="text/css" />
@@ -21,6 +22,7 @@
 			<link href='{{ "mincss/general-style.css" | relURL }}' rel='stylesheet' type="text/css" />
 		{{ else }}
 			<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+			<link href='{{ "css/zoom.css" | relURL }}' rel='stylesheet' type="text/css" />
 			<link href='{{ "css/normalize.css" | relURL }}' rel='stylesheet' type="text/css" />
 			<link href='{{ "css/tachyons-custom.css" | relURL }}' rel='stylesheet' type="text/css" />
 			<link href='{{ "css/tachyons.css" | relURL }}' rel='stylesheet' type="text/css" />

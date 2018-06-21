@@ -1,10 +1,11 @@
+{{ $src := .Get "name" }}
+{{- $alt := replaceRE "(.*?)\\.[^.]+$" "$1" $src -}}
 <div class="derecha fl w-third-ns w-100 ph2 ml2" onclick="openModal({{- print "no" .Ordinal -}})">
-	{{ partial "image-processed.html" . }}
+	  {{ partial "image-responsive.html" (dict "all" . "path" $src "alt" $alt) }}
 </div>
-{{ $name := .Get "name" }}
 <div class="modal" onclick="closeModal({{- print "no" .Ordinal -}})" id="{{- print "no" .Ordinal -}}">
 	<div class="relative center slides w-80 ma4 pa2 max-h-100">
-			 <img src="{{ partial "image-1080.html" (dict "page" . "path" $name) }}" class="max-w-100 max-h-100" />
+			 <img src="{{- partial "image-responsive.html" (dict "all" .all "path" .path) -}}" class="max-w-100 max-h-100" />
       <div class="white btgrad ph4 pv3 ma2 absolute left-0 right-0 bottom-0">
           <div class="cf w-100" >
           <a href="keinplan" class="fl dim link white tl">

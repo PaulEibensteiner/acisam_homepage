@@ -8,9 +8,11 @@
 			<p class="mh2 mv3 fr bg-blue white b pa2 lh-1875">{{ humanize .Section | upper }}</p>
 		</div>
 		{{ if .Params.featured_image }}
+		{{ $alt := delimit (slice "image from" .Title) " " }}
+		{{ $class := "center min-h-100 mw-100" }}
 		<div class="ancho mv3-ns w-100 ph2">
 			<p>
-				 <img src="{{ partial "featured-image.html" . }}" class="center min-h-100 mw-100" alt="image from {{ .Title }}" />
+	  			{{ partial "image-responsive.html" (dict "all" . "path" .Params.featured_image "alt" $alt "class" $class) }}
 			</p>
 		</div>
 		{{ else }} {{ end }}

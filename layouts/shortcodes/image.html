@@ -1,3 +1,15 @@
-<div  class="ancho mv3-ns w-100 ph2">
-	{{ partial "image-processed.html" . }}
+{{ $src := .Get "src" }}
+{{- $alt := replaceRE "(.*?)\\.[^.]+$" "$1" $src -}}
+{{ $class := "w-100" }}
+<div class="ma pa0">
+{{ if .Get "caption"}}
+  <figure class="relative center max-w-two-third max-h-80vh ph2 ma0">
+  {{ end }}
+	  {{ partial "image-responsive.html" (dict "all" . "path" $src "alt" $alt "class" $class) }}
+  {{ if .Get "caption"}}
+    <figcaption class="z-1 white btgrad ph3 pv2 mh2 absolute left-0 right-0 bottom-0">
+		 {{ .Get "caption" }}
+	  </figcaption>
+  </figure>
+{{ end }}
 </div>

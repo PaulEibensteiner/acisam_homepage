@@ -1,5 +1,7 @@
 <article class="pa2 w-50 fl relative" style="height: 13rem">
-	<a href="{{ .URL }}" class="overflow-hidden link db white h-100 w-100 relative {{ if .Params.featured_image }} hide-child {{ else }}bg-blue{{ end }}"{{ if .Params.featured_image }} style="background-image:url({{ partial "featured-image.html" . }}); no-repeat:center; background-size:cover;"{{ end }}>
+	<a href="{{ .URL }}" class="overflow-hidden link db white h-100 w-100 relative {{ if .Params.featured_image }} hide-child {{ else }}bg-blue{{ end }}"{{ if .Params.featured_image }} style="background-image:url(
+								{{- partial "image-resized.html" (dict "all" . "path" .Params.featured_image "size" "320x") -}}
+											  ); no-repeat:center; background-size:cover;"{{ end }}>
 		<div class="dt w-100 h-100 child {{ if .Params.featured_image }} bg-black-40{{ end }}">
 					<h2 class="centertable mva w-100 tc">
 						{{ .Title }}

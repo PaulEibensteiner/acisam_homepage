@@ -1,5 +1,9 @@
 /* general element styling */
 
+img {
+	box-sizing: border-box;
+}
+
 .ytblock~*:not(.ytblock) {
 	clear: both;
 }

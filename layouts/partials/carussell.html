@@ -3,8 +3,11 @@
 <article class="relative bg-dark-blue slides h-100">
 	{{ $featured_image := .Params.featured_image }}
       {{ if $featured_image }}
+		{{ $alt := delimit (slice "image from" .Title) " " }}
+		{{ $src := .Params.featured_image }}
+		{{ $class := "center min-h-100 mw-100" }}
           <a href="{{.URL}}" class="db h-100 overflow-hidden">
-				 <img src="{{ partial "featured-image.html" . }}" class="center min-h-100 mw-100" alt="image from {{ .Title }}" />
+	  			{{ partial "image-responsive.html" (dict "all" . "path" $src "alt" $alt "class" $class) }}
           </a>
       {{ end }}
       <div class="z-1 white btgrad {{ if $featured_image }}ph4 pv3 absolute w-100 bottom-0 {{ else }}h-100 pa5 {{ end }}">

@@ -6,6 +6,8 @@ menu:
   main:
     weight: 1
 ---
-{{< gallery name="Foto0060.jpg" >}}
+
+{{< image src="sin-titulo.png" align="derecha" caption="nices image" >}}
+
 
 - - -

@@ -21,15 +21,17 @@
 		  // Fields the user need to fill out when adding an instance of the component
 		  fields: [
 			  {name: 'id', label: 'Selecionar imagen', widget: 'image'},
-			  {name: 'align', label: 'Lugar del Imagen', widget: "select", options: ["derecha", "izquierda", "ancho"]}
-					 ],
+			  {name: 'align', label: 'Lugar del Imagen', widget: "select", options: ["derecha", "izquierda", "ancho"]},
+			  {name: 'name', label: 'Subtitulo', widget: "text", required: false, default: "bullshit"}
+			],
 		  // Pattern to identify a block as being an instance of this component
-		  pattern: /{{< imagen-(.+) name="(.+)" >}}/,
+		  pattern: /{{< image src="(.+)" align="(.+)" caption="(.+)" >}}/,
 		  // Function to extract data elements from the regexp match
 		  fromBlock: function(match) {
 			 return {
-				align: match[1],
-				id: match[2]
+				id: match[1],
+				align: match[2],
+				caption: match[3]
 			 };
 		  },
 		  // Preview output for this component. Can either be a string or a React component
@@ -41,7 +43,7 @@
 		  },
 		  // Function to create a text block from an instance of this component
 		  toBlock: function(obj) {
-			 return '{{< imagen-' + obj.align + ' name="' + obj.id.substring(8) + '" >}}';
+			 return '{{< image src="' + obj.id.substring(8) + '" align="' + obj.align + '" caption="' + obj.caption + '" >}}';
 		  }
 		});
 		CMS.registerEditorComponent({
