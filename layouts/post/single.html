@@ -10,7 +10,7 @@
 		<div class="cf">
 		{{ if .Params.featured_image }}
 		{{ $alt := delimit (slice "image from" .Title) " " }}
-		{{ $class := "center w-100" }}
+		{{ $class := "center w-100 zoom" }}
 		<div class="ancho mv3-ns w-two-thirds-ns w-100 ph2">
 	  			{{ partial "image-responsive.html" (dict "all" . "path" .Params.featured_image "alt" $alt "class" $class) }}
 		</div>

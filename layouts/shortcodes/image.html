@@ -1,6 +1,6 @@
 {{ $src := .Get "src" }}
 {{- $alt := replaceRE "(.*?)\\.[^.]+$" "$1" $src -}}
-{{ $class := "w-100" }}
+{{ $class := "w-100 zoom" }}
 {{ with eq (.Get "align") "ancho" }}
 <div class="ma pa0">
 {{ end }}
