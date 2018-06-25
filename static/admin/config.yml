@@ -61,7 +61,7 @@ collections:
             name: "main"
             widget: "object"
             fields:
-              - {label: "Menu", name: "noname", widget: "relation", collection: "quienes-somos", searchFields: ["title", "description"], valueField: "title"}
+              - {label: "Contiendo en Menu", name: "parent", widget: "relation", collection: "quienes-somos", searchFields: ["title", "description"], valueField: "title"}
               - {label: "Orden", name: "weight", widget: "number"}
       - {label: "Contenido de la pagina", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list", "numbered-list"]}
   - name: "proyectos" # Used in routes, e.g., /admin/collections/blog
