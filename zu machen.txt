@@ -65,13 +65,15 @@ x untermenu
 
 , fb link?
 
------
+x zoom.js full size
 
 x links zur seite: google, facebook, red centroamericana, was noch?
 
-x gallerie
+-----
 
-x zoom.js full size
+x noch seiten die zu uns linken könnten?
+
+x gallerie
 
 x dokument mit allen accounts
 
@@ -79,14 +81,9 @@ x dokument mit allen accounts
 
 x gradient
 
-x seo: 
-facebook link in news
-
 x custom preview: h1 blau
 
 x ränder von h1 anpassen
-
-x Textauszeichnung verbessern (schriftgroesse)
 
 x add opengraph?
 
@@ -94,11 +91,9 @@ x indents schoen machen
 
 x mehr textfarben
 
-x 
+
 
 x redirect zu kp
-
-x untermenu als relation mglw?
 
 jeadersguardado17@gmail.com	20090499
 

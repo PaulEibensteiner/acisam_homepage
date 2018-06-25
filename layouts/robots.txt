@@ -5,3 +5,5 @@ User-agent: *
 {{- else -}}
   Disallow: /
 {{- end -}}
+
+Sitemap: https://www.acisam.info/sitemap.xml
