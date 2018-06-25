@@ -59,15 +59,15 @@ x responsive fuer news tile anpassen
 x anadir video en vivo
 redesign weitere news
 
+x view counter schoener
+
 -----
 
 x links zur seite: google, facebook, red centroamericana
 
-x view counter schoener
-
 x untermenu
 
-x gallerie, swipe?
+x gallerie, fb link?
 
 
 
