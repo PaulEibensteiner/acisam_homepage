@@ -4,7 +4,7 @@ description: First iteration
 type: page
 menu:
   main:
-    noname: Alianza
+    parent: Alianza
     weight: 1
 ---
  content
