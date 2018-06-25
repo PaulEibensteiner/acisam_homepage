@@ -188,10 +188,10 @@
   // Internal id of the component
   id: "fb-page",
   // Visible label
-  label: "Añadir Facebook Page",
+  label: "Añadir Facebook Pagina",
   // Fields the user need to fill out when adding an instance of the component
   fields: [
-	  {name: 'url', label: 'Facebook Page url', widget: 'string'}
+	  {name: 'url', label: 'Facebook Pagina url', widget: 'string'}
 			 ],
   // Pattern to identify a block as being an instance of this component
   pattern: /\n*{{< fb-page url="(.+)" >}}/,
@@ -209,7 +209,7 @@
   // (component gives better render performance)
   toPreview: function(obj) {
     return (
-      'facebook share con url ' + obj.url
+      'facebook pagina con url ' + obj.url
     );
   }
 });
