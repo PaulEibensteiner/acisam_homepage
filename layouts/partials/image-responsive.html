@@ -4,4 +4,4 @@
 						{{- partial "image-resized.html" (dict "all" .all "path" .path "size" "320x q50") -}}{{- print " " -}}  320w"
 			 sizes="(min-width: 80rem) 80rem, (min-width: 30rem) 80vw, 100vw"
 			 src="{{- partial "image-resized.html" (dict "all" .all "path" .path "size" "650x q50") -}}"
-			 alt="{{- .alt -}}" class="{{ .class }}"{{ if in .class "zoom" }} data-action="zoom"{{ end }} />
+			 alt="{{- .alt -}}" class="{{ .class }}"{{ if in .class "zoom" }} data-action="zoom" data-original="{{ .path }}"{{ end }} />
