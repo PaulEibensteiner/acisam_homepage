@@ -194,7 +194,7 @@
 	  {name: 'url', label: 'Facebook Page url', widget: 'string'}
 			 ],
   // Pattern to identify a block as being an instance of this component
-  pattern: /\n*{{< facebook url="(.+)" >}}/,
+  pattern: /\n*{{< fb-page url="(.+)" >}}/,
   // Function to extract data elements from the regexp match
   fromBlock: function(match) {
     return {
