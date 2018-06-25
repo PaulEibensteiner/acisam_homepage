@@ -20,12 +20,5 @@
 		</article>
 				{{ partial "menu-contextual.html" . }}
 		</div>
-		{{ $facebook := .Params.facebook }}
-				{{ with $facebook }}
-<div class="cf">
-<div class="fb-page" data-href="{{ $facebook }}" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-	</div>
-		</div>
-				{{ end }}
 	</section>
 {{ end }}

@@ -28,3 +28,5 @@ https://www.facebook.com/acisam.chalate/?hc_ref=ARQR4QHYMwPh4sd3GGAgtUFCf2rd-rms
 
 
 {{< facebook url="https://www.facebook.com/notes/acisam-regi%C3%B3n-chalatenango/dos-personalidades-del-cine-latinoamericano-apoyaron-la-escuela-de-cine-comunita/1541779919282186/" >}}
+
+{{< fb-page url="https://www.facebook.com/acisam/" >}}
