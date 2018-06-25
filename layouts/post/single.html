@@ -7,20 +7,35 @@
 		 	</time>
 			<p class="mh2 mv3 fr bg-blue white b pa2 lh-1875">{{ humanize .Section | upper }}</p>
 		</div>
+		<div class="cf">
 		{{ if .Params.featured_image }}
 		{{ $alt := delimit (slice "image from" .Title) " " }}
-		{{ $class := "center min-h-100 mw-100" }}
-		<div class="ancho mv3-ns w-100 ph2">
-			<p>
+		{{ $class := "center w-100" }}
+		<div class="ancho mv3-ns w-two-thirds-ns w-100 ph2">
 	  			{{ partial "image-responsive.html" (dict "all" . "path" .Params.featured_image "alt" $alt "class" $class) }}
-			</p>
 		</div>
 		{{ else }} {{ end }}
-		<article class="content">
-			<div class="derecha fr w-third-ns w-100 ph2 dn db-ns">
-				{{ partial "menu-contextual.html" . }}
-			</div>
+		<article class="content w-two-thirds-ns fl">
 			{{ .Content }}
 		</article>
+				{{ partial "menu-contextual.html" . }}
+		</div>
+				{{ with .Params.facebook }}
+<div class="cf">
+		{{ $facebook := ".Params.facebook" }}
+		  <div id="fb-root"></div>
+			  <script>(function(d, s, id) {
+				 var js, fjs = d.getElementsByTagName(s)[0];
+				 if (d.getElementById(id)) return;
+				 js = d.createElement(s); js.id = id;
+				 js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
+				 fjs.parentNode.insertBefore(js, fjs);
+			  }(document, 'script', 'facebook-jssdk'));</script>
+				  <div class="fb-share-button" 
+    						data-href="{{ print $facebook }}" 
+						 	data-layout="button_count">
+  					</div>
+				{{ end }}
+	</div>
 	</section>
 {{ end }}

@@ -6,17 +6,17 @@
 {{ $i := sub ($currentSection | len) 1 }}
 {{/* So we can only show this menu if there are one or more other entries  */}}
 {{ if ge $i 1 }}
-	<div class="bg-light-gray pa3">
-		<ul>
-			<li class="list b mb3">
+	<aside class="pl2 pr1 mb5 derecha fr w-third dn db-ns">
+		<ul class="ma0 bw4 bl b--blue pl2 ml3">
+			<li class="list b mb2">
 				{{/* Return the section name, make it readable (humanize) and if there are 2 or more entries, make the section name plural (pluralize). */}}
-				{{ $i }} More
+				{{ $i }} Más
 				{{ if ge $i 2 }}{{ .Section | humanize | pluralize }}
 				{{ else }}{{ .Section | humanize }}
 				{{end}}
 			</li>
 			{{ range $currentSection }}
-			<li class="list f5 w-100 hover-bg-white nl1">
+			<li class="list f5 w-100 hover-bg-lightest-blue nl1">
 				{{/* If the URL returned is the same as the current URL dim it so we know that that's the page we're on. NOTE: Should probably use a more accessible way of displaying this. */}}
 				<a href="{{ .URL }}" class="link ph2 pv2 db black{{ if eq $currentPageUrl .URL }} o-50{{end}}">
 					{{ .Title }}
@@ -24,5 +24,5 @@
 			</li>
 			{{ end }}
 		</ul>
-	</div>
+	</aside>
 {{ end }}

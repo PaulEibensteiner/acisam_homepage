@@ -56,11 +56,18 @@ h1 und article uses: Schaut sehr gut aus, nur mglw in newsticker h1s verwenden
 
 x responsive fuer news tile anpassen
 
+x anadir video en vivo
+redesign weitere news
+
 -----
 
-x gallerie, swipe?
 
-x anadir video en vivo
+
+x view counter schoener
+
+x untermenu
+
+x gallerie, swipe?
 
 
 
@@ -68,9 +75,6 @@ x gradient
 
 x seo: 
 facebook link in news
-
-buttongroesse
-
 
 x custom preview: h1 blau
 
@@ -82,11 +86,9 @@ x add opengraph?
 
 x indents schoen machen
 
-x view counter schoener
-
 x mehr textfarben
 
-x redesign weitere news
+x 
 
 x redirect zu kp
 
