@@ -1,6 +1,6 @@
 DefaultContentLanguage = "es"
 MetaDataFormat = "yaml"
-baseURL = "https://www.acisam.netlify.com"
+baseURL = "https://www.acisam.info/"
 enableRobotsTXT = true
 languageCode = "es-sv"
 relativeURLs = true
