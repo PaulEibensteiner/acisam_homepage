@@ -7,6 +7,7 @@ relativeURLs = true
 title = "ACISAM"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 RemovePathAccents = true
+googleAnalytics = "UA-121455711-1"
 [params]
 SiteDescription = "ACISAM es una ONG trabajando en el area de la salud psicosocial y comunicación participativa ubicada en San Salvador, El Salvador"
 facebook = "https://www.facebook.com/acisam/"
