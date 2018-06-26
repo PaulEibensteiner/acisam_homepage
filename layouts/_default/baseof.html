@@ -29,6 +29,7 @@
 			<link href='{{ "css/tachyons-custom-ns.css" | relURL }}' rel='stylesheet' type="text/css" />
 			<link href='{{ "css/general-style.css" | relURL }}' rel='stylesheet' type="text/css" />
 		{{ end }}
+		{{ template "_internal/google_analytics_async.html" . }}
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,700,700i" rel="stylesheet">
 		{{ block "favicon" . }} {{ partial "site-favicon.html" . }} {{ end }}
 	</head>
