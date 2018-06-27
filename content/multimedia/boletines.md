@@ -6,5 +6,5 @@ menu:
   main:
     parent: Multimedia
     weight: 1
-
 ---
+
