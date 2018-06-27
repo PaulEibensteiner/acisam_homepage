@@ -5,6 +5,6 @@ type: page
 menu:
   main:
     parent: Psicosociales
-    weight: 4
+    weight: '1'
 ---
 
