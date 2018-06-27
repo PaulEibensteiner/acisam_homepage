@@ -69,28 +69,17 @@ x zoom.js full size
 
 x links zur seite: google, facebook, red centroamericana, was noch?
 
------
+x custom preview: h1 blau
 
-x facebook post über die website
+x mehr textfarben
+
+x namen in footer
+
+-----
 
 x gallerie
 
 
-
-x dokument mit allen accounts weiterschreiben
-
-x noch seiten, die zu uns linken könnten? AWO, Intersol
-
-
-
-x gradient
-
-x custom preview: h1 blau
-
-x ränder von h1 anpassen
-
 x add opengraph?
 
 x indents schoen machen
-
-x mehr textfarben

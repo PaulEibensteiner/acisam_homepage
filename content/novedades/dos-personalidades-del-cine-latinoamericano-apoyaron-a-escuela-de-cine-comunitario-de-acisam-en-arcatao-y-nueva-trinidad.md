@@ -6,6 +6,7 @@ date: '2018-02-08 16:51:05 +0000'
 description: Arcatao y Nueva Trinidad
 type: post
 featured_image: /images/equipo.png
+
 ---
 Thierry Deronne y Noé Valladares fueron las personalidades que apoyaron el módulo 6 de la Escuela de Cine Comunitario que ACISAM desarrolla en Chalatenango.  Thierry es el fundador de la Escuela Popular Latinoamericana de Cine, Tv y Teatro en Venezuela, donde reside actualmente y, Noé Valladares por su parte es el fundador de la Escuela Mesoamericana de Cine en El Salvador y el coordinador del área de Comunicaciones de ACISAM. 
 

@@ -6,6 +6,7 @@ description: >-
   presentan libro "Nosotras...con la misma historia"
 type: post
 featured_image: /images/presentacion-libro.jpg
+
 ---
 Presentación del libro "Nosotras con las mismas historias", libro que relata historias de mujeres privadas de libertad, producido por ACISAM y con apoyo de la Unión Europea.
 

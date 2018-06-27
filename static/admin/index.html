@@ -13,6 +13,7 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^1.0.0/dist/cms.js"></script>
 	<script>
+		CMS.registerPreviewStyle("style.css");
 		CMS.registerEditorComponent({
 		  // Internal id of the component
 		  id: "image",
@@ -61,13 +62,30 @@
 					 { label: 'blanco', value: 'white' },
 					 { label: 'gris', value: 'gray' },
 					 { label: 'gris claro', value: 'silver' },
+					 { label: 'gris oscuro', value: 'dark-gray' },
+					 { label: 'plata', value: 'light-gray' },
+					 { label: 'casi blanco', value: 'near-white' },
 					 { label: 'rojo', value: 'red' },
+					 { label: 'rojo claro', value: 'light-red' },
+					 { label: 'rojo oscuro', value: 'dark-red' },
+					 { label: 'oro', value: 'gold' },
 					 { label: 'naranja', value: 'orange' },
 					 { label: 'amarillo', value: 'yellow' },
+					 { label: 'amarillo claro', value: 'light-yellow' },
+					 { label: 'morado', value: 'purple' },
+					 { label: 'morado claro', value: 'light-purple' },
+					 { label: 'rosado', value: 'pink' },
+					 { label: 'rosado oscuro', value: 'dark-pink' },
+					 { label: 'rosado claro', value: 'light-pink' },
 					 { label: 'verde', value: 'green' },
 					 { label: 'verde oscuro', value: 'dark-green' },
+					 { label: 'verde claro', value: 'light-green' },
 					 { label: 'azul', value: 'blue' },
-					 { label: 'azul oscuro', value: 'white' }
+					 { label: 'naval', value: 'navy' },
+					 { label: 'azul oscuro', value: 'dark-blue' },
+					 { label: 'azul claro', value: 'light-blue' },
+					 { label: 'azul clarissimo', value: 'lightest-blue' },
+					 { label: 'negro', value: 'black' }
 				]
 			 },
 			 {name: 'content', label: 'Texto en color', widget: 'text'}

@@ -4,4 +4,4 @@ description: ""
 type: page
 ---
 
-# Información
+## Diseño y Programación por [Paul Eibensteiner](https://www.facebook.com/paul.eibensteiner.5)

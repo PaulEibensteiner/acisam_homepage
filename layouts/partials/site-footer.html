@@ -5,9 +5,11 @@
 			<a class="link white db" href="{{ "" | relURL }}">
     			&copy; {{ now.Format "2006" }} ACISAM<span class="di-l dn">, actualizado: {{ now.Day }} de {{ index $.Site.Data.mes (printf "%d" now.Month) }} {{ .Date.Year }}</span>
       	</a>
-			<a class="link white db ttu" href="{{ "limitacion-de-responsabilidad.html" | relURL }}">
-				Limitación de responsabilidad
-			</a>
+			{{- with .Site.GetPage "page" "limitacion-de-responsabilidad.md" -}}
+				<a class="link white db ttu" href="{{ .RelPermalink }}">
+					Limitación de responsabilidad
+				</a>
+			{{- end -}}
 			</p>
 			{{ partial "social-follow.html" . }}
 			<div class="fl mh2 mv2 counter dn db-ns">
