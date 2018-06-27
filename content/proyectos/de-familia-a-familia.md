@@ -4,7 +4,7 @@ description: Proyecto de Nelson
 type: page
 menu:
   main:
-    parent: Proyectos
-    weight: '7'
+    parent: Psicosociales
+    weight: '2'
 ---
 Familia Familia
