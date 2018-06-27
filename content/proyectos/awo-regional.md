@@ -4,7 +4,7 @@ description: title.
 type: page
 menu:
   main:
-    parent: Proyectos
-    weight: 2
-
+    parent: Comunicación Participativa
+    weight: '1'
 ---
+
