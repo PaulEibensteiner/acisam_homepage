@@ -4,7 +4,7 @@ description: title.
 type: page
 menu:
   main:
-    parent: Proyectos
+    parent: Psicosociales
     weight: 4
-
 ---
+
