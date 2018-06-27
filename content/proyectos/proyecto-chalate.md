@@ -1,10 +1,10 @@
 ---
 title: Proyecto Chalate
-description: title.
+description: Actividades en el departamento de chalatenango
 type: page
 menu:
   main:
-    parent: Proyectos
-    weight: 5
-
+    parent: Desarrollo local
+    weight: '1'
 ---
+
