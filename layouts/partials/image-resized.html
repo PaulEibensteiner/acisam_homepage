@@ -1,13 +1,13 @@
 {{- $path := .path -}}
 {{- $size := .size -}}
 {{- with .all.Site.GetPage "section" "images" -}}
-		{{- $nombre := strings.TrimPrefix "/images/" $path -}}
-	  {{- with .Resources.GetMatch $nombre -}}
+	{{- $nombre := strings.TrimPrefix "/images/" $path -}}
+	{{- with .Resources.GetMatch $nombre -}}
 		{{- if $size -}}
-		 {{- $image := (.Resize $size) -}}
-		 {{- print $image.RelPermalink -}}
+			{{- $image := (.Resize $size) -}}
+			{{- print $image.RelPermalink -}}
 		{{- else -}}
-		{{- print .RelPermalink -}}
+			{{- print .RelPermalink -}}
 		{{- end -}}
-	  {{- end -}}
+	{{- end -}}
 {{- end -}}

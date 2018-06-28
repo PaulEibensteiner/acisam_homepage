@@ -3,9 +3,9 @@
 								{{- partial "image-resized.html" (dict "all" . "path" .Params.featured_image "size" "320x") -}}
 											  ); no-repeat:center; background-size:cover;"{{ end }}>
 		<div class="dt w-100 h-100 child {{ if .Params.featured_image }} bg-black-40{{ end }}">
-					<h2 class="centertable mva w-100 tc">
-						{{ .Title }}
-					</h2>
+			<h2 class="centertable mva w-100 tc">
+				{{ .Title }}
+			</h2>
 		</div>
 	</a>
 </article>

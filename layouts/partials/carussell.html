@@ -1,54 +1,54 @@
 {{/* Range through the first $n_posts items of the section */}}
-			{{ range (first .n_posts .section) }}
-<article class="relative bg-dark-blue slides h-100">
-	{{ $featured_image := .Params.featured_image }}
-      {{ if $featured_image }}
-		{{ $alt := delimit (slice "image from" .Title) " " }}
-		{{ $src := .Params.featured_image }}
-		{{ $class := "center min-h-100 max-w-100-ns" }}
-          <a href="{{.URL}}" class="db h-100 overflow-hidden">
-	  			{{ partial "image-responsive.html" (dict "all" . "path" $src "alt" $alt "class" $class) }}
-          </a>
-      {{ end }}
-      <div class="z-1 white btgrad {{ if $featured_image }}ph4 pv3 absolute w-100 bottom-0 {{ else }}h-100 pa5 {{ end }}">
-          <div class="cf w-100" >
-          <a href="{{.URL}}" class="fl dim link white tl">
-        <h2 class="dib f3 lh-title ma0">
-            {{ .Title }}
-        </h2>
-            </a>
-              <time class="fr ma0 fw2 l tr lh-1875">
-              {{ .Date.Day }} de {{ index .Site.Data.mes (printf "%d" .Date.Month) }} {{ .Date.Year }} 
-          </time>
-              </div>
-      {{ if $featured_image }}
-        <p class="f5 mv2">
-          {{ .Description }}
-          </p>
-			{{ else }}
-        <p class="f5 mv2 mh-7">
-					{{ .Summary }}
-          </p>
-          <a href="{{.URL}}" class="ba b--white bw1 color-inherit dib f5 ttu hover-bg-blue link mt2 ph2 pv1">{{$.Param "read_more_copy" | default "read more" }}</a>
-			{{ end }}
-      </div>
-</article>
-			{{ end }}
-			<!--Artikel Ende-->
-			{{ if ge .section_count (add .n_posts 1) }}
-			<!--Slide Knöpfe-->
-			<button type="button" class="w-10-ns w-25 absolute left-0 top-0 bottom-0 ma2 pa2  bg-transparent gradhover-left" onclick="plusDivs(-1)">
-				<div class="arrowright f3"></div>
-			</button>
-			<button type="button" class="w-10-ns w-25 absolute right-0 top-0 bottom-0 ma2 pa2  bg-transparent gradhover-right" onclick="plusDivs(1)">
-				<div class="arrowleft f3 fr"></div>
-			</button>
-			<div class="absolute left-0 right-0 ma2 pt4 tc top-0">
-				<span class="center">
-				{{ range $index, $num := (seq .n_posts) }}
-					{{$indexStartingAt1 := (add $index 1)}}
-					<button class="button circle dib-ns dn js-badge w1 h1 mr1 bg-white-60 pa0" onclick="currentDiv({{$indexStartingAt1}})"></button>
-				{{ end }}
-				</span>
+{{ range (first .n_posts .section) }}
+	<article class="relative bg-dark-blue slides h-100">
+		{{ $featured_image := .Params.featured_image }}
+		{{ if $featured_image }}
+			{{ $alt := delimit (slice "image from" .Title) " " }}
+			{{ $src := .Params.featured_image }}
+			{{ $class := "center min-h-100 max-w-100-ns" }}
+			<a href="{{.URL}}" class="db h-100 overflow-hidden">
+				{{ partial "image-responsive.html" (dict "all" . "path" $src "alt" $alt "class" $class) }}
+				</a>
+		{{ end }}
+		<div class="z-1 white btgrad {{ if $featured_image }}ph4 pv3 absolute w-100 bottom-0 {{ else }}h-100 pa5 {{ end }}">
+			<div class="cf w-100">
+				<a href="{{.URL}}" class="fl dim link white tl">
+					<h2 class="dib f3 lh-title ma0">
+						{{ .Title }}
+					</h2>
+				</a>
+				<time class="fr ma0 fw2 l tr lh-1875">
+					  {{ .Date.Day }} de {{ index .Site.Data.mes (printf "%d" .Date.Month) }} {{ .Date.Year }} 
+				 </time>
 			</div>
-	{{ end }}
+			{{ if $featured_image }}
+				<p class="f5 mv2">
+					{{ .Description }}
+				</p>
+			{{ else }}
+				<p class="f5 mv2 mh-7">
+					{{ .Summary }}
+				</p>
+				<a href="{{.URL}}" class="ba b--white bw1 color-inherit dib f5 ttu hover-bg-blue link mt2 ph2 pv1">{{$.Param "read_more_copy" | default "read more" }}</a>
+			{{ end }}
+		</div>
+	</article>
+{{ end }}
+<!--Artikel Ende-->
+{{ if ge .section_count (add .n_posts 1) }}
+	<!--Slide Knöpfe-->
+	<button type="button" class="w-10-ns w-25 absolute left-0 top-0 bottom-0 ma2 pa2  bg-transparent gradhover-left" onclick="plusDivs(-1)">
+		<div class="arrowright f3"></div>
+	</button>
+	<button type="button" class="w-10-ns w-25 absolute right-0 top-0 bottom-0 ma2 pa2  bg-transparent gradhover-right" onclick="plusDivs(1)">
+		<div class="arrowleft f3 fr"></div>
+		</button>
+	<div class="absolute left-0 right-0 ma2 pt4 tc top-0">
+		<span class="center">
+			{{ range $index, $num := (seq .n_posts) }}
+				{{$indexStartingAt1 := (add $index 1)}}
+				<button class="button circle dib-ns dn js-badge w1 h1 mr1 bg-white-60 pa0" onclick="currentDiv({{$indexStartingAt1}})"></button>
+			{{ end }}
+		</span>
+	</div>
+{{ end }}

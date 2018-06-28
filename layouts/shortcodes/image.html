@@ -2,22 +2,22 @@
 {{- $alt := replaceRE "(.*?)\\.[^.]+$" "$1" $src -}}
 {{ $class := "w-100 zoom" }}
 {{ with eq (.Get "align") "ancho" }}
-<div class="ma pa0">
+	<div class="ma pa0">
 {{ end }}
 {{ if eq (.Get "align") "ancho" }}
-  <figure class="db relative center max-w-two-third max-h-80vh ph2 mv4 cf">
+	<figure class="db relative center max-w-two-third max-h-80vh ph2 mv4 cf">
 {{ else if eq (.Get "align") "derecha" }}
-  <figure class="db relative fl w-third-ns w-100 max-h-80vh ph2 mr2 mb3 ma0">
+	<figure class="db relative fl w-third-ns w-100 max-h-80vh ph2 mr2 mb3 ma0">
 {{ else if eq (.Get "align") "izquierda" }}
-  <figure class="db relative fr w-third-ns w-100 max-h-80vh ph2 ml2 mb3 ma0">
-	  {{ end }}
-	  {{ partial "image-responsive.html" (dict "all" . "path" $src "alt" $alt "class" $class) }}
-  {{ if .Get "caption"}}
-    <figcaption class="z-1 white btgrad ph3 pv2 mh2 absolute left-0 right-0 bottom-0">
-		 {{ .Get "caption" }}
-	  </figcaption>
+	<figure class="db relative fr w-third-ns w-100 max-h-80vh ph2 ml2 mb3 ma0">
 {{ end }}
-  </figure>
+{{ partial "image-responsive.html" (dict "all" . "path" $src "alt" $alt "class" $class) }}
+{{ if .Get "caption"}}
+	<figcaption class="z-1 white btgrad ph3 pv2 mh2 absolute left-0 right-0 bottom-0">
+		{{ .Get "caption" }}
+	</figcaption>
+{{ end }}
+</figure>
 {{ with eq (.Get "align") "ancho" }}
-</div>
+	</div>
 {{ end }}
