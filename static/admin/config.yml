@@ -4,6 +4,9 @@ backend:
 media_folder: "content/images" # Media files will be stored in the repo under static/images/uploads
 public_folder: "images" # The src attribute for uploaded media will begin with /images/uploads
 display_url: http://www.acisam.info/
+slug:
+	encoding: "ascii"
+	clean_accents: true
 collections:
   - label: "Diverso"
     name: "diverso"

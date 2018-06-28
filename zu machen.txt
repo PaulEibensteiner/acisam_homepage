@@ -79,6 +79,8 @@ x namen in footer
 
 x gallerie
 
+x dateibenennung ohne akzent
+
 
 x add opengraph?
 
