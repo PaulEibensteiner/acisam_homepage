@@ -1,8 +1,7 @@
 <script type="text/javascript">
 	function downloadJSAtOnload() {
 		var element = document.createElement("script");
-		element.src = "{{ "
-		js / custom.js " | relURL }}";
+		element.src = "{{ "js/custom.js" | relURL }}";
 		document.body.appendChild(element);
 	}
 	if (window.addEventListener)
