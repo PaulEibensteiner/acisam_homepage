@@ -12,6 +12,8 @@ This is a webpage designed and programmed by me, Paul Eibensteiner in 2018. Text
 
 4. Better SEO: Well, I guess quality content and proper backlinks would do their magic, but there is definitely not everything done about code optimisation either.
 
+5. Netlifycms custom preview that actually includes all styles
+
 ## Whoever would like to comment is welcome
 
 Thx to the creators of hugo, netlifycms and github ;)
