@@ -27,4 +27,4 @@ Se trabaja activamente en la difusión y creación de contenido científico y so
 
 Se pretende que el período 2014 - 2018 las asociaciones parte sean capaces de conformarse y estructurarse de forma permanente y se conviertan en una organización legal capaz de incidir en las políticas públicas de la región, que puedan auto sostenerse como alianza y gestionar fondos para seguir llevando esperanza a las asociaciones, familias y usuarios de los servicios de salud mental.
 
-Visita el sitio web de la Red Centroamericana: <http://redregionalsaludmental.chhd.org/>
+Visita el sitio web de la Red Centroamericana: [**http://redregionalsaludmental.chhd.org/**](http://redregionalsaludmental.chhd.org/)
