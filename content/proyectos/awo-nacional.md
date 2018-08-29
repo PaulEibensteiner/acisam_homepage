@@ -1,5 +1,5 @@
 ---
-title: AWO Nacional
+title: 'AWO Nacional: Juventudes protagónicas '
 description: title.
 type: page
 menu:
