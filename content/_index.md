@@ -21,6 +21,4 @@ type: page
 
 CuéntaNos es una plataforma de información y servicios para las personas en movimiento (PEM) principalmente los que se mueven a causa de la violencia, migrantes retornados y otras personas en situación de alto riesgo. Este esfuerzo está articulado por varias ONG´s e instituciones estatales de los países centroamericanos, el cual es liderado por International Rescue Committee, puedes acceder a la plataforma a través de el siguiente link.  
 
-```
-https://www.cuentanos.org/el-salvador
-```
+<https://www.cuentanos.org/el-salvador>
