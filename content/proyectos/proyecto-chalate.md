@@ -1,5 +1,5 @@
 ---
-title: Adolescentes y jóvenes contribuyendo al desarrollo en Chalatenango
+title: Proyecto Juventudes Chalatenango
 description: Actividades en el departamento de chalatenango
 type: page
 menu:
