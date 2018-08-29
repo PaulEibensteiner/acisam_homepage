@@ -23,4 +23,4 @@ type: page
 
 <https://www.cuentanos.org/el-salvador>
 
-{{< image src="40361927_1756415634471368_5356949237550546944_n.jpg" align="ancho" caption="undefined" >}}
+{{< image src="40361927_1756415634471368_5356949237550546944_n.jpg" align="ancho" caption="Cuéntanos El Salvador" >}}
