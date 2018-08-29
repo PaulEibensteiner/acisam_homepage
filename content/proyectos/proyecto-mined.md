@@ -1,5 +1,5 @@
 ---
-title: Fortalecimiento de competencias ciudadanas Convenio DNPPS-16/2018
+title: Proyecto MINED Convenio DNPPS-16/2018
 description: title.
 type: page
 menu:
