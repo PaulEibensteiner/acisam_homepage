@@ -1,7 +1,7 @@
 ---
 title: >-
-  Proyecto: Fortalecimiento de competencias ciudadanas con énfasis en la
-  convivencia escolar. Convenio DNPPS-16/2018
+  Fortalecimiento de competencias ciudadanas con énfasis en la convivencia
+  escolar. Convenio DNPPS-16/2018
 description: title.
 type: page
 menu:
