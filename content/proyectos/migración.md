@@ -3,7 +3,7 @@ title: Migración
 type: page
 menu:
   main:
-    weight: '3'
+    weight: '1'
 ---
 ## **Antecedentes**
 
