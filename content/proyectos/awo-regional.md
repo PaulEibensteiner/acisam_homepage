@@ -1,5 +1,5 @@
 ---
-title: AWO Regional
+title: 'AWO Regional: Escuelas de Cine Comunitario'
 description: title.
 type: page
 menu:
