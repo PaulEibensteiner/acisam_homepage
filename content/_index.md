@@ -16,11 +16,3 @@ type: page
 # Manuales
 
 {{% h-block %}}<div data-configid="26988739/64330121" style="width:400px; height:300px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>{{% /h-block %}}
-
-# Asistencia Humanitaria
-
-{{< image src="40361927_1756415634471368_5356949237550546944_n.jpg" align="ancho" caption="Cuéntanos El Salvador" >}}
-
-**CuéntaNos** es una plataforma de información y servicios para las personas en movimiento (PEM) principalmente los que se mueven a causa de la violencia, migrantes retornados y otras personas en situación de alto riesgo. Este esfuerzo está articulado por varias ONG´s e instituciones estatales de los países centroamericanos, el cual es liderado por International Rescue Committee, puedes acceder a la plataforma a través de el siguiente link.  
-
-[**https://www.cuentanos.org/el-salvador**](https://www.cuentanos.org/el-salvador)
