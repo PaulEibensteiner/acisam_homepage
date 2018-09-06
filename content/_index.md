@@ -7,10 +7,4 @@ type: page
 ---
 # Videos
 
-{{< youtube-block title="Arte y Recuperación" id="BciLgl25If8" description="" >}}
-
-{{< youtube-block title="Enredados" id="af2iWVxukkE" description="" >}}
-
-{{< youtube-block title="Intercambio regional" id="yyifYlV9ntc" description="" >}}
-
 # Manuales
