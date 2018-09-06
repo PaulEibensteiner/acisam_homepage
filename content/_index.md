@@ -14,5 +14,3 @@ type: page
 {{< youtube-block title="Intercambio regional" id="yyifYlV9ntc" description="" >}}
 
 # Manuales
-
-{{% h-block %}}<div data-configid="26988739/64330121" style="width:400px; height:300px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>{{% /h-block %}}
