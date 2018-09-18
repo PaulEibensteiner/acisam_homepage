@@ -11,7 +11,7 @@ Comienza en El Salvador la campaña “Yo no discrimino a las personas migrantes
 
 San Salvador, 14 de agosto de 2018.
 
-![](/images/captura.png)
+![null](/images/40322383_272618253569745_5297878744147427328_n.jpg)
 
 La Fundación Suiza de Cooperación para el Desarrollo Técnico, Swisscontact, y la Organización Internacional para las Migraciones (OIM) lanzan la campaña “Yo no discrimino a las personas migrantes retornadas”, orientada a sensibilizar a la sociedad civil sobre la migración de retorno y reducir el estigma que afecta el proceso de reintegración . Y es que una de las mayores dificultades que encuentra este grupo, en sus comunidades de origen, es la estigmatización que sufren a diario debido a que se les asocia con la delincuencia, pandillas o delitos graves. Sin embargo, los datos estadísticos reflejan que, en promedio, más del 95% de las y los retornados no tienen antecedentes criminales graves.
 
