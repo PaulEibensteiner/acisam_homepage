@@ -1,5 +1,5 @@
 ---
-title: Alianza
+title: Alianzas
 description: Todos nuestros Cooperantes.
 type: page
 menu:
