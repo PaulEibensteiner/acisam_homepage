@@ -1,9 +1,9 @@
 ---
 title: >-
-  Swisscontact: Organizaciones internacionales se unen en una campaña por la
-  migración de retorno 
+  Organizaciones internacionales se unen en una campaña por la migración de
+  retorno 
 date: '2018-09-18T07:17:02-06:00'
-description: swisscontact
+description: Swisscontact
 type: post
 featured_image: /images/40322383_272618253569745_5297878744147427328_n.jpg
 ---
