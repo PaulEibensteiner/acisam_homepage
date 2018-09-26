@@ -9,8 +9,6 @@ type: page
 
 {{< youtube-block title="Migración y trabajo infantil ACISAM" id="Cr3Xvj9PTW8" description="La historia de Camilo" >}}
 
-{{< youtube-block title=""joven tus derechos viajan contigo" ACISAM " id="ZnW5Xn5tZoE" description="ACISAM" >}}
-
 {{< youtube-block title=""joven tus derechos viajan contigo" ACISAM " id="XIDkOSuqaqI" description="undefined" >}}
 
 {{< youtube-block title="ACISAM demandó finalizar política Tolerancia cero." id="CojyJHnzLIc" description="ACISAM" >}}
