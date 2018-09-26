@@ -13,7 +13,7 @@ type: page
 
 {{< youtube-block title="ACISAM demandó finalizar política Tolerancia cero." id="CojyJHnzLIc" description="ACISAM" >}}
 
-# _**Incidencia **_
+# _**Comunicados e Información**_
 
 {{% h-block %}}<div data-configid="26988739/64753915" style="width:400px; height:300px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script><div data-configid="26988739/64754228" style="width:400px; height:300px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script><div data-configid="26988739/64753915" style="width:400px; height:300px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script><div data-configid="26988739/64741336" style="width:525px; height:340px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script><div data-configid="26988739/64741289" style="width:525px; height:340px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script><div data-configid="26988739/64741606" style="width:400px; height:300px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>{{% /h-block %}}
 
