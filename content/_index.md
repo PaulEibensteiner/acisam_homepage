@@ -7,9 +7,9 @@ type: page
 ---
 # _**Videos **_
 
-{{< youtube-block title="Migración y trabajo  de las personas migrantes ACISAM" id="Cr3Xvj9PTW8" description="La historia de Camilo" >}}
+{{< youtube-block title="Migración y trabajo infantil ACISAM" id="Cr3Xvj9PTW8" description="La historia de Camilo" >}}
 
-{{< youtube-block title="Por el derecho a migrar ACISAM" id="YqEribx9z0U" description="MAM Chile" >}}
+{{< youtube-block title="Por el derecho  de las personas migrantes ACISAM" id="YqEribx9z0U" description="MAM Chile" >}}
 
 {{< youtube-block title="ACISAM demandó finalizar política Tolerancia cero." id="CojyJHnzLIc" description="ACISAM" >}}
 
