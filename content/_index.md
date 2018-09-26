@@ -17,4 +17,4 @@ type: page
 
 {{% h-block %}}<div data-configid="26988739/64741289" style="width:525px; height:340px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>{{% /h-block %}}
 
-{{% h-block %}}undefined{{% /h-block %}}
+{{% h-block %}}<div data-configid="26988739/64741336" style="width:525px; height:340px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>{{% /h-block %}}
