@@ -15,6 +15,6 @@ type: page
 
 # _**Incidencia **_
 
-{{% h-block %}}https://issuu.com/hugorealegeno/docs/accio_nurgente_1__0/2{{% /h-block %}}
+{{% h-block %}}<div data-configid="26988739/64741289" style="width:525px; height:340px;" class="issuuembed"></div> <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>{{% /h-block %}}
 
 {{% h-block %}}undefined{{% /h-block %}}
