@@ -5,7 +5,7 @@ title: >-
 date: '2018-09-18T07:17:02-06:00'
 description: Swisscontact
 type: post
-featured_image: /images/40322383_272618253569745_5297878744147427328_n.jpg
+featured_image: /images/csm_lanzamiento_campana___8__9e5c1d17ba.jpg
 ---
 Comienza en El Salvador la campaña “Yo no discrimino a las personas migrantes retornadas”, una iniciativa para la sociedad civil con miras a mejorar la reintegración económica y social de las y los retornados.
 
