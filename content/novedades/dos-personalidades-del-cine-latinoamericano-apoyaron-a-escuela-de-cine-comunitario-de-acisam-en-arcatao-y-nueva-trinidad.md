@@ -1,23 +1,26 @@
 ---
 title: >-
-  Dos personalidades del cine Latinoamericano apoyaron la Escuela de Cine
-  Comunitario de ACISAM en Arcatao y Nueva Trinidad
-date: '2018-02-08 16:51:05 +0000'
-description: Arcatao y Nueva Trinidad
+  OIM, CICR, ACNUR Y SIMN INAUGURAN PRIMER ALBERGUE PARA MIGRANTES EN EL
+  SALVADOR
+date: '2018-09-25T00:00:00-06:00'
+description: ALBERGUE PARA MIGRANTES
 type: post
-featured_image: /images/equipo.png
-
+featured_image: /images/img_20180529_103640.jpg
 ---
-Thierry Deronne y Noé Valladares fueron las personalidades que apoyaron el módulo 6 de la Escuela de Cine Comunitario que ACISAM desarrolla en Chalatenango.  Thierry es el fundador de la Escuela Popular Latinoamericana de Cine, Tv y Teatro en Venezuela, donde reside actualmente y, Noé Valladares por su parte es el fundador de la Escuela Mesoamericana de Cine en El Salvador y el coordinador del área de Comunicaciones de ACISAM. 
+La Organización Internacional para las Migraciones (OIM), la Fundación Misioneros de San Carlos Scalabrinianos, el Alto Comisionado de las Naciones Unidas para los Refugiados (ACNUR), el Comité Internacional de la Cruz Roja (CICR) y Visión Mundial inauguraron en San Salvador el primer albergue Casa del Migrante de los Misioneros Scalabrinianos de El Salvador, como un aporte para que la migración sea cada vez más segura y humana a favor de las poblaciones móviles vulnerables.
 
-Con presencia de 26 jóvenes, 2 directores de instituciones educativas de Arcatao y 2 personas adultas que participaron en el módulo 6 de la Escuela de Cine en El Centro de Formación Mártires del Sumpul de Arcatao.
 
-Noé Valladares, invito a las y los jóvenes a realizar y producir cine, “yo espero que de esta Escuela de Cine en la que ustedes participan, salgan cineastas para El Salvador, hay que contar las cosas de una manera diferente no como nos lo venden los medios de los ricos”. El  objetivo de su visita fue presentar la película en corte grueso “ La Travesia”,  para que le hicieran observaciones acerca de lo que les gustaba y lo que no. Se aplicó un instrumento que buscó medir el impacto de la película en la población en relación a las temáticas que se desarrollan: los Derechos Humanos, la trata de personas y la Migración.
 
-Thierry, fue el encargado en facilitar el sexto módulo de la Escuela de Cine Comunitario, lo cual fue muy bien aprovechado. Se realizo un análisis de planos y polos dentro del lenguaje audiovisual, también se analizaron los trabajos que los grupos están desarrollando dando muy buenos aportes a éstos para mejorar aún mas la participación y el enfoque de una televisión diferente.
+Ubicado en la 6ta Avenida Norte de la capitalina Colonia Mugdan, este es el primer espacio de su tipo que ha sido construido para el uso exclusivo de personas migrantes, sin importar si están de tránsito, retorno o hacia otro país de destino. Este lugar también servirá para proveer resguardo a personas que se desplacen internamente y que requieran de un sitio seguro, inclusivo y accesible.
 
-Thierry, hizo énfasis en el deber que tenemos de enseñar las nuevas formas de hacer comunicación, para que cuando se abran nuevos espacios de difusión, de protagonismo audiovisual se tenga una nueva forma y nuevos contenidos.
 
-Al final de la jornada se concluyó con la presentación del documental salvadoreño que mas premios ha tenido a nivel internacional “ El tigre y El venado” cuyo director es el Periodista Salvadoreño Sergio Sibrían.
 
-{{< facebook url="https://www.facebook.com/notes/acisam-regi%C3%B3n-chalatenango/dos-personalidades-del-cine-latinoamericano-apoyaron-la-escuela-de-cine-comunita/1541779919282186/" >}}
+La inauguración fue encabezada por Luis Escobar, Arzobispo de San Salvador; Miguel Álvarez, el Provincial de los Misioneros de San Carlos Scalabriniano; Olivier Gilles, Jefe de Misión del CICR en El Salvador; Elisa Carlaccini, Representante del ACNUR; Karina Sosa, presidente de la Comisión de Relaciones Exteriores de la Asamblea Legislativa; y Ernesto Amaya, Coordinador de Construcción de la OIM. También se contó con la presencia del cuerpo diplomático, representantes de otros organismos de cooperación y personal del gobierno salvadoreño.
+
+
+
+El aporte de la OIM al albergue ha sido en mobiliario y equipamiento valorado en USD $30,000 provenientes de la Agencia de los Estados Unidos para el Desarrollo Internacional (USAID) y se da en el marco del acuerdo de cooperación global que tiene la OIM con la Fundación Misioneros de San Carlos Scalabrinianos.
+
+
+
+Para mayor información, favor comunicarse con OIM El Salvador – José Miguel Gómez: miggomez@iom.int o con OIM El Salvador, Guatemala y Honduras – Alba Miriam Amaya: aamaya@iom.int
