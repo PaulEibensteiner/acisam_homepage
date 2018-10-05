@@ -5,7 +5,7 @@ title: >-
 date: '2018-10-04T07:29:24-06:00'
 description: 'De: Consejo Nacional de la Niñez y la Adolescencia '
 type: post
-featured_image: /images/carrusel.jpg
+featured_image: ''
 ---
 El Gobierno de El Salvador a través del Ministerio de Relaciones Exteriores y el CONNA, dieron a conocer esta mañana, los esfuerzos realizados para contribuir a la reunificación familiar de las niñas, niños y adolescentes separados de sus padres o madres en la frontera sur de Estados Unidos.
 
