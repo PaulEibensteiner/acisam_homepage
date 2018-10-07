@@ -5,7 +5,7 @@ title: >-
 date: '2018-10-04T07:29:24-06:00'
 description: 'De: Consejo Nacional de la Niñez y la Adolescencia '
 type: post
-featured_image: /images/carrusel.jpg
+featured_image: /images/img_2872.jpg
 ---
 {{< image src="carrusel.jpg" align="ancho" caption="Novedades" >}}
 
