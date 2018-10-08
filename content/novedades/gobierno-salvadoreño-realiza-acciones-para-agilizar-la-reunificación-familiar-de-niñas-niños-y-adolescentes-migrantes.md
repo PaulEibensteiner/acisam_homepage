@@ -7,8 +7,6 @@ description: 'De: Consejo Nacional de la Niñez y la Adolescencia '
 type: post
 featured_image: /images/img_2872.jpg
 ---
-{{< image src="carrusel.jpg" align="ancho" caption="Novedades" >}}
-
 El Gobierno de El Salvador a través del Ministerio de Relaciones Exteriores y el CONNA, dieron a conocer esta mañana, los esfuerzos realizados para contribuir a la reunificación familiar de las niñas, niños y adolescentes separados de sus padres o madres en la frontera sur de Estados Unidos.
 
 La Directora Ejecutiva del CONNA, Licda. Zaira Navas, reconoció los esfuerzos de la Viceministra para los Salvadoreños en El Exterior, Liduvina Magarín y su equipo, quienes se trasladaron hacia los albergues para verificar las condiciones de las niñas, niños y adolescentes y especialmente, para pedir a las autoridades por la protección de sus derechos.
