@@ -5,7 +5,7 @@ description: >-
   participativa ubicada en San Salvador, El Salvador
 type: page
 ---
-# **_Videos _**
+# _**Videos **_
 
 {{< youtube-block title="Migración y trabajo infantil ACISAM" id="Cr3Xvj9PTW8" description="La historia de Camilo" >}}
 
@@ -19,7 +19,7 @@ type: page
 
 # **Actividades institucionales**
 
-{{< youtube-block title= "Red Centroamericana de Salud mental: dos años de trabajo" id="VQx2bgxL0bo" description= "">}}
+{{< youtube-block title= "Red Centroamericana de Salud mental: dos años de trabajo" id="VQx2bgxL0bo" description= "" >}}
 
 # **Actualidad **
 
