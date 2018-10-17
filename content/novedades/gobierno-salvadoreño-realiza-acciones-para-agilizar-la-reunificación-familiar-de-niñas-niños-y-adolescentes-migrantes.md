@@ -1,20 +1,22 @@
 ---
-title: >-
-  Gobierno salvadoreño realiza acciones para agilizar la reunificación familiar
-  de niñas, niños y adolescentes migrantes
-date: '2018-10-04T07:29:24-06:00'
-description: 'De: Consejo Nacional de la Niñez y la Adolescencia '
+title: Triángulo Norte pide respeto a derechos humanos de migrantes
+date: '2018-10-17T08:29:24-05:00'
+description: Oscar López @OscarCoLatino
 type: post
-featured_image: /images/img_2872.jpg
+featured_image: /images/descarga.jpg
 ---
-El Gobierno de El Salvador a través del Ministerio de Relaciones Exteriores y el CONNA, dieron a conocer esta mañana, los esfuerzos realizados para contribuir a la reunificación familiar de las niñas, niños y adolescentes separados de sus padres o madres en la frontera sur de Estados Unidos.
+La administración de Donald Trump presionó durante la Segunda Conferencia sobre Prosperidad y Seguridad en Centroamérica a los Gobiernos de El Salvador, Guatemala y Honduras para que controlen los flujos migratorios irregulares que tienen como destino Estados Unidos.
 
-La Directora Ejecutiva del CONNA, Licda. Zaira Navas, reconoció los esfuerzos de la Viceministra para los Salvadoreños en El Exterior, Liduvina Magarín y su equipo, quienes se trasladaron hacia los albergues para verificar las condiciones de las niñas, niños y adolescentes y especialmente, para pedir a las autoridades por la protección de sus derechos.
+El vicepresidente de Estados Unidos Mike Pence instó a los representantes de los gobiernos de los países antes mencionados que hagan más para frenar los flujos de migración irregular hacia el país norteamericano.
 
-“Debemos implementar y mejorar las medidas que estamos realizando. En El Salvador hay una serie de programas que se desarrollan para prevenir la migración, pero además vamos a realizar acciones para disminuir un poco el impacto que tiene la separación con sus padres y la situación en la que se encuentran en las que no se les permite movilizarse o recibir visitas”, dijo la Licda. Navas.
+Liduvina Magarín, viceministra para Salvadoreños en el Exterior, expresó que los presidentes de Guatemala y Honduras junto al vicepresidente de la República Oscar Ortiz hicieron un posicionamiento conjunto en el que se enfatiza la petición de respeto a los derechos humanos de los migrantes.
 
-Durante la conferencia, la Directora Ejecutiva informó sobre la coordinación interinstitucional con ISNA, Cancillería, PGR y CONNA, para trasladar un equipo de profesionales en psicología a los albergues, para poder asistir a las niñas, niños y adolescentes y prepararles para el momento de reunirse con sus familias.
+“El posicionamiento se centró en pedir el respeto de los derechos humanos de nuestra gente, en la reunificación familiar de niños y niñas, no solo los afectados por el plan Cero Tolerancia, sino también por los niños que entraron de manera no acompañada a Estados Unidos y que todavía están esperando la reunificación familiar en los albergues”, detalló la viceministra.
 
-Finalmente, la Licda. Navas hizo un llamado a las familias a evitar exponer a las niñas, niños y Asímismo, un llamado a las familias y medios de comunicación, a cumplir con lo dispuesto en los Artículos 46 y 47 de la LEPINA, sobre resguardar la imagen de las niñas, niños y adolescentes, evitando revictimizarles dando a conocer sus historias de vida a través de noticias o reportajes.
+De igual forma, el presidente hondureño, junto a Ortiz, pidieron una consideración especial para sus ciudadanos que viven en Estados Unidos y que están amparados al Estatus de Protección Temporal (TPS, por sus siglas en inglés). “Se hizo un recordatorio de las razones por las que la gente está con ese estatus y se le pidió al vicepresidente de Estados Unidos considerar la situación y poder extender o dar un estatus regular de manera permanente a las personas que están con TPS”, informó Magarín.
 
-Fuente: <http://www.conna.gob.sv/?p=3190>
+En cuanto a los niños salvadoreños que están en albergues en los Estados Unidos a la espera de un proceso de reunificación familiar, Magarín aseguró que la red consular empezó a trabajar con más empeño para contribuir con el gobierno estadounidense en la búsqueda de la documentación o información necesaria para que los niños puedan reunificarse lo antes posible con sus familias.
+
+El encuentro fue organizado por el Departamento de Estado y el Departamento de Seguridad Nacional de los Estados Unidos y el Gobierno de México, y contó con la participación del vicepresidente de Estados Unidos, el secretario de Estado, Michael Pompeo, la secretaria de Seguridad Nacional Kirstjen Nielsen y el ministro de Relaciones Exteriores de México Luis Videgaray.
+
+Fuente: https://www.diariocolatino.com
