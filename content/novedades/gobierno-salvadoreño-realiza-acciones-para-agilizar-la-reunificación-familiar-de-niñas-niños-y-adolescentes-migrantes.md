@@ -3,7 +3,7 @@ title: Triángulo Norte pide respeto a derechos humanos de migrantes
 date: '2018-10-17T08:29:24-05:00'
 description: Oscar López @OscarCoLatino
 type: post
-featured_image: /images/descarga.jpg
+featured_image: /images/centroamérica-josédaniel-foto-01-efe.jpg
 ---
 La administración de Donald Trump presionó durante la Segunda Conferencia sobre Prosperidad y Seguridad en Centroamérica a los Gobiernos de El Salvador, Guatemala y Honduras para que controlen los flujos migratorios irregulares que tienen como destino Estados Unidos.
 
