@@ -1,24 +1,22 @@
 ---
-title: >-
-  Organizaciones internacionales se unen en una campaña por la migración de
-  retorno 
-date: '2018-09-18T07:17:02-06:00'
-description: Swisscontact
+title: Solidaridad con el pueblo Hondureño
+date: '2018-10-19T00:00:00-06:00'
+description: Migración
 type: post
-featured_image: /images/csm_lanzamiento_campana___8__9e5c1d17ba.jpg
+featured_image: /images/hn.png
 ---
-Comienza en El Salvador la campaña “Yo no discrimino a las personas migrantes retornadas”, una iniciativa para la sociedad civil con miras a mejorar la reintegración económica y social de las y los retornados.
+Mientras el huésped de la Casa Blanca lanza amenazas hasta la saciedad o el hartazgo contra los gobiernos de Centroamérica que conforman el Triángulo Norte –Guatemala, Honduras y El Salvador-, centenares de hondureños cruzan las fronteras con rumbo hacia los Estados Unidos, desafiando la política de cero tolerancia.
 
-San Salvador, 14 de agosto de 2018.
+El pasado 13de octubre, una caravana de hondureños de todas las edades partió de San Pedro Sula, norte de Honduras, con el propósito de arribar a las fronteras con Estados Unidos, si no es que a territorio yanqui. La cifra podría rondar los 2,000 mil ciudadanos hondureños.
 
-![null](/images/csm_lanzamiento_campana___8__9e5c1d17ba.jpg)
+Unos 400 hondureños pasaron ya por la frontera de El Salvador, dado que se conducían con toda su documentación en orden, y porque, en tanto que son centroamericanos, tienen todo el derecho de transitar por las provincias de la región. El único obstáculo lo sufrieron los “caravaneros” en la frontera salvadoreña que no llevaban, supuestamente, la documentación en orden de los niños y niñas que acompañan a los adultos, que según estos son los progenitores.
 
-La Fundación Suiza de Cooperación para el Desarrollo Técnico, Swisscontact, y la Organización Internacional para las Migraciones (OIM) lanzan la campaña “Yo no discrimino a las personas migrantes retornadas”, orientada a sensibilizar a la sociedad civil sobre la migración de retorno y reducir el estigma que afecta el proceso de reintegración . Y es que una de las mayores dificultades que encuentra este grupo, en sus comunidades de origen, es la estigmatización que sufren a diario debido a que se les asocia con la delincuencia, pandillas o delitos graves. Sin embargo, los datos estadísticos reflejan que, en promedio, más del 95% de las y los retornados no tienen antecedentes criminales graves.
+Muchos de los mayores, al otro lado del Goascorán, seguramente sin documentos en regla pero parte de la caravana, cruzaron suelo salvadoreño por puntos ciegos, mientras que otros lo intentaron al nadar en el río, a pesar del peligro que representaba por estar crecido y con fuertes corrientes por el temporal que azota la región desde la semana pasada.
 
-El tema se vuelve relevante para la región centroamericana ya que la tendencia muestra un incremento de retornados del 42% del 2017 al 2018. Se estima, por ejemplo, que en Estados Unidos hay más de 2 millones de salvadoreños, de los cuales 700 mil eran irregulares en el 2016 y si mantienen ese estatus, tienen riesgo de ser expulsados.
+De acuerdo con los “migrantes”, los motivos que los llevan a dirigirse en caravana y de forma masiva hacia Estados Unidos son la pobreza y la inseguridad que enfrentan en tierras catrachas.
 
-La campaña de sensibilización lanzada por OIM y Swisscontact se ha hecho eco de la sociedad civil mediante testimonios que abonan a generar una cultura de bienvenida, integración y apoyo al colectivo migrante. Se trata de familiares, empresarios, periodistas y líderes de opinión que bajo el lema "YO NO DISCRIMINO" apoyan al migrante retornado. El jefe de misión de la OIM para El Salvador, Guatemala y Honduras, Jorge Peraza señaló que “este es un esfuerzo clave para mejorar los procesos de reintegración de las poblaciones móviles. Consideramos que una sociedad libre de estigma y discriminación facilita la migración ordenada, segura y regular”.
+Pero más allá de las razones de los integrantes de la caravana, lo que nos debe llamar la atención y poner en el debate serio y profundo es el tema de la migración de los países con problemas de pobreza estructural en la región. Pero, además, la actitud desafiante ante el gobernante de los Estados Unidos, que no solo ha dejado claro su odio contra los migrantes, sino su decisión de acabar con estos mediante múltiples formas. Por supuesto, esto último no lo logrará porque la migración es milenaria y un derecho universal.
 
-Esta actividad se realiza como parte del proyecto “Nuevas Oportunidades”, que inició en el 2016 y que certifica a migrantes retornados que han desarrollado habilidades durante su estadía fuera del país. Nuevas Oportunidades también capacita en ocupaciones clave de sectores de la economía para generar autoempleo y promociona la inserción laboral trabajando articuladamente con los sectores público y privados. Desde el inicio, el proyecto identificó que no solamente la certificación de competencias, la inserción laboral y el fomento del emprendimiento es suficiente para lograr una verdadera reintegración, sino que también se necesita sensibilizar a toda la sociedad sobre la no discriminación “Esta campaña nació pensando en la población migrante retornada y en cómo podíamos generar un entorno más adecuado para su reintegración y desarrollo, reduciendo el riesgo de un nuevo intento de migración” indicó el Saúl Díaz, director país de Swisscontact.
 
-Las autoridades que presidieron el lanzamiento de la campaña fueron Saúl Díaz, director de país de Swisscontact, Liduvina Magarín, viceministra para salvadoreños en el Exterior, Jorge Peraza Breedy, jefe de misión de la Organización Internacional para las Migraciones (OIM), Manuel Novoa, director regional del programa Alternativas de GIZ, Ricardo Reyes, salvadoreño retornado quien junto a otros participantes del proyecto agradecieron el aporte de Swisscontact para su reinserción productiva.
+
+Fuente: https://www.diariocolatino.com/el-drama-de-la-migracion/
