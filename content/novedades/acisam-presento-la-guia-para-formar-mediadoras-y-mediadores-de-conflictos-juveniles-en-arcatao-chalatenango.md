@@ -7,10 +7,6 @@ description: ' ACISAM-REGIÓN CHALATENANGO·VIERNES, 20 DE ABRIL DE 2018'
 type: post
 featured_image: /images/34560320_1534638249996353_7824997699651895296_n.jpg
 ---
-
-
-  
-
 El día 5 de Abril en la Casa Comunal de Arcatao, ACISAM  presentó la “Guía para formar Mediadoras y Mediadores de Conflicto Juveniles” que incluye un vídeo práctico sobre los pasos para hacer la mediación de conflictos llamado “Mediación para la cultura de paz”, esta publicación y el vídeo fue gracias a la agencia de cooperación Terre des Hommes Schweiss (TDHS). Participaron en la presentación de la Guía 56 personas, representantes de diversas organizaciones: Alcaldía Municipal de Arcatao, Gobernación Política de Chalatenango, Agencia de Cooperación TDHS, Parroquia San Bartolomé de Arcatao, Parroquia del Barrio El Calvario, Chalatenango, Unidad de Salud de Arcatao, Centro Escolar Leandro María Guardado de Arcatao, Centro Escolar de Carasque, Nueva Trinidad, Juzgados de Paz de Nueva Trinidad y Arcatao, ISNA, integrantes del Grupo de Mediadoras y Mediadores de Conflictos Ereguán de San Fernando, San Francisco Lempa, Arcatao y ACISAM.
 
 La Guía es un documento producto colectivo del Grupo de Mediadoras y Mediadores de Conflicto Ereguán y ACISAM. Para su elaboración se hizo un sondeo de conflictos en la comunidad La Angostura, del cantón Santa Bárbara del municipio de El Paraíso que sirvieron de base para los casos de conflictos planteados en la Guía y que la práctica nos ha demostrado que son similares en el resto de comunidades donde se han formado personas jóvenes y adultas como mediadoras de conflictos juveniles. Y se contó con la experiencia del facilitador del proceso Juan Carlos Hernández en la formulación inicial del documento, el cual fue validado al aplicarse con 3 grupos de 3 municipios: La Angostura en El Paraíso, San Fernando y Arcatao.
